@@ -3,9 +3,9 @@ naam: Bijzondere bijstand in Rotterdam
 categorie: gemeente
 gemeente: rotterdam
 samenvatting: >-
-  Moet u door een ongewone situatie geld uitgeven dat u niet hebt? Rotterdam kan bijzondere
-  bijstand geven. Dat kan een lening zijn of een gift. Voor kosten die u had kunnen zien
-  aankomen, krijgt u meestal niets: daarvoor hoort u zelf te sparen.
+  Moet je door een ongewone situatie geld uitgeven dat je niet hebt? Rotterdam kan bijzondere
+  bijstand geven. Dat kan een lening zijn of een gift. Voor kosten die je had kunnen zien
+  aankomen, krijg je meestal niets: daarvoor hoort je zelf te sparen.
 voorWie: >-
   Inwoners die iets noodzakelijks moeten betalen, geen geld hebben voor de rekening, in een
   bijzondere situatie zitten en geen andere regeling kunnen gebruiken.
@@ -17,12 +17,16 @@ bedragZeker: false
 deadline: Er staat geen vaste sluitingsdatum op de pagina. Vraag hulp voor een situatie die nu speelt.
 deadlineZeker: true
 stappen:
-  - Lees op rotterdam.nl of uw situatie bijzonder genoeg is.
-  - Beantwoord de vragen op de pagina.
-  - Kijk voor maximale vergoedingen in de beleidsregels bijzondere bijstand.
+  - >-
+    Ga naar rotterdam.nl en open de pagina bijzondere bijstand. Lees of jouw situatie daarbij
+    past.
+  - Beantwoord de vragen op die pagina. Die zitten in de site zelf.
+  - >-
+    Wil je de maximale vergoedingen zien, open dan de beleidsregels bijzondere bijstand via de
+    link bij de bronnen.
 voorwaarden:
   - De kosten zijn noodzakelijk en er is geen andere regeling.
-  - Kosten die u kon zien aankomen, vergoedt de gemeente meestal niet.
+  - Kosten die je kon zien aankomen, vergoedt de gemeente meestal niet.
   - Het geld is een lening of een gift. De medewerker beslist dat.
 bronnen:
   - naam: Gemeente Rotterdam — bijzondere bijstand

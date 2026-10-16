@@ -3,28 +3,30 @@ naam: Individuele inkomenstoeslag in Amsterdam
 categorie: gemeente
 gemeente: amsterdam
 samenvatting: >-
-  Hebt u 3 jaar of langer een laag inkomen en verwacht u dat dit zo blijft? Dan kunt u in
+  Heb je 3 jaar of langer een laag inkomen en verwacht je dat dit zo blijft? Dan kun je in
   Amsterdam de individuele inkomenstoeslag aanvragen.
 voorWie: >-
   Inwoners van Amsterdam of Weesp, 21 jaar of ouder, zonder AOW, met in 2023, 2024 en 2025 een
   laag inkomen en weinig vermogen.
 bedragKort: € 85 per jaar alleen, € 170 samen (pagina gemeente)
 bedrag: >-
-  De gemeente schrijft: € 85 per jaar als u alleenstaand of alleenstaande ouder bent, en € 170
-  als u samenwoont en u beiden recht hebt. U krijgt binnen 8 weken een brief.
+  De gemeente schrijft: € 85 per jaar als je alleenstaand of alleenstaande ouder bent, en € 170
+  als je samenwoont en je beiden recht hebt. Je krijgt binnen 8 weken een brief.
 bedragZeker: true
 deadline: >-
-  U vraagt de toeslag aan als u over de jaren 2023, 2024 en 2025 aan de voorwaarden voldeed. Er
-  is geen andere sluitingsdatum op de pagina.
+  Je vraagt de toeslag aan als je over de jaren 2023, 2024 en 2025 aan de voorwaarden voldeed.
+  Er is geen andere sluitingsdatum op de pagina.
 deadlineZeker: true
 stappen:
-  - Doe de check op de site van Amsterdam.
-  - Log in met DigiD en kies de regeling.
-  - Zonder DigiD kunt u een formulier downloaden of bellen naar 020 252 6000.
+  - Ga naar amsterdam.nl en open de check voor de individuele inkomenstoeslag.
+  - >-
+    Log in met DigiD en kies de individuele inkomenstoeslag. Vul de vragen in en verstuur de
+    aanvraag.
+  - Heb je geen DigiD, download dan het formulier op de pagina of bel 020 252 6000.
 voorwaarden:
-  - U staat ingeschreven in Amsterdam of Weesp.
-  - U bent 21 jaar of ouder en u hebt geen AOW.
-  - U had in 2023, 2024 en 2025 een laag inkomen en weinig vermogen.
+  - Je staat ingeschreven in Amsterdam of Weesp.
+  - Je bent 21 jaar of ouder en je hebt geen AOW.
+  - Je had in 2023, 2024 en 2025 een laag inkomen en weinig vermogen.
 bronnen:
   - naam: Gemeente Amsterdam — extra geld bij lang een laag inkomen
     url: >-
@@ -33,7 +35,7 @@ laatstGecontroleerd: "2026-10-16"
 onzeker:
   - >-
     Op de pagina staat geen apart jaartal bij € 85 en € 170. Controleer of dit het bedrag voor
-    uw aanvraagjaar is.
+    je aanvraagjaar is.
 trefwoorden:
   - amsterdam
   - iit

@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import yaml from 'js-yaml';
+import { regelsMetAanspreekvorm } from '../src/lib/aanspreekvorm.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const dir = path.join(root, 'src/data/regelingen');
@@ -125,6 +126,28 @@ for (const gemeente of gemeenten) {
     const slug = `${gemeente.slug}-${suffix}`;
     if (!slugs.has(slug)) fail(slug, 'gemeentelijke regeling ontbreekt');
   }
+}
+
+function verzamelCopy(dir, acc = []) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.name === 'node_modules' || entry.name === '.astro' || entry.name === 'aanspreekvorm.mjs') continue;
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) verzamelCopy(full, acc);
+    else if (/\.(astro|js|mjs|yaml|md|ts)$/.test(entry.name)) acc.push(full);
+  }
+  return acc;
+}
+
+const copyBestanden = [
+  ...verzamelCopy(path.join(root, 'src')),
+  path.join(root, 'README.md'),
+  path.join(root, 'scripts/seed-national.mjs'),
+  path.join(root, 'scripts/seed-gemeenten.mjs'),
+];
+
+for (const file of copyBestanden) {
+  const hits = regelsMetAanspreekvorm(fs.readFileSync(file, 'utf8'));
+  for (const line of hits) fail(path.relative(root, file), `formele aanspreekvorm op regel ${line}`);
 }
 
 if (errors.length) {

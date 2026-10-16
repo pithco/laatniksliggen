@@ -3,36 +3,38 @@ naam: Heffingskortingen
 categorie: belasting
 gemeente: ""
 samenvatting: >-
-  Een heffingskorting is korting op uw inkomstenbelasting en premies. De algemene
-  heffingskorting krijgt bijna iedereen. Werkt u, dan is er ook arbeidskorting. Andere kortingen
-  hangen af van uw situatie. Soms wordt de korting niet helemaal verrekend en kunt u geld
-  terugkrijgen via uw aangifte.
+  Een heffingskorting is korting op je inkomstenbelasting en premies. De algemene
+  heffingskorting krijgt bijna iedereen. Werk je, dan is er ook arbeidskorting. Andere kortingen
+  hangen af van je situatie. Soms wordt de korting niet helemaal verrekend en kun je geld
+  terugkrijgen via je aangifte.
 voorWie: >-
-  Mensen die in Nederland wonen en loonbelasting of inkomstenbelasting betalen. Welke korting u
-  krijgt, hangt af van inkomen, werk, kinderen en of u de AOW-leeftijd hebt.
+  Mensen die in Nederland wonen en loonbelasting of inkomstenbelasting betalen. Welke korting je
+  krijgt, hangt af van inkomen, werk, kinderen en of je de AOW-leeftijd hebt.
 bedragKort: Algemene heffingskorting tot € 3.115 en arbeidskorting tot € 5.685 (2026)
 bedrag: >-
-  In 2026 is de algemene heffingskorting maximaal € 3.115 als u nog niet de AOW-leeftijd hebt.
-  Hebt u het hele jaar de AOW-leeftijd, dan is het maximum € 1.556. De korting bouwt af vanaf
+  In 2026 is de algemene heffingskorting maximaal € 3.115 als je nog niet de AOW-leeftijd hebt.
+  Heb je het hele jaar de AOW-leeftijd, dan is het maximum € 1.556. De korting bouwt af vanaf
   een verzamelinkomen van € 29.736 en is € 0 vanaf € 78.426. De arbeidskorting is maximaal €
-  5.685 (of € 2.840 als u het hele jaar de AOW-leeftijd hebt) en wordt € 0 vanaf een
+  5.685 (of € 2.840 als je het hele jaar de AOW-leeftijd hebt) en wordt € 0 vanaf een
   arbeidsinkomen van € 132.921. De ouderenkorting is € 2.067 tot een verzamelinkomen van €
   46.002. De alleenstaandeouderenkorting is € 540. De jonggehandicaptenkorting is € 923. De
   inkomensafhankelijke combinatiekorting is maximaal € 3.032.
 bedragZeker: true
 deadline: >-
-  De korting loopt meestal via uw loon of uitkering. Klopt dat niet, dan regelt u het in de
+  De korting loopt meestal via je loon of uitkering. Klopt dat niet, dan regelt je het in de
   aangifte. Aangifte over een jaar moet vaak vóór 1 mei van het jaar erna binnen zijn. De datum
-  op uw aangiftebrief telt. Zonder brief kunt u tot 5 jaar terug belasting terugvragen.
+  op je aangiftebrief telt. Zonder brief kun je tot 5 jaar terug belasting terugvragen.
 deadlineZeker: true
 stappen:
-  - Kijk op uw jaaropgave of de heffingskorting is toegepast.
-  - Vul de aangifte in op Mijn Belastingdienst. Zolang u niets verstuurt, is het een proef.
-  - Verstuur de aangifte als u geld terugkrijgt of als u verplicht bent aangifte te doen.
+  - Pak je jaaropgave erbij. Kijk of de heffingskorting daarop staat.
+  - >-
+    Ga naar Mijn Belastingdienst op belastingdienst.nl. Log in met DigiD. Vul de aangifte in.
+    Zolang je niks verstuurt, is het een proef.
+  - Krijg je geld terug, of moet je aangifte doen, klik dan op versturen.
 voorwaarden:
-  - De algemene heffingskorting geldt als u in Nederland woont en belasting of premie betaalt.
-  - Arbeidskorting krijgt u over loon, winst of ander werk.
-  - Ouderenkorting krijgt u als u aan het eind van het jaar de AOW-leeftijd hebt.
+  - De algemene heffingskorting geldt als je in Nederland woont en belasting of premie betaalt.
+  - Arbeidskorting krijg je over loon, winst of ander werk.
+  - Ouderenkorting krijg je als je aan het eind van het jaar de AOW-leeftijd hebt.
   - >-
     De inkomensafhankelijke combinatiekorting kan gelden bij een kind onder de 12 en
     arbeidsinkomen boven € 6.239.

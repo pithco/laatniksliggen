@@ -4,32 +4,36 @@ categorie: toeslag
 gemeente: ""
 samenvatting: >-
   Kinderopvangtoeslag betaalt een deel van de opvang mee: dagopvang, buitenschoolse opvang of
-  een gastouder. Wacht niet te lang. Deze toeslag kunt u maar beperkt met terugwerkende kracht
+  een gastouder. Wacht niet te lang. Deze toeslag kun je maar beperkt met terugwerkende kracht
   aanvragen.
 voorWie: >-
-  Ouders van wie een kind naar de kinderopvang gaat. Meestal moet u of uw partner ook werken. De
-  minst werkende ouder bepaalt voor hoeveel maanden u toeslag krijgt.
+  Ouders van wie een kind naar de kinderopvang gaat. Meestal moet je of je partner ook werken.
+  De minst werkende ouder bepaalt voor hoeveel maanden je toeslag krijgt.
 bedragKort: Tot 96% van de maximale uurprijs, afhankelijk van het inkomen
 bedrag: >-
   De overheid vergoedt in 2026 maximaal deze uurprijzen: dagopvang € 11,23, buitenschoolse
-  opvang € 9,98 en gastouderopvang € 8,49. Is uw opvang duurder, dan betaalt u het verschil
+  opvang € 9,98 en gastouderopvang € 8,49. Is je opvang duurder, dan betaal je het verschil
   zelf. Ouders met een gezamenlijk inkomen tot ongeveer € 56.400 krijgen 96% van die maximale
   uurprijs. Per kind vergoedt de overheid maximaal 230 uur per maand. Het precieze percentage
   bij een hoger inkomen staat in de tabel van Dienst Toeslagen.
 bedragZeker: false
 deadline: >-
-  Vraag kinderopvangtoeslag aan binnen 3 maanden na de maand waarin uw kind voor het eerst naar
-  de opvang gaat. Daarna kunt u maanden missen.
+  Vraag kinderopvangtoeslag aan binnen 3 maanden na de maand waarin je kind voor het eerst naar
+  de opvang gaat. Daarna kun je maanden missen.
 deadlineZeker: true
 stappen:
-  - Regel eerst de opvang en een contract.
-  - Vraag de toeslag binnen 3 maanden aan met DigiD via Mijn Toeslagen.
-  - Geef wijzigingen door, zoals meer of minder uren of een ander inkomen.
+  - Regel eerst de opvang en het contract met de opvang of gastouder.
+  - >-
+    Ga binnen 3 maanden naar Mijn Toeslagen op belastingdienst.nl. Log in met DigiD. Kies
+    kinderopvangtoeslag en verstuur de aanvraag.
+  - >-
+    Verandert het aantal uren of je inkomen, ga dan weer naar Mijn Toeslagen, log in met DigiD
+    en geef de wijziging door.
 voorwaarden:
-  - Uw kind gaat naar dagopvang, buitenschoolse opvang of een gastouder.
-  - U krijgt toeslag over de gewerkte maanden van de ouder die het minst werkt.
+  - Je kind gaat naar dagopvang, buitenschoolse opvang of een gastouder.
+  - Je krijgt toeslag over de gewerkte maanden van de ouder die het minst werkt.
   - Maximaal 230 uur per kind per maand, en maximaal 2.760 uur per jaar.
-  - U betaalt zelf het deel van het uurtarief dat boven de maximale uurprijs uitkomt.
+  - Je betaalt zelf het deel van het uurtarief dat boven de maximale uurprijs uitkomt.
 bronnen:
   - naam: Rijksoverheid — bedragen kinderopvangtoeslag 2026
     url: >-

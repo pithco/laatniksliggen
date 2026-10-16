@@ -3,25 +3,27 @@ naam: Kwijtschelding belastingen in Rotterdam
 categorie: gemeente
 gemeente: rotterdam
 samenvatting: >-
-  Met een laag inkomen hoeft u in Rotterdam misschien maar een deel van de afvalstoffenheffing
-  te betalen. Dat heet kwijtschelding. De gemeente heeft er een korte check voor. U blijft
+  Met een laag inkomen hoeft je in Rotterdam misschien maar een deel van de afvalstoffenheffing
+  te betalen. Dat heet kwijtschelding. De gemeente heeft er een korte check voor. Je blijft
   anoniem bij die check.
 voorWie: Inwoners met een laag inkomen van wie de aanslag afvalstoffenheffing te zwaar is.
 bedragKort: Een deel van de afvalstoffenheffing. Hoogte te controleren
 bedrag: >-
-  De pagina zegt dat u misschien maar een deel van de afvalstoffenheffing betaalt. Een
+  De pagina zegt dat je misschien maar een deel van de afvalstoffenheffing betaalt. Een
   eurobedrag staat er niet.
 bedragZeker: false
 deadline: >-
-  Er staat geen vaste datum op de hulppagina. U kunt ook een betalingsregeling afspreken en zelf
-  kiezen in hoeveel maanden u betaalt.
+  Er staat geen vaste datum op de hulppagina. Je kunt ook een betalingsregeling afspreken en
+  zelf kiezen in hoeveel maanden je betaalt.
 deadlineZeker: true
 stappen:
   - >-
-    Beantwoord de vragen op de pagina Kwijtschelding afvalstoffenheffing, of gebruik de
-    Geldwijzer.
-  - Vraag kwijtschelding aan als de check zegt dat u kans hebt.
-  - Lukt betalen niet, vraag dan een betalingsregeling.
+    Ga naar de pagina Kwijtschelding afvalstoffenheffing op rotterdam.nl. Beantwoord de vragen,
+    of gebruik de Geldwijzer.
+  - >-
+    Zegt de check dat je kans hebt, klik dan door en vraag de kwijtschelding aan. Log in met
+    DigiD als de site daarom vraagt.
+  - Lukt betalen niet, vraag dan op dezelfde site een betalingsregeling aan.
 voorwaarden:
   - De gemeente noemt op deze pagina kwijtschelding van de afvalstoffenheffing.
   - >-

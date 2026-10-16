@@ -12,11 +12,13 @@ bedragZeker: false
 deadline: Een sluitingsdatum is te controleren.
 deadlineZeker: false
 stappen:
-  - Open de productpagina bijzondere bijstand van Arnhem.
-  - Vraag online of per post aan.
-  - Bewaar offertes en rekeningen.
+  - Ga naar arnhem.nl en open de productpagina bijzondere bijstand.
+  - >-
+    Vraag online aan via de knop op die pagina, of per post. Log in met DigiD als de site daarom
+    vraagt.
+  - Bewaar offertes en rekeningen. Die stuur je vaak mee.
 voorwaarden:
-  - U woont in Arnhem.
+  - Je woont in Arnhem.
   - De overige voorwaarden zijn te controleren.
 bronnen:
   - naam: Gemeente Arnhem — bijzondere bijstand

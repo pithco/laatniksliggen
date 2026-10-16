@@ -3,8 +3,8 @@ naam: Individuele inkomenstoeslag in Arnhem
 categorie: gemeente
 gemeente: arnhem
 samenvatting: >-
-  De inkomenstoeslag in Arnhem is een jaarlijkse toeslag als u al 3 jaar of langer een laag
-  inkomen hebt. U mag het geld vrij besteden. U betaalt er geen belasting over.
+  De inkomenstoeslag in Arnhem is een jaarlijkse toeslag als je al 3 jaar of langer een laag
+  inkomen hebt. Je mag het geld vrij besteden. Je betaalt er geen belasting over.
 voorWie: >-
   Inwoners van 21 jaar tot de pensioengerechtigde leeftijd, met 3 jaar een laag inkomen en
   vermogen onder de grens.
@@ -15,20 +15,20 @@ bedrag: >-
   instelling: € 130 of € 185.
 bedragZeker: true
 deadline: >-
-  U hebt de toeslag niet in de afgelopen 12 maanden gekregen. De behandeling duurt op dit moment
-  gemiddeld 15 weken in plaats van 8, schrijft de gemeente.
+  Je hebt de toeslag niet in de afgelopen 12 maanden gekregen. De behandeling duurt op dit
+  moment gemiddeld 15 weken in plaats van 8, schrijft de gemeente.
 deadlineZeker: true
 stappen:
   - >-
-    Vraag online aan, of stuur het formulier naar Team Minima, antwoordnummer 3740, 6800 XA
-    Arnhem.
-  - Stuur een bewijs van uw inkomsten mee.
-  - "Vragen: 0800 1809 op werkdagen tussen 09.00 en 12.00 uur."
+    Vraag online aan op arnhem.nl. Lukt dat niet, stuur het formulier naar Team Minima,
+    antwoordnummer 3740, 6800 XA Arnhem.
+  - Stuur een bewijs van je inkomsten mee.
+  - Een vraag, bel dan 0800 1809 op werkdagen tussen 09.00 en 12.00 uur.
 voorwaarden:
   - >-
-    U woont in Arnhem en u bent 21 jaar of ouder, niet ouder dan de pensioengerechtigde
+    Je woont in Arnhem en je bent 21 jaar of ouder, niet ouder dan de pensioengerechtigde
     leeftijd.
-  - U hebt 3 jaar een laag inkomen en geen zicht op een hoger inkomen.
+  - Je hebt 3 jaar een laag inkomen en geen zicht op een hoger inkomen.
   - Studenten vallen buiten de regeling, omdat de gemeente dan zicht op meer inkomen verwacht.
 bronnen:
   - naam: Gemeente Arnhem — individuele inkomenstoeslag
@@ -36,7 +36,7 @@ bronnen:
 laatstGecontroleerd: "2026-10-16"
 onzeker:
   - >-
-    De vermogensgrens noemt Arnhem wel, maar zonder eurobedrag op het deel van de pagina dat wij
+    De vermogensgrens noemt Arnhem wel, maar zonder eurobedrag op het deel van de pagina dat we
     hebben gelezen. Die grens is te controleren.
 trefwoorden:
   - arnhem

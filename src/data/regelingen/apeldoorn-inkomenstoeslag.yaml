@@ -3,28 +3,28 @@ naam: Individuele inkomenstoeslag in Apeldoorn
 categorie: gemeente
 gemeente: apeldoorn
 samenvatting: >-
-  Woont u in Apeldoorn en hebt u 3 jaar of langer een laag inkomen, zonder zicht op meer? Dan
-  kunt u één keer per 12 maanden individuele inkomenstoeslag krijgen. Dezelfde bedragen noemt de
+  Woon je in Apeldoorn en heb je 3 jaar of langer een laag inkomen, zonder zicht op meer? Dan
+  kun je één keer per 12 maanden individuele inkomenstoeslag krijgen. Dezelfde bedragen noemt de
   gemeente ook voor Epe en Brummen.
 voorWie: Inwoners van 21 jaar of ouder zonder AOW, die niet studeren en niet in de gevangenis zitten.
 bedragKort: € 350, € 450 of € 500
 bedrag: >-
-  De gemeente noemt € 350 als u alleen bent zonder kinderen onder de 18, € 450 als u alleen bent
-  mét kinderen onder de 18, en € 500 als u getrouwd bent of samenwoont. Vermogen onder de grens
-  uit de Participatiewet: € 8.000 of € 16.000, zoals de pagina die opschrijft.
+  De gemeente noemt € 350 als je alleen bent zonder kinderen onder de 18, € 450 als je alleen
+  bent mét kinderen onder de 18, en € 500 als je getrouwd bent of samenwoont. Vermogen onder de
+  grens uit de Participatiewet: € 8.000 of € 16.000, zoals de pagina die opschrijft.
 bedragZeker: false
 deadline: >-
-  Eén keer per 12 maanden. U of uw partner heeft in de afgelopen 12 maanden geen individuele
+  Eén keer per 12 maanden. Je of je partner heeft in de afgelopen 12 maanden geen individuele
   inkomenstoeslag gekregen.
 deadlineZeker: true
 stappen:
-  - Bekijk de inkomensgrenzen op apeldoorn.nl.
-  - Vraag online aan met DigiD.
-  - Woont u in Epe of Brummen, dan gebruikt u dezelfde pagina. Deze site gaat over Apeldoorn.
+  - Ga naar apeldoorn.nl en open de inkomensgrenzen van de individuele inkomenstoeslag.
+  - Klik op aanvragen en log in met DigiD. Vul het formulier in en verstuur het.
+  - Woon je in Epe of Brummen, dan gebruik je dezelfde pagina. Deze site gaat over Apeldoorn.
 voorwaarden:
-  - U bent 21 jaar of ouder en u of uw partner heeft nog geen AOW.
-  - U hebt geprobeerd meer inkomen te krijgen en de kans daarop is klein.
-  - U studeert niet op het moment van de aanvraag.
+  - Je bent 21 jaar of ouder en je of je partner heeft nog geen AOW.
+  - Je hebt geprobeerd meer inkomen te krijgen en de kans daarop is klein.
+  - Je studeert niet op het moment van de aanvraag.
 bronnen:
   - naam: Gemeente Apeldoorn — individuele inkomenstoeslag
     url: https://www.apeldoorn.nl/individuele-inkomenstoeslag

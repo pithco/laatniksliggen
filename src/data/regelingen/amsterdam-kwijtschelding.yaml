@@ -3,25 +3,25 @@ naam: Kwijtschelding belastingen in Amsterdam
 categorie: gemeente
 gemeente: amsterdam
 samenvatting: >-
-  Als u weinig geld hebt, kunt u in Amsterdam kwijtschelding van gemeentelijke belastingen
-  aanvragen. Doe eerst de checklist op de site. U ziet dan of aanvragen zin heeft.
+  Als je weinig geld hebt, kun je in Amsterdam kwijtschelding van gemeentelijke belastingen
+  aanvragen. Doe eerst de checklist op de site. Je ziet dan of aanvragen zin heeft.
 voorWie: Inwoners met een laag inkomen en weinig vermogen, van wie de aanslag op hun naam staat.
 bedragKort: De aanslag, of een deel ervan. Geen vast bedrag
 bedrag: >-
-  U betaalt de belasting niet, of maar een deel. Hoeveel dat is, hangt af van de aanslag. De
+  Je betaalt de belasting niet, of maar een deel. Hoeveel dat is, hangt af van de aanslag. De
   inkomens- en vermogensbedragen staan op de pagina Inkomen en vermogen bij kwijtschelding. Die
   eurogrenzen hebben we niet apart overgenomen.
 bedragZeker: false
 deadline: >-
-  De aanslag staat op uw naam en u hebt hem nog niet (helemaal) betaald, of u betaalde hem
+  De aanslag staat op je naam en je hebt hem nog niet (helemaal) betaald, of je betaalde hem
   korter dan 3 maanden geleden. Een besluit volgt na 8 weken, of de gemeente vraagt eerst meer
   informatie.
 deadlineZeker: true
 stappen:
-  - Doe de checklist op amsterdam.nl.
-  - Vraag de kwijtschelding online aan.
+  - Ga naar amsterdam.nl en doe de checklist voor kwijtschelding.
+  - Klik daarna op online aanvragen. Log in met DigiD en verstuur het formulier.
   - >-
-    Voor waterschapsbelasting van Waterschap Amstel, Gooi en Vecht belt u Belastingen: 020 255
+    Voor waterschapsbelasting van Waterschap Amstel, Gooi en Vecht bel je Belastingen: 020 255
     4800.
 voorwaarden:
   - >-

@@ -30,9 +30,9 @@ const { gemeente, regelingen } = Astro.props;
   <h1>{gemeente.naam}</h1>
   <p class="lede">
     Dit zijn de vier soorten hulp die we voor {gemeente.naam} hebben opgezocht.
-    De gemeente beslist. Niet deze site.
+    De gemeente zegt ja of nee. Deze site doet dat niet.
   </p>
-  <p><a href={gemeente.site}>Website van {gemeente.naam}</a></p>
+  <p><a href={gemeente.site}>Website van {gemeente.naam} ›</a></p>
   <div class="cards">
     {regelingen.map((regeling) => (
       <a class="card card-link" href={`/regelingen/${regeling.slug}`}>

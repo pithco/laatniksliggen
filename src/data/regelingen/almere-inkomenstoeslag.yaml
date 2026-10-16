@@ -3,8 +3,8 @@ naam: Individuele inkomenstoeslag in Almere
 categorie: gemeente
 gemeente: almere
 samenvatting: >-
-  Almere geeft individuele inkomenstoeslag als u 5 jaar niet boven de bijstandsnorm uitkwam en u
-  zich hebt ingespannen om werk te houden. De toeslag is per huishouden.
+  Almere geeft individuele inkomenstoeslag als je 5 jaar niet boven de bijstandsnorm uitkwam en
+  je zich hebt ingespannen om werk te houden. De toeslag is per huishouden.
 voorWie: >-
   Inwoners die ouder zijn dan 23, nog geen pensioen krijgen, geen student zijn en 5 jaar een
   inkomen op bijstandsniveau hadden.
@@ -14,17 +14,17 @@ bedrag: >-
   voor gehuwden of samenwonenden. Op de pagina staat geen jaartal bij de tabel.
 bedragZeker: false
 deadline: >-
-  U kunt de toeslag opnieuw aanvragen als de vorige aanvraag langer dan een jaar geleden is.
-  Hebt u nog geen DigiD, meld u dan eerst. De meldingsdatum telt voor de ingangsdatum.
+  Je kunt de toeslag opnieuw aanvragen als de vorige aanvraag langer dan een jaar geleden is.
+  Heb je nog geen DigiD, meld je dan eerst. De meldingsdatum telt voor de ingangsdatum.
 deadlineZeker: true
 stappen:
-  - Lees de voorwaarden op almere.nl.
-  - Vraag online aan met DigiD.
-  - "Zonder DigiD: dien eerst een melding in, zodat de datum vastligt."
+  - Ga naar almere.nl en open de individuele inkomenstoeslag. Lees de voorwaarden.
+  - Klik op aanvragen en log in met DigiD. Vul het formulier in en verstuur het.
+  - Heb je geen DigiD, dien dan eerst een melding in op de pagina. Zo ligt de datum vast.
 voorwaarden:
-  - U woont in Almere en u bent ouder dan 23 jaar.
-  - Vijf jaar lang kwam u niet boven de bijstandsnorm, ook niet tussendoor.
-  - Een maatregel omdat u niet genoeg deed om werk te krijgen, kan de toeslag in de weg zitten.
+  - Je woont in Almere en je bent ouder dan 23 jaar.
+  - Vijf jaar lang kwam je niet boven de bijstandsnorm, ook niet tussendoor.
+  - Een maatregel omdat je niet genoeg deed om werk te krijgen, kan de toeslag in de weg zitten.
 bronnen:
   - naam: Gemeente Almere — individuele inkomenstoeslag
     url: >-

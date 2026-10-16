@@ -5,18 +5,18 @@ const formId = import.meta.env.PUBLIC_MAILERLITE_FORM_ID;
 <section class="panel" aria-labelledby="nieuwsbrief-titel">
   <h2 id="nieuwsbrief-titel">Nieuwsbrief</h2>
   <p>
-    Wilt u een seintje als een deadline nadert? De nieuwsbrief is nog niet gekoppeld.
-    Er wordt niets verstuurd en niets opgeslagen.
+    Wil je een seintje als een deadline nadert? De nieuwsbrief is nog niet gekoppeld.
+    Er gaat niks weg en er wordt niks bewaard.
   </p>
   {formId ? (
     <div class="ml-embedded" data-form={formId}>
-      <p>MailerLite-formulier {formId} staat klaar. De embed-code zelf voegt u later toe.</p>
+      <p>Het MailerLite-formulier staat klaar. De embed zelf komt later.</p>
     </div>
   ) : (
     <form class="newsletter" action="#" method="post">
       <label for="nieuwsbrief-email">E-mailadres</label>
-      <input id="nieuwsbrief-email" name="email" type="email" autocomplete="email" placeholder="uw@email.nl" disabled />
-      <p class="meta">Aanmelden kan nog niet. Er wordt niets verstuurd en niets opgeslagen. De koppeling volgt later.</p>
+      <input id="nieuwsbrief-email" name="email" type="email" autocomplete="email" placeholder="je@email.nl" disabled />
+      <p class="meta">Aanmelden kan nog niet. Er gaat niks weg en er wordt niks bewaard.</p>
       <button class="button" type="submit" disabled>Aanmelden volgt</button>
     </form>
   )}

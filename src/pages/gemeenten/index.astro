@@ -11,10 +11,10 @@ const regelingen = loadRegelingen();
   description="Regelingen van de 15 grootste gemeenten: bijzondere bijstand, kwijtschelding, een pas en de individuele inkomenstoeslag."
 >
   <p class="kicker">15 grootste gemeenten</p>
-  <h1>Hulp van uw gemeente</h1>
+  <h1>Hulp van je gemeente</h1>
   <p class="lede">
     De volgorde volgt de voorlopige bevolkingscijfers van 1 januari 2026 van het CBS.
-    Woont u in een kleinere gemeente? Die regelingen staan hier nog niet. Kijk op de site van uw eigen gemeente.
+    Woon je in een kleinere gemeente? Die regelingen staan hier nog niet. Kijk op de site van je eigen gemeente.
   </p>
   <div class="city-grid">
     {gemeenten.map((gemeente) => {
@@ -28,7 +28,7 @@ const regelingen = loadRegelingen();
       );
     })}
   </div>
-  <p class="meta">
+  <p class="meta section">
     Bron van de rangorde: <a href="https://www.cbs.nl/nl-nl/maatwerk/2026/11/voorlopige-bevolkingsaantallen-per-gemeente-1-1-2026">CBS, voorlopige bevolkingsaantallen per gemeente, 1 januari 2026</a>.
     We zetten hier geen inwoneraantallen bij, alleen de volgorde van de 15 grootste.
   </p>

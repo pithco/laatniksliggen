@@ -4,7 +4,7 @@ categorie: toeslag
 gemeente: ""
 samenvatting: >-
   De landelijke energietoeslag bestaat niet meer. Wel komt het Noodfonds Energie weer open voor
-  huishoudens met een laag inkomen en een hoge energierekening. Uw gemeente kan daarnaast eigen
+  huishoudens met een laag inkomen en een hoge energierekening. Je gemeente kan daarnaast eigen
   hulp hebben. Dat verschilt per gemeente.
 voorWie: >-
   Huishoudens die een groot deel van hun inkomen aan energie betalen. De Rijksoverheid
@@ -12,23 +12,25 @@ voorWie: >-
   groep met een iets hoger inkomen (minstens 10%).
 bedragKort: Minimaal € 120 en maximaal € 1.800 in totaal
 bedrag: >-
-  U krijgt in totaal minimaal € 120 en maximaal € 1.800 vergoed. Hoeveel het wordt, hangt af van
-  uw inkomen en uw energierekening. De vergoeding wordt waar mogelijk in 12 maanden verrekend
-  via uw energieleverancier. Reken op 4 tot 6 weken na uw aanvraag.
+  Je krijgt in totaal minimaal € 120 en maximaal € 1.800 vergoed. Hoeveel het wordt, hangt af
+  van je inkomen en je energierekening. De vergoeding wordt waar mogelijk in 12 maanden
+  verrekend via je energieleverancier. Reken op 4 tot 6 weken na je aanvraag.
 bedragZeker: true
 deadline: >-
   Vragen stellen kan vanaf 1 december 2026. Een aanvraag indienen kan van 4 januari 2027 tot en
-  met 7 mei 2027. Lukt digitaal niet, dan kunt u een papieren formulier vragen bij het
+  met 7 mei 2027. Lukt digitaal niet, dan kun je een papieren formulier vragen bij het
   klantcontactcentrum van het Noodfonds.
 deadlineZeker: true
 stappen:
-  - Bewaar uw jaaropgave van het inkomen en een overzicht van de energiekosten.
-  - Vanaf 1 december 2026 kunt u het Noodfonds bellen met vragen.
-  - Dien de aanvraag in tussen 4 januari en 7 mei 2027.
+  - Leg je jaaropgave van je inkomen klaar, en een overzicht van je energiekosten.
+  - Vanaf 1 december 2026 kun je het Noodfonds bellen als je een vraag hebt.
+  - >-
+    Dien de aanvraag in tussen 4 januari en 7 mei 2027. Ga naar de officiële pagina, log in als
+    daarom gevraagd wordt en klik door tot je verstuurt.
 voorwaarden:
-  - U hebt een laag of middeninkomen en een relatief hoge energierekening.
+  - Je hebt een laag of middeninkomen en een relatief hoge energierekening.
   - Er is geen landelijke energietoeslag meer met één bedrag voor iedereen.
-  - Lokale energiehulp van uw gemeente is iets anders. Of die bestaat, staat bij uw gemeente.
+  - Lokale energiehulp van je gemeente is iets anders. Of die bestaat, staat bij je gemeente.
 bronnen:
   - naam: Rijksoverheid — geld uit het Noodfonds Energie
     url: >-
@@ -45,7 +47,7 @@ onzeker:
     vraag-en-antwoordpagina noemt eurobedragen met een gat ertussen. Het nieuwsbericht noemt
     130% en 200% van het sociaal minimum. De precieze grens is te controleren.
   - >-
-    Of uw eigen gemeente in 2026 nog een lokale energietoeslag heeft, is te controleren op de
+    Of je eigen gemeente in 2026 nog een lokale energietoeslag heeft, is te controleren op de
     site van de gemeente.
 trefwoorden:
   - energie

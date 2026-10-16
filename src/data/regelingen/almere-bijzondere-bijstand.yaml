@@ -14,15 +14,17 @@ bedrag: >-
   Het loket noemt soorten kosten, maar geen standaardbedrag dat iedereen krijgt. De gemeente
   beslist per aanvraag.
 bedragZeker: false
-deadline: Geen vaste sluitingsdatum gevonden. Vraag aan vóórdat u de kosten maakt, als dat kan.
+deadline: Geen vaste sluitingsdatum gevonden. Vraag aan vóórdat je de kosten maakt, als dat kan.
 deadlineZeker: true
 stappen:
-  - Kijk op de pagina Bijzondere bijstand welke kosten Almere noemt.
-  - Dien een aanvraag in via de snelbalie van Almere.
-  - Hebt u nog geen DigiD, vraag die eerst aan. Dat duurt een paar werkdagen.
+  - Ga naar almere.nl en open Bijzondere bijstand. Kijk welke kosten Almere noemt.
+  - >-
+    Dien de aanvraag in via de snelbalie op almere.nl. Log in met DigiD als daarom gevraagd
+    wordt.
+  - Heb je nog geen DigiD, vraag die dan eerst aan op digid.nl. Dat duurt een paar werkdagen.
 voorwaarden:
-  - U woont in Almere.
-  - De kosten staan op de lijst van het loket, of u vraagt overige kosten aan.
+  - Je woont in Almere.
+  - De kosten staan op de lijst van het loket, of je vraagt overige kosten aan.
   - De inkomensgrens per soort is te controleren.
 bronnen:
   - naam: Gemeente Almere — bijzondere bijstand

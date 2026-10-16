@@ -3,30 +3,36 @@ naam: Huurtoeslag
 categorie: toeslag
 gemeente: ""
 samenvatting: >-
-  Huurtoeslag is een bijdrage voor de huur van uw woning. In 2026 is de huurprijs zelf geen
-  drempel meer: ook bij een hogere huur kunt u toeslag krijgen, zolang u aan de andere
+  Huurtoeslag is een bijdrage voor de huur van je woning. In 2026 is de huurprijs zelf geen
+  drempel meer: ook bij een hogere huur kun je toeslag krijgen, zolang je aan de andere
   voorwaarden voldoet.
 voorWie: >-
-  Mensen van 18 jaar of ouder die een zelfstandige woning huren. Uw inkomen en vermogen mogen
+  Mensen van 18 jaar of ouder die een zelfstandige woning huren. Je inkomen en vermogen mogen
   niet te hoog zijn. Servicekosten tellen vanaf 2026 niet meer mee, alleen de kale huur.
 bedragKort: Hangt af van huur en inkomen. Rekenhuur tot € 932,93 (21+)
 bedrag: >-
   Er is geen vast bedrag. Dienst Toeslagen rekent voor mensen van 21 jaar of ouder in 2026 met
   een huur tot maximaal € 932,93. Voor jongeren onder de 21 geldt vaak een lagere berekening.
-  Het exacte bedrag ziet u in een proefberekening. Op 1 januari 2026 mag uw vermogen niet hoger
+  Het exacte bedrag zie je in een proefberekening. Op 1 januari 2026 mag je vermogen niet hoger
   zijn dan € 38.479. Met een toeslagpartner is dat samen € 76.958. Het vermogen van medebewoners
   kan meetellen.
 bedragZeker: true
 deadline: >-
-  Huurtoeslag over 2026 kunt u aanvragen tot en met 31 december 2027. Over 2025 kan dat nog tot
+  Huurtoeslag over 2026 kun je aanvragen tot en met 31 december 2027. Over 2025 kan dat nog tot
   en met 31 december 2026.
 deadlineZeker: true
 stappen:
-  - Maak een proefberekening bij Dienst Toeslagen.
-  - Vraag de toeslag aan met DigiD via Mijn Toeslagen.
-  - Kijk daarna elk jaar of uw gegevens nog kloppen. Een te hoge toeslag moet u terugbetalen.
+  - >-
+    Ga naar belastingdienst.nl en zoek op proefberekening. Vul je gegevens in. Verstuur nog
+    niks. Zo zie je ongeveer wat je krijgt.
+  - >-
+    Ga naar Mijn Toeslagen op belastingdienst.nl. Log in met DigiD. Kies de toeslag, vul de
+    vragen in en klik door tot je de aanvraag verstuurt.
+  - >-
+    Kijk elk jaar of je inkomen en je woonsituatie nog kloppen. Veranderde er iets, pas het dan
+    aan in Mijn Toeslagen. Te veel toeslag moet je terugbetalen.
 voorwaarden:
-  - U huurt een zelfstandige woonruimte en u bent 18 jaar of ouder.
+  - Je huurt een zelfstandige woonruimte en je bent 18 jaar of ouder.
   - >-
     In 2026 mag de huur niet meer te hoog zijn om mee te doen. De hoogte van de toeslag hangt
     nog wel af van de kale huur.
@@ -48,8 +54,8 @@ bronnen:
 laatstGecontroleerd: "2026-10-16"
 onzeker:
   - >-
-    De lagere rekenhuur voor jongeren onder de 21 staat niet als eurobedrag in de bronnen die
-    wij hebben gelezen. Dat bedrag is te controleren.
+    De lagere rekenhuur voor jongeren onder de 21 staat niet als eurobedrag in de bronnen die we
+    hebben gelezen. Dat bedrag is te controleren.
 trefwoorden:
   - huur
   - woning

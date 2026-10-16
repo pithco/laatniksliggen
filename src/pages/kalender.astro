@@ -9,7 +9,7 @@ const vandaag = new Date().toISOString().slice(0, 10);
 
 <Base
   title="Deadlinekalender"
-  description="Belangrijke data voor toeslagen, belasting en het Noodfonds Energie. Download een agenda-bestand."
+  description="Belangrijke data voor toeslagen, belasting en het Noodfonds Energie. Download een agendabestand."
 >
   <p class="kicker">Kalender</p>
   <h1>Data om niet te missen</h1>
@@ -18,7 +18,7 @@ const vandaag = new Date().toISOString().slice(0, 10);
     Die staan op de pagina van de regeling.
   </p>
   <p><a class="button" href="/laat-niks-liggen.ics">Download de agenda (.ics)</a></p>
-  <div class="cards" style="margin-top:1.2rem">
+  <div class="cards section">
     {deadlines.map((item) => {
       const voorbij = (item.eind ?? item.start) < vandaag;
       return (
@@ -40,11 +40,11 @@ const vandaag = new Date().toISOString().slice(0, 10);
       );
     })}
   </div>
-  <h2>Datums die per persoon verschillen</h2>
+  <h2 class="section">Datums die per persoon verschillen</h2>
   <ul class="clean">
     <li>Kinderopvangtoeslag: binnen 3 maanden na de eerste maand opvang.</li>
     <li>OV-chipkaart: tot 5 jaar na de einddatum op de kaart.</li>
     <li>Consignatiekas: meestal 20 jaar, soms 60 jaar. Dat hangt af van het jaar en het bedrag.</li>
-    <li>Aangifte die u móét doen: de datum op uw eigen aangiftebrief. Vaak is dat 1 mei.</li>
+    <li>Aangifte die je móét doen: de datum op je eigen aangiftebrief. Vaak is dat 1 mei.</li>
   </ul>
 </Base>

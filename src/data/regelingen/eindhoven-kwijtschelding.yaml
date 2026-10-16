@@ -3,28 +3,29 @@ naam: Kwijtschelding belastingen in Eindhoven
 categorie: gemeente
 gemeente: eindhoven
 samenvatting: >-
-  Kwijtschelding van gemeentelijke belastingen bestaat in Eindhoven. We hebben nog geen aparte
-  pagina met bedrag en aanvraagstappen hard gecontroleerd. Kijk daarom op de site van de
-  gemeente. Wat hier ontbreekt, is te controleren.
+  Kwijtschelding van gemeentelijke belastingen bestaat in Eindhoven. Het bedrag en de precieze
+  aanvraagpagina hebben we nog niet zeker genoeg gezien. Ga naar de site van je gemeente, zoek
+  de regeling en log in met DigiD als daarom gevraagd wordt. Wat hier ontbreekt, is te
+  controleren.
 voorWie: >-
-  Inwoners van deze gemeente. Of u meedoet, hangt af van inkomen, vermogen en uw situatie. De
-  precieze doelgroep is te controleren.
+  Inwoners van deze gemeente. Of je meedoet, hangt af van je inkomen, je vermogen en je
+  situatie. Wie precies mee mag doen, is te controleren.
 bedragKort: te controleren
 bedrag: >-
-  De gemeente bepaalt het bedrag. Een eurobedrag hebben we niet hard genoeg vastgesteld om hier
-  te zetten. Dat is te controleren.
-bedragZeker: false
-deadline: >-
-  Een vaste landelijke deadline is er niet. Of de gemeente een aanvraagperiode gebruikt, is te
+  De gemeente bepaalt het bedrag. Een eurobedrag zetten we hier niet neer. Dat is te
   controleren.
+bedragZeker: false
+deadline: Er is geen vaste landelijke deadline. Of je gemeente een periode gebruikt, is te controleren.
 deadlineZeker: false
 stappen:
-  - Open de website van de gemeente via de bron hieronder.
-  - Zoek de regeling of bel het algemene nummer van de gemeente.
-  - Vraag de regeling aan vóór u grote kosten maakt, als het om bijzondere bijstand gaat.
+  - Open de officiële link hieronder. Dat is de site van je gemeente.
+  - >-
+    Zoek daar de naam van de regeling. Zie je een knop om aan te vragen, klik daarop en log in
+    met DigiD als de site daarom vraagt.
+  - Gaat het om bijzondere bijstand, vraag die dan aan vóór je de rekening betaalt.
 voorwaarden:
-  - U woont in deze gemeente.
-  - De overige voorwaarden staan op de site van de gemeente en zijn hier te controleren.
+  - Je woont in deze gemeente.
+  - De rest van de voorwaarden staat op de site van je gemeente. Die zijn hier te controleren.
 bronnen:
   - naam: Gemeente Eindhoven — hulp bij geldzorgen
     url: https://www.eindhoven.nl/inkomen-zorg-en-onderwijs/inkomen/hulp-bij-geldzorgen

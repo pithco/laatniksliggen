@@ -3,26 +3,28 @@ naam: Kwijtschelding belastingen in Den Haag
 categorie: gemeente
 gemeente: den-haag
 samenvatting: >-
-  Met een laag inkomen kunt u in Den Haag kwijtschelding vragen. U betaalt dan niets, of maar
+  Met een laag inkomen kun je in Den Haag kwijtschelding vragen. Je betaalt dan niets, of maar
   een deel. Aanvragen kan met DigiD of per post.
 voorWie: Inwoners met een laag inkomen die de aanslag moeilijk kunnen betalen.
 bedragKort: Niets of een deel van de aanslag
 bedrag: >-
-  Het voordeel is de belasting die u niet hoeft te betalen. Welke aanslag u hebt, bepaalt het
+  Het voordeel is de belasting die je niet hoeft te betalen. Welke aanslag je hebt, bepaalt het
   bedrag. De gemeente noemt geen vast eurobedrag.
 bedragZeker: true
 deadline: >-
-  Er staat geen vaste aanvraagdatum op de pagina. U kunt ook extra stukken nasturen of beroep
+  Er staat geen vaste aanvraagdatum op de pagina. Je kunt ook extra stukken nasturen of beroep
   instellen tegen een afwijzing.
 deadlineZeker: true
 stappen:
-  - Beantwoord eerst de vragen op de pagina om te zien of u kunt aanvragen.
-  - Log in met DigiD, of vraag een papieren formulier.
-  - Bent u het niet eens met een afwijzing, dien dan beroep in met hetzelfde formulier.
+  - >-
+    Ga naar de kwijtscheldingspagina van Den Haag. Beantwoord eerst de vragen. Zo zie je of je
+    kunt aanvragen.
+  - Log in met DigiD en vul de aanvraag in. Lukt dat niet, vraag dan een papieren formulier.
+  - Ben je het niet eens met een afwijzing, dien dan beroep in met hetzelfde formulier.
 voorwaarden:
   - >-
     Kwijtschelding kan voor afvalstoffenheffing, onroerendezaakbelasting, rioolheffing
-    eigenarendeel, liggeld voor woonschepen en niet-zakelijke belasting als u een Bbz-uitkering
+    eigenarendeel, liggeld voor woonschepen en niet-zakelijke belasting als je een Bbz-uitkering
     hebt.
 bronnen:
   - naam: Gemeente Den Haag — kwijtschelding

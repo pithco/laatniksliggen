@@ -3,7 +3,7 @@ naam: Individuele inkomenstoeslag in Tilburg
 categorie: gemeente
 gemeente: tilburg
 samenvatting: >-
-  Hebt u 5 jaar of langer een laag inkomen? Dan kunt u in Tilburg individuele inkomenstoeslag
+  Heb je 5 jaar of langer een laag inkomen? Dan kun je in Tilburg individuele inkomenstoeslag
   aanvragen. De gemeente zet de bedragen voor 2026 op een rij.
 voorWie: >-
   Inwoners van 21 jaar of ouder, zonder AOW en zonder recht op pensioen, die 60 maanden een laag
@@ -12,20 +12,20 @@ bedragKort: € 550 tot € 1.025 in 2026
 bedrag: >-
   In 2026: € 550 alleenstaand, € 705 alleenstaande ouder, € 785 samen zonder kinderen of met
   kinderen onder de 12, en € 1.025 samen met een kind van 12 tot en met 17 jaar. Vermogen lager
-  dan € 8.000 of € 16.000. De gemeente schrijft dat u aan de tabel geen rechten kunt ontlenen.
+  dan € 8.000 of € 16.000. De gemeente schrijft dat je aan de tabel geen rechten kunt ontlenen.
 bedragZeker: true
 deadline: >-
-  U hebt de toeslag niet al in de laatste 12 maanden gekregen. Studiefinanciering in de laatste
+  Je hebt de toeslag niet al in de laatste 12 maanden gekregen. Studiefinanciering in de laatste
   12 maanden staat in de weg.
 deadlineZeker: true
 stappen:
-  - Lees de voorwaarden op Tilburg Helpt.
-  - Vraag de toeslag aan via de gemeente.
-  - Gebruik de tabel alleen als indicatie. De gemeente rekent uw recht zelf uit.
+  - Ga naar tilburghelpt.nl en open de individuele inkomenstoeslag. Lees de voorwaarden.
+  - Gebruik de aanvraagknop op die pagina. Log in met DigiD als de site daarom vraagt.
+  - Gebruik de tabel alleen als indicatie. De gemeente rekent je recht zelf uit.
 voorwaarden:
-  - U woont in Tilburg en u bent 21 jaar of ouder.
-  - U krijgt geen AOW en u hebt geen recht op pensioen.
-  - De laatste 60 maanden had u een laag inkomen en weinig vermogen.
+  - Je woont in Tilburg en je bent 21 jaar of ouder.
+  - Je krijgt geen AOW en je hebt geen recht op pensioen.
+  - De laatste 60 maanden had je een laag inkomen en weinig vermogen.
 bronnen:
   - naam: Tilburg Helpt — individuele inkomenstoeslag
     url: https://www.tilburghelpt.nl/geld/extra-geld-of-inkomen/individuele-inkomenstoeslag/
