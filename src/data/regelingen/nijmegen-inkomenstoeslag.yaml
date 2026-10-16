@@ -1,0 +1,39 @@
+slug: nijmegen-inkomenstoeslag
+naam: Individuele inkomenstoeslag in Nijmegen
+categorie: gemeente
+gemeente: nijmegen
+samenvatting: >-
+  Verwacht u geen hoger inkomen en hebt u al langer weinig inkomsten? Dan kunt u in Nijmegen
+  maximaal één keer per 12 maanden individuele inkomenstoeslag aanvragen. Kreeg u hem vorig
+  jaar, dan stuurt de gemeente een brief.
+voorWie: >-
+  Inwoners van 21 jaar tot de AOW-leeftijd, geen student, die 36 maanden een laag inkomen
+  hadden.
+bedragKort: € 240 tot € 655 in 2026, afhankelijk van wonen en gezin
+bedrag: >-
+  Maximale bedragen 2026 als u zelfstandig woont: € 465 alleenstaand, € 590 alleenstaand met
+  kinderen of co-ouder, € 655 getrouwd of samenwonend. Woont u in een instelling, dan zijn de
+  bedragen lager: € 240, € 305 of € 340. Vermogen maximaal € 8.000 of € 16.000.
+bedragZeker: true
+deadline: Maximaal één keer per 12 maanden. De pagina noemt geen andere sluitingsdatum.
+deadlineZeker: true
+stappen:
+  - Vraag digitaal aan met DigiD.
+  - Kreeg u vorig jaar toeslag, wacht dan op de brief.
+  - Bel 14 024 als u er niet uitkomt.
+voorwaarden:
+  - U woont in Nijmegen en u bent 21 jaar of ouder, jonger dan de AOW-leeftijd.
+  - U bent geen student en u hebt de afgelopen 36 maanden geen studiediploma behaald.
+  - Heeft u of uw partner AOW, dan krijgt u geen individuele inkomenstoeslag.
+bronnen:
+  - naam: Gemeente Nijmegen — individuele inkomenstoeslag
+    url: https://www.nijmegen.nl/uitkering-vergoedingen/individuele-inkomenstoeslag/
+laatstGecontroleerd: "2026-10-16"
+onzeker: []
+trefwoorden:
+  - nijmegen
+  - iit
+check:
+  soort: inkomenstoeslag
+  minLeeftijd: 21
+  geenAow: true

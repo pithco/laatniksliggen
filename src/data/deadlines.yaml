@@ -1,0 +1,103 @@
+- id: toeslag-2025
+  titel: "Laatste dag: toeslag over 2025 aanvragen"
+  start: "2026-12-31"
+  eind: null
+  zeker: true
+  regelingen:
+    - zorgtoeslag
+    - huurtoeslag
+    - kindgebonden-budget
+  toelichting: >-
+    Zorgtoeslag, huurtoeslag en kindgebonden budget over 2025 vraagt u aan tot en met 31
+    december 2026. Kinderopvangtoeslag heeft een kortere termijn. Bron: Dienst Toeslagen.
+- id: aangifte-2021
+  titel: "Laatste dag: belasting terugvragen over 2021"
+  start: "2026-12-31"
+  eind: null
+  zeker: true
+  regelingen:
+    - teruggaaf-aangifte
+    - onterecht-betaalde-belasting
+  toelichting: >-
+    Aangifte over 2021 moet uiterlijk op 31 december 2026 binnen zijn als u nog geld wilt
+    terugvragen. Bron: Belastingdienst.
+- id: noodfonds-vragen
+  titel: "Noodfonds Energie: u kunt vragen stellen"
+  start: "2026-12-01"
+  eind: null
+  zeker: true
+  regelingen:
+    - noodfonds-energie
+  toelichting: >-
+    Vanaf 1 december 2026 kunt u het Noodfonds Energie bellen om u voor te bereiden. De aanvraag
+    zelf start op 4 januari 2027. Bron: Rijksoverheid.
+- id: noodfonds-aanvraag
+  titel: "Noodfonds Energie: aanvraag open"
+  start: "2027-01-04"
+  eind: "2027-05-07"
+  zeker: true
+  regelingen:
+    - noodfonds-energie
+  toelichting: "Een aanvraag indienen kan van 4 januari 2027 tot en met 7 mei 2027. Bron: Rijksoverheid."
+- id: aangifte-seizoen-2027
+  titel: "Aangifte inkomstenbelasting: vaak vóór 1 mei"
+  start: "2027-05-01"
+  eind: null
+  zeker: false
+  regelingen:
+    - teruggaaf-aangifte
+    - heffingskortingen
+  toelichting: >-
+    De Belastingdienst schrijft dat uw aangifte binnen moet zijn vóór de datum op uw
+    aangiftebrief. Vaak is dat 1 mei. Kijk op uw eigen brief. Deze datum is daarmee te
+    controleren voor uw situatie.
+- id: rotterdampas-2026
+  titel: Rotterdampas 2026-2027 loopt af
+  start: "2027-02-28"
+  eind: null
+  zeker: true
+  regelingen:
+    - rotterdam-minimaregeling
+  toelichting: >-
+    De gemeente Rotterdam schrijft dat de Rotterdampas geldig is van 1 maart 2026 tot en met 28
+    februari 2027.
+- id: nijmegen-meedoen-2026
+  titel: Meedoenregeling Nijmegen aanvragen
+  start: "2026-12-31"
+  eind: null
+  zeker: true
+  regelingen:
+    - nijmegen-minimaregeling
+  toelichting: >-
+    De gemeente Nijmegen schrijft dat u de Meedoenregeling kunt aanvragen tot en met 31 december
+    2026.
+- id: upas-koelkast
+  titel: "U-pas: korting op een zuinige koelkast loopt tot 30 juni 2027"
+  start: "2027-06-30"
+  eind: null
+  zeker: true
+  regelingen:
+    - utrecht-minimaregeling
+  toelichting: >-
+    Op u-pas.nl staat dat u tot en met 30 juni 2027 € 275 korting kunt krijgen op een
+    energiezuinige koelkast, zolang de voorraad strekt.
+- id: toeslag-2026
+  titel: "Laatste dag: toeslag over 2026 aanvragen"
+  start: "2027-12-31"
+  eind: null
+  zeker: true
+  regelingen:
+    - zorgtoeslag
+    - huurtoeslag
+    - kindgebonden-budget
+  toelichting: >-
+    Zorgtoeslag, huurtoeslag en kindgebonden budget over 2026 vraagt u aan tot en met 31
+    december 2027. Bron: Dienst Toeslagen.
+- id: aangifte-2022
+  titel: "Laatste dag: belasting terugvragen over 2022"
+  start: "2027-12-31"
+  eind: null
+  zeker: true
+  regelingen:
+    - teruggaaf-aangifte
+  toelichting: "Aangifte over 2022 moet uiterlijk op 31 december 2027 binnen zijn. Bron: Belastingdienst."

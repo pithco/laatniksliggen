@@ -1,0 +1,44 @@
+slug: amsterdam-bijzondere-bijstand
+naam: Bijzondere bijstand in Amsterdam
+categorie: gemeente
+gemeente: amsterdam
+samenvatting: >-
+  Hebt u ineens kosten die u niet kunt betalen, en is er geen andere regeling? Dan kan Amsterdam
+  bijzondere bijstand geven. De gemeente kijkt naar uw situatie. Hebt u een bijstandsuitkering,
+  dan kijken ze alleen naar uw vermogen. Anders ook naar uw inkomen.
+voorWie: >-
+  Inwoners van Amsterdam van 18 jaar of ouder, met een Nederlands paspoort of een
+  verblijfsvergunning, die bijzondere kosten niet zelf kunnen betalen.
+bedragKort: Geen vast bedrag. De gemeente beslist per aanvraag
+bedrag: >-
+  Er is geen standaardbedrag. U krijgt geld voor kosten die noodzakelijk zijn en niet ergens
+  anders vergoed worden. Een besluit duurt maximaal 8 weken nadat de aanvraag compleet is.
+bedragZeker: true
+deadline: >-
+  Er is geen vaste sluitingsdatum. Vraag de bijstand aan voor de kosten die u nu hebt. Online
+  kan dat voor een deel van de kosten, zoals rechtshulp, bewindvoering en sommige woonkosten.
+deadlineZeker: true
+stappen:
+  - Kijk of een andere regeling de kosten al vergoedt.
+  - Vraag online aan wat op de pagina staat, of bel 020 252 6000.
+  - Hulp bij het formulier kunt u krijgen bij een buurtteam.
+voorwaarden:
+  - U woont in Amsterdam en u bent 18 jaar of ouder.
+  - U kunt de kosten niet zelf betalen en er is geen andere regeling.
+  - >-
+    Geen bijzondere bijstand voor onder meer boetes, alimentatie, schade die u zelf
+    veroorzaakte, premies van verplichte verzekeringen, naturalisatiekosten of een
+    parkeervergunning.
+bronnen:
+  - naam: Gemeente Amsterdam — bijzondere bijstand
+    url: >-
+      https://www.amsterdam.nl/werk-en-inkomen/regelingen-bij-laag-inkomen-pak-je-kans/regelingen-alfabet/bijzondere-bijstand/
+laatstGecontroleerd: "2026-10-16"
+onzeker: []
+trefwoorden:
+  - amsterdam
+  - bijstand
+  - extra kosten
+check:
+  soort: bijzondere-bijstand
+  minLeeftijd: 18

@@ -1,0 +1,57 @@
+slug: noodfonds-energie
+naam: Noodfonds Energie
+categorie: toeslag
+gemeente: ""
+samenvatting: >-
+  De landelijke energietoeslag bestaat niet meer. Wel komt het Noodfonds Energie weer open voor
+  huishoudens met een laag inkomen en een hoge energierekening. Uw gemeente kan daarnaast eigen
+  hulp hebben. Dat verschilt per gemeente.
+voorWie: >-
+  Huishoudens die een groot deel van hun inkomen aan energie betalen. De Rijksoverheid
+  beschrijft een groep met een lager inkomen (minstens 8% van het inkomen aan energie) en een
+  groep met een iets hoger inkomen (minstens 10%).
+bedragKort: Minimaal € 120 en maximaal € 1.800 in totaal
+bedrag: >-
+  U krijgt in totaal minimaal € 120 en maximaal € 1.800 vergoed. Hoeveel het wordt, hangt af van
+  uw inkomen en uw energierekening. De vergoeding wordt waar mogelijk in 12 maanden verrekend
+  via uw energieleverancier. Reken op 4 tot 6 weken na uw aanvraag.
+bedragZeker: true
+deadline: >-
+  Vragen stellen kan vanaf 1 december 2026. Een aanvraag indienen kan van 4 januari 2027 tot en
+  met 7 mei 2027. Lukt digitaal niet, dan kunt u een papieren formulier vragen bij het
+  klantcontactcentrum van het Noodfonds.
+deadlineZeker: true
+stappen:
+  - Bewaar uw jaaropgave van het inkomen en een overzicht van de energiekosten.
+  - Vanaf 1 december 2026 kunt u het Noodfonds bellen met vragen.
+  - Dien de aanvraag in tussen 4 januari en 7 mei 2027.
+voorwaarden:
+  - U hebt een laag of middeninkomen en een relatief hoge energierekening.
+  - Er is geen landelijke energietoeslag meer met één bedrag voor iedereen.
+  - Lokale energiehulp van uw gemeente is iets anders. Of die bestaat, staat bij uw gemeente.
+bronnen:
+  - naam: Rijksoverheid — geld uit het Noodfonds Energie
+    url: >-
+      https://www.rijksoverheid.nl/vraag-en-antwoord/koopkracht/hoe-krijg-ik-geld-terug-uit-het-noodfonds-energie
+  - naam: Rijksoverheid — Noodfonds gaat open
+    url: https://www.rijksoverheid.nl/actueel/nieuws/2026/09/29/noodfonds-energie-gaat-open
+  - naam: Rijksoverheid — hulp bij een hoge energierekening
+    url: >-
+      https://www.rijksoverheid.nl/vraag-en-antwoord/koopkracht/hoe-krijg-ik-ondersteuning-bij-een-hoge-energierekening
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    De inkomensgrenzen wijken af tussen twee pagina’s van de Rijksoverheid. De
+    vraag-en-antwoordpagina noemt eurobedragen met een gat ertussen. Het nieuwsbericht noemt
+    130% en 200% van het sociaal minimum. De precieze grens is te controleren.
+  - >-
+    Of uw eigen gemeente in 2026 nog een lokale energietoeslag heeft, is te controleren op de
+    site van de gemeente.
+trefwoorden:
+  - energie
+  - energietoeslag
+  - noodfonds
+  - energierekening
+check:
+  soort: noodfonds
+  minLeeftijd: 18

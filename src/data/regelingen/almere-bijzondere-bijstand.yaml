@@ -1,0 +1,40 @@
+slug: almere-bijzondere-bijstand
+naam: Bijzondere bijstand in Almere
+categorie: gemeente
+gemeente: almere
+samenvatting: >-
+  Almere helpt inwoners met een laag inkomen via bijzondere bijstand. Op het aanvraagloket staan
+  onder meer medische kosten, bewindvoering, rechtsbijstand, een computer, baby-uitzet,
+  verhuizing en woonkostentoeslag.
+voorWie: >-
+  Inwoners van Almere die noodzakelijke kosten niet zelf kunnen betalen. De precieze
+  inkomensgrens per kostensoort is te controleren op de pagina.
+bedragKort: Hangt af van de kosten. Geen enkel vast bedrag
+bedrag: >-
+  Het loket noemt soorten kosten, maar geen standaardbedrag dat iedereen krijgt. De gemeente
+  beslist per aanvraag.
+bedragZeker: false
+deadline: Geen vaste sluitingsdatum gevonden. Vraag aan vóórdat u de kosten maakt, als dat kan.
+deadlineZeker: true
+stappen:
+  - Kijk op de pagina Bijzondere bijstand welke kosten Almere noemt.
+  - Dien een aanvraag in via de snelbalie van Almere.
+  - Hebt u nog geen DigiD, vraag die eerst aan. Dat duurt een paar werkdagen.
+voorwaarden:
+  - U woont in Almere.
+  - De kosten staan op de lijst van het loket, of u vraagt overige kosten aan.
+  - De inkomensgrens per soort is te controleren.
+bronnen:
+  - naam: Gemeente Almere — bijzondere bijstand
+    url: https://www.almere.nl/werk-en-inkomen/rondkomen-in-almere/bijzondere-bijstand
+  - naam: Gemeente Almere — rondkomen
+    url: https://www.almere.nl/werk-en-inkomen/rondkomen-in-almere
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - Eurobedragen per kostensoort zijn te controleren. Die stonden niet op de overzichtspagina.
+trefwoorden:
+  - almere
+  - bijstand
+check:
+  soort: bijzondere-bijstand
+  minLeeftijd: 18

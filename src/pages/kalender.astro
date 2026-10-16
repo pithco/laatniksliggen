@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import { formatDatum, loadDeadlines, loadRegelingen } from '../lib/content';
+
+const deadlines = loadDeadlines();
+const namen = new Map(loadRegelingen().map((item) => [item.slug, item.naam]));
+const vandaag = new Date().toISOString().slice(0, 10);
+---
+
+<Base
+  title="Deadlinekalender"
+  description="Belangrijke data voor toeslagen, belasting en het Noodfonds Energie. Download een agenda-bestand."
+>
+  <p class="kicker">Kalender</p>
+  <h1>Data om niet te missen</h1>
+  <p class="lede">
+    Dit zijn vaste data uit officiële bronnen. Gemeenten werken vaak zonder één landelijke sluitingsdatum.
+    Die staan op de pagina van de regeling.
+  </p>
+  <p><a class="button" href="/laat-niks-liggen.ics">Download de agenda (.ics)</a></p>
+  <div class="cards" style="margin-top:1.2rem">
+    {deadlines.map((item) => {
+      const voorbij = (item.eind ?? item.start) < vandaag;
+      return (
+        <article class="card">
+          <p class="kicker">
+            {formatDatum(item.start)}
+            {item.eind ? ` tot ${formatDatum(item.eind)}` : ''}
+            {voorbij ? ' · voorbij' : ''}
+          </p>
+          <h2>{item.titel}</h2>
+          <p>{item.toelichting}</p>
+          {!item.zeker && <p><span class="badge warn">te controleren</span></p>}
+          <ul class="clean">
+            {item.regelingen.map((slug) => (
+              <li><a href={`/regelingen/${slug}`}>{namen.get(slug)}</a></li>
+            ))}
+          </ul>
+        </article>
+      );
+    })}
+  </div>
+  <h2>Datums die per persoon verschillen</h2>
+  <ul class="clean">
+    <li>Kinderopvangtoeslag: binnen 3 maanden na de eerste maand opvang.</li>
+    <li>OV-chipkaart: tot 5 jaar na de einddatum op de kaart.</li>
+    <li>Consignatiekas: meestal 20 jaar, soms 60 jaar. Dat hangt af van het jaar en het bedrag.</li>
+    <li>Aangifte die u móét doen: de datum op uw eigen aangiftebrief. Vaak is dat 1 mei.</li>
+  </ul>
+</Base>

@@ -1,0 +1,47 @@
+slug: arnhem-inkomenstoeslag
+naam: Individuele inkomenstoeslag in Arnhem
+categorie: gemeente
+gemeente: arnhem
+samenvatting: >-
+  De inkomenstoeslag in Arnhem is een jaarlijkse toeslag als u al 3 jaar of langer een laag
+  inkomen hebt. U mag het geld vrij besteden. U betaalt er geen belasting over.
+voorWie: >-
+  Inwoners van 21 jaar tot de pensioengerechtigde leeftijd, met 3 jaar een laag inkomen en
+  vermogen onder de grens.
+bedragKort: € 260, € 375 of € 875 in 2026
+bedrag: >-
+  In 2026: € 260 alleenstaand, € 375 voor een alleenstaande ouder of getrouwd paar, en € 875
+  voor een tweeoudergezin met minimaal één thuiswonend kind van 12 tot en met 17 jaar. In een
+  instelling: € 130 of € 185.
+bedragZeker: true
+deadline: >-
+  U hebt de toeslag niet in de afgelopen 12 maanden gekregen. De behandeling duurt op dit moment
+  gemiddeld 15 weken in plaats van 8, schrijft de gemeente.
+deadlineZeker: true
+stappen:
+  - >-
+    Vraag online aan, of stuur het formulier naar Team Minima, antwoordnummer 3740, 6800 XA
+    Arnhem.
+  - Stuur een bewijs van uw inkomsten mee.
+  - "Vragen: 0800 1809 op werkdagen tussen 09.00 en 12.00 uur."
+voorwaarden:
+  - >-
+    U woont in Arnhem en u bent 21 jaar of ouder, niet ouder dan de pensioengerechtigde
+    leeftijd.
+  - U hebt 3 jaar een laag inkomen en geen zicht op een hoger inkomen.
+  - Studenten vallen buiten de regeling, omdat de gemeente dan zicht op meer inkomen verwacht.
+bronnen:
+  - naam: Gemeente Arnhem — individuele inkomenstoeslag
+    url: https://www.arnhem.nl/product/individuele-inkomenstoeslag-aanvragen/
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    De vermogensgrens noemt Arnhem wel, maar zonder eurobedrag op het deel van de pagina dat wij
+    hebben gelezen. Die grens is te controleren.
+trefwoorden:
+  - arnhem
+  - iit
+check:
+  soort: inkomenstoeslag
+  minLeeftijd: 21
+  geenAow: true

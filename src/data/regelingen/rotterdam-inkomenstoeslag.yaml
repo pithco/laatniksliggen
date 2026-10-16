@@ -1,0 +1,47 @@
+slug: rotterdam-inkomenstoeslag
+naam: Individuele inkomenstoeslag in Rotterdam
+categorie: gemeente
+gemeente: rotterdam
+samenvatting: >-
+  In Rotterdam kunt u één keer per jaar extra geld krijgen als uw inkomen 12 maanden laag was.
+  De gemeente kijkt naar 130% van de bijstandsnorm.
+voorWie: Inwoners met 12 maanden een inkomen onder de grens en vermogen onder de grens van 2026.
+bedragKort: € 200 tot € 450 in 2026, afhankelijk van uw huishouden
+bedrag: >-
+  In 2026: € 200 voor een alleenstaande zonder kinderen, € 300 voor een alleenstaande met
+  minderjarige kinderen, € 350 voor een paar zonder kinderen en € 450 voor een paar met
+  minderjarige kinderen. Vermogen mag niet hoger zijn dan € 8.000 (alleenstaand) of € 16.000
+  (alleenstaande ouder of paar).
+bedragZeker: true
+deadline: >-
+  U kunt de toeslag aanvragen als u aan de voorwaarden van de afgelopen 12 maanden voldoet. Er
+  is geen andere kalenderdatum op de pagina.
+deadlineZeker: true
+stappen:
+  - Vergelijk uw netto inkomen inclusief vakantiegeld met de tabel op rotterdam.nl.
+  - Vraag de toeslag aan bij de gemeente.
+  - Hebt u een bijstandsuitkering, lees dan of u extra bewijsstukken nodig hebt.
+voorwaarden:
+  - De inkomensgrens is 130% van de bijstandsnorm over de afgelopen 12 maanden.
+  - >-
+    Van 1 juli 2026 tot 1 januari 2027 is die grens € 1.850 per maand voor een alleenstaande en
+    € 2.640 voor een paar.
+  - >-
+    U krijgt de toeslag niet vaker dan de gemeente toestaat. Op de pagina staat het bedrag per
+    situatie voor 2026.
+bronnen:
+  - naam: Gemeente Rotterdam — individuele inkomenstoeslag
+    url: https://www.rotterdam.nl/individuele-inkomenstoeslag-aanvragen
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    De minimumleeftijd stond niet in het deel van de pagina dat wij hebben gelezen. Dat is te
+    controleren.
+trefwoorden:
+  - rotterdam
+  - iit
+check:
+  soort: inkomenstoeslag
+  minLeeftijd: 21
+  geenAow: true
+  leeftijdZeker: false

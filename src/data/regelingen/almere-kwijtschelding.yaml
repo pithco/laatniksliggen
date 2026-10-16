@@ -1,0 +1,40 @@
+slug: almere-kwijtschelding
+naam: Kwijtschelding belastingen in Almere
+categorie: gemeente
+gemeente: almere
+samenvatting: >-
+  Kwijtschelding van gemeentelijke belastingen bestaat in Almere. We hebben nog geen aparte
+  pagina met bedrag en aanvraagstappen hard gecontroleerd. Kijk daarom op de site van de
+  gemeente. Wat hier ontbreekt, is te controleren.
+voorWie: >-
+  Inwoners van deze gemeente. Of u meedoet, hangt af van inkomen, vermogen en uw situatie. De
+  precieze doelgroep is te controleren.
+bedragKort: te controleren
+bedrag: >-
+  De gemeente bepaalt het bedrag. Een eurobedrag hebben we niet hard genoeg vastgesteld om hier
+  te zetten. Dat is te controleren.
+bedragZeker: false
+deadline: >-
+  Een vaste landelijke deadline is er niet. Of de gemeente een aanvraagperiode gebruikt, is te
+  controleren.
+deadlineZeker: false
+stappen:
+  - Open de website van de gemeente via de bron hieronder.
+  - Zoek de regeling of bel het algemene nummer van de gemeente.
+  - Vraag de regeling aan vóór u grote kosten maakt, als het om bijzondere bijstand gaat.
+voorwaarden:
+  - U woont in deze gemeente.
+  - De overige voorwaarden staan op de site van de gemeente en zijn hier te controleren.
+bronnen:
+  - naam: Gemeente Almere — rondkomen
+    url: https://www.almere.nl/werk-en-inkomen/rondkomen-in-almere
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - Bedrag, inkomensgrens en de precieze aanvraagpagina zijn te controleren.
+trefwoorden:
+  - almere
+  - kwijtschelding
+check:
+  soort: kwijtschelding
+  minLeeftijd: 18
+  geenAow: false

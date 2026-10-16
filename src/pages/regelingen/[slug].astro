@@ -1,0 +1,110 @@
+---
+import Base from '../../layouts/Base.astro';
+import { categorieLabel, formatDatum, gemeenteNaam, loadGemeenten, loadRegelingen } from '../../lib/content';
+
+export function getStaticPaths() {
+  const gemeenten = loadGemeenten();
+  return loadRegelingen().map((regeling) => ({
+    params: { slug: regeling.slug },
+    props: { regeling, gemeenten },
+  }));
+}
+
+const { regeling, gemeenten } = Astro.props;
+const plaats = regeling.gemeente ? gemeenteNaam(regeling.gemeente, gemeenten) : null;
+const related = loadRegelingen()
+  .filter((item) => {
+    if (item.slug === regeling.slug) return false;
+    if (regeling.gemeente) return item.gemeente === regeling.gemeente;
+    return item.categorie === regeling.categorie;
+  })
+  .slice(0, 3);
+const description = regeling.samenvatting.slice(0, 155);
+---
+
+<Base title={regeling.naam} description={description}>
+  <nav class="crumbs" aria-label="Kruimelpad">
+    <a href="/">Home</a>
+    <span aria-hidden="true">/</span>
+    <a href="/regelingen">Regelingen</a>
+    {plaats && (
+      <>
+        <span aria-hidden="true">/</span>
+        <a href={`/gemeenten/${regeling.gemeente}`}>{plaats}</a>
+      </>
+    )}
+  </nav>
+  <p class="kicker">{plaats ?? categorieLabel[regeling.categorie]}</p>
+  <h1>{regeling.naam}</h1>
+  <p class="lede">{regeling.samenvatting}</p>
+  {regeling.onzeker.length > 0 && <p><span class="badge warn">te controleren</span></p>}
+
+  <dl class="facts">
+    <div class="fact">
+      <dt>Voor wie</dt>
+      <dd>{regeling.voorWie}</dd>
+    </div>
+    <div class="fact">
+      <dt>Ongeveer dit bedrag</dt>
+      <dd>
+        {regeling.bedrag}
+        {!regeling.bedragZeker && <span class="badge warn">te controleren</span>}
+      </dd>
+    </div>
+    <div class="fact">
+      <dt>Wanneer</dt>
+      <dd>
+        {regeling.deadline}
+        {!regeling.deadlineZeker && <span class="badge warn">te controleren</span>}
+      </dd>
+    </div>
+    <div class="fact">
+      <dt>Gecontroleerd</dt>
+      <dd>{formatDatum(regeling.laatstGecontroleerd)}</dd>
+    </div>
+  </dl>
+
+  <h2>Voorwaarden</h2>
+  <ul class="clean">
+    {regeling.voorwaarden.map((item) => <li>{item}</li>)}
+  </ul>
+
+  <h2>Zo vraagt u aan</h2>
+  <ol class="steps">
+    {regeling.stappen.map((item) => <li>{item}</li>)}
+  </ol>
+
+  {regeling.onzeker.length > 0 && (
+    <div class="callout">
+      <h2>Te controleren</h2>
+      <ul class="clean">
+        {regeling.onzeker.map((item) => <li>{item}</li>)}
+      </ul>
+    </div>
+  )}
+
+  <h2>Officiële bron</h2>
+  <ul class="clean">
+    {regeling.bronnen.map((bron) => (
+      <li><a href={bron.url}>{bron.naam}</a></li>
+    ))}
+  </ul>
+  <p class="disclaimer">
+    Dit is geen advies. Of u geld krijgt, beslist de instantie achter de bron.
+    Wij plaatsen regelingen niet tegen betaling.
+  </p>
+
+  {related.length > 0 && (
+    <>
+      <h2>Ook kijken</h2>
+      <div class="cards">
+        {related.map((item) => (
+          <a class="card card-link" href={`/regelingen/${item.slug}`}>
+            <h3>{item.naam}</h3>
+            <p>{item.bedragKort}</p>
+          </a>
+        ))}
+      </div>
+    </>
+  )}
+</Base>

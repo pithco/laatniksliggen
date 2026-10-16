@@ -1,0 +1,42 @@
+slug: zaanstad-inkomenstoeslag
+naam: Individuele inkomenstoeslag in Zaanstad
+categorie: gemeente
+gemeente: zaanstad
+samenvatting: >-
+  Hebt u 5 jaar of langer een laag inkomen en hebt u geprobeerd meer te verdienen? Dan kunt u in
+  Zaanstad individuele inkomenstoeslag aanvragen.
+voorWie: >-
+  Inwoners van 23 jaar of ouder die nog geen pensioen krijgen, 5 jaar een laag inkomen hadden en
+  geen studiefinanciering ontvingen.
+bedragKort: € 443, € 627 of € 695
+bedrag: >-
+  De gemeente noemt € 443 voor een alleenstaande, € 627 voor een alleenstaande ouder met
+  kinderen tot 18 jaar, en € 695 voor een paar of gezin met minimaal twee volwassenen. Een
+  jaartal staat niet bij deze bedragen.
+bedragZeker: false
+deadline: >-
+  De pagina noemt geen sluitingsdatum. Hebt u een bijstandsuitkering, dan hoeft u geen
+  bewijsstukken mee te sturen.
+deadlineZeker: true
+stappen:
+  - Bekijk de inkomens- en vermogensgrens op de pagina waar Zaanstad naar verwijst.
+  - Vraag de toeslag aan. Vul bij een bijstandsuitkering “PW-uitkering” in.
+  - Zonder uitkering stuurt u inkomensbewijzen mee.
+voorwaarden:
+  - U bent 23 jaar of ouder en u krijgt nog geen pensioen.
+  - U hebt 5 jaar een laag inkomen en u hebt genoeg gedaan om werk te vinden of te houden.
+  - U ontving de afgelopen 5 jaar geen studiefinanciering of tegemoetkoming voor schoolkosten.
+bronnen:
+  - naam: Gemeente Zaanstad — individuele inkomenstoeslag
+    url: >-
+      https://www.zaanstad.nl/direct-regelen/werk-geld/extras-bij-een-laag-inkomen/jaarlijks-bedrag-voor-langdurig-lage-inkomens/
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - De bedragen staan zonder jaartal op de pagina. Dat is te controleren.
+trefwoorden:
+  - zaanstad
+  - iit
+check:
+  soort: inkomenstoeslag
+  minLeeftijd: 23
+  geenAow: true

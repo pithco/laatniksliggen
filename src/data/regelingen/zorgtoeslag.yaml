@@ -1,0 +1,57 @@
+slug: zorgtoeslag
+naam: Zorgtoeslag
+categorie: toeslag
+gemeente: ""
+samenvatting: >-
+  Zorgtoeslag is geld van de overheid voor de premie van uw zorgverzekering. Veel mensen laten
+  dit liggen. Als u 18 jaar of ouder bent en uw inkomen en spaargeld niet te hoog zijn, kunt u
+  het aanvragen.
+voorWie: >-
+  Mensen van 18 jaar of ouder met een Nederlandse zorgverzekering. Uw toetsingsinkomen en uw
+  vermogen moeten onder de grens blijven. Hebt u een toeslagpartner, dan telt die mee.
+bedragKort: Maximaal € 129 per maand als u alleen bent (2026)
+bedrag: >-
+  In 2026 krijgt u maximaal € 129 per maand als u alleen bent en uw toetsingsinkomen niet hoger
+  is dan € 29.500. Met een toeslagpartner is het maximum dan € 246 per maand samen. Het bedrag
+  daalt als het inkomen stijgt. U krijgt geen zorgtoeslag als uw toetsingsinkomen hoger is dan €
+  40.857. Samen met een toeslagpartner is die grens € 51.142. Op 1 januari 2026 mag uw vermogen
+  niet hoger zijn dan € 146.011, of € 184.633 samen met een toeslagpartner.
+bedragZeker: true
+deadline: >-
+  Zorgtoeslag over 2026 kunt u aanvragen tot en met 31 december 2027. Over 2025 kan dat nog tot
+  en met 31 december 2026. Hebt u uitstel voor uw belastingaangifte, dan kunt u soms langer de
+  tijd hebben.
+deadlineZeker: true
+stappen:
+  - Maak een proefberekening bij Dienst Toeslagen.
+  - Vraag de toeslag aan met DigiD via Mijn Toeslagen.
+  - Kijk daarna elk jaar of uw gegevens nog kloppen. Een te hoge toeslag moet u terugbetalen.
+voorwaarden:
+  - U hebt een Nederlandse zorgverzekering.
+  - U bent 18 jaar of ouder.
+  - >-
+    Uw toetsingsinkomen in 2026 is niet hoger dan € 40.857, of € 51.142 samen met een
+    toeslagpartner.
+  - Uw vermogen op 1 januari 2026 is niet hoger dan € 146.011, of € 184.633 samen.
+bronnen:
+  - naam: Dienst Toeslagen — hoeveel zorgtoeslag
+    url: https://www.belastingdienst.nl/wps/wcm/connect/nl/zorgtoeslag/content/hoeveel-zorgtoeslag
+  - naam: Dienst Toeslagen — maximaal inkomen
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/nl/zorgtoeslag/content/maximaal-inkomen-voor-zorgtoeslag
+  - naam: Dienst Toeslagen — kan ik zorgtoeslag krijgen
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/nl/zorgtoeslag/content/kan-ik-zorgtoeslag-krijgen
+  - naam: Dienst Toeslagen — tot wanneer aanvragen
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/tot-wanneer-kan-ik-toeslag-aanvragen
+laatstGecontroleerd: "2026-10-16"
+onzeker: []
+trefwoorden:
+  - zorgverzekering
+  - premie
+  - toeslag
+  - digid
+check:
+  soort: zorgtoeslag
+  minLeeftijd: 18

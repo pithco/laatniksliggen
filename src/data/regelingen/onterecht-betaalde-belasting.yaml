@@ -1,0 +1,51 @@
+slug: onterecht-betaalde-belasting
+naam: Te veel betaalde belasting
+categorie: belasting
+gemeente: ""
+samenvatting: >-
+  Krijgt u AOW én een klein pensioen, of meerdere uitkeringen naast elkaar? Dan houdt elke
+  betaler apart belasting in. Samen kan dat te veel zijn. Dat geld krijgt u alleen terug als u
+  aangifte doet.
+voorWie: >-
+  Mensen met meer dan één inkomen, zoals AOW plus pensioen, of een uitkering plus een klein
+  baantje. Ook als u geen brief kreeg dat u aangifte moet doen.
+bedragKort: Het te veel ingehouden bedrag. Zichtbaar in de aangifte
+bedrag: >-
+  Er is geen vast bedrag. De Belastingdienst schrijft dat u het ziet zodra u de aangifte invult.
+  Hebt u het hele jaar de AOW-leeftijd, dan gelden lagere tarieven en andere heffingskortingen.
+  Daardoor kan er te veel zijn ingehouden, maar soms ook te weinig. Zie u dat u € 58 of meer
+  moet betalen, dan moet u de aangifte juist wél insturen.
+bedragZeker: true
+deadline: >-
+  U kunt tot 5 jaar terug aangifte doen. In 2026 gaat dat over 2021 tot en met 2025. Aangifte
+  over 2021 moet uiterlijk 31 december 2026 binnen zijn.
+deadlineZeker: true
+stappen:
+  - Verzamel de jaaropgaven van SVB, pensioenfonds, UWV of werkgever.
+  - Vul de aangifte als proef in op Mijn Belastingdienst.
+  - Verstuur de aangifte als u geld terugkrijgt.
+voorwaarden:
+  - >-
+    Er is loonheffing ingehouden door meer dan één instantie, of de heffingskorting is niet
+    volledig gebruikt.
+  - >-
+    U hoeft de aangifte niet te versturen als u alleen wilt kijken, behalve als u moet
+    bijbetalen of een aangiftebrief hebt.
+bronnen:
+  - naam: Belastingdienst — AOW en kleinere pensioenen
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/doe-aangifte-met-aow-en-pensioen
+  - naam: Belastingdienst — hoeveel jaar terug
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/inkomstenbelasting/hoe_werkt_inkomstenbelasting/aangifte_doen/hoeveel-jaar-terug-belastingaangifte-doen
+laatstGecontroleerd: "2026-10-16"
+onzeker: []
+trefwoorden:
+  - loonheffing
+  - aow
+  - pensioen
+  - teruggaaf
+  - jaaropgave
+check:
+  soort: te-veel-belasting
+  minLeeftijd: 18

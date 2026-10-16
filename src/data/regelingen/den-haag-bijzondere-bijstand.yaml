@@ -1,0 +1,43 @@
+slug: den-haag-bijzondere-bijstand
+naam: Bijzondere bijstand in Den Haag
+categorie: gemeente
+gemeente: den-haag
+samenvatting: >-
+  Bijzondere bijstand in Den Haag is geld voor onverwachte, noodzakelijke kosten. U hoeft geen
+  uitkering te hebben. Vraag eerst aan, en betaal de kosten daarna. Het geld kan een gift zijn
+  of een lening.
+voorWie: >-
+  Inwoners van Den Haag van 21 jaar of ouder die de kosten niet zelf kunnen betalen en geen
+  andere regeling hebben.
+bedragKort: Geen vast bedrag. Besluit binnen 8 weken
+bedrag: >-
+  De gemeente kijkt of u alle kosten kunt betalen of een deel. Een standaardbedrag staat niet op
+  de pagina. U krijgt het bedrag op uw rekening als de aanvraag slaagt.
+bedragZeker: true
+deadline: >-
+  Geen vaste sluitingsdatum. De gemeente wil dat u eerst aanvraagt en pas daarna betaalt. Een
+  besluit volgt binnen 8 weken.
+deadlineZeker: true
+stappen:
+  - Controleer of uw kosten op de lijst staan.
+  - Vraag het formulier op via de klantenservice 070 353 75 00, toets 3.
+  - Stuur het formulier per post of lever het in bij de advies- en informatiebalie.
+voorwaarden:
+  - U woont in Den Haag en u bent 21 jaar of ouder.
+  - >-
+    Wel mogelijk: wonen en meubels, medische hulp, financiële hulp en rechtsbijstand. Soms ook
+    andere kosten.
+  - >-
+    Niet mogelijk: paspoort of identiteitskaart, telefoon, boetes, schulden, eigen risico van de
+    zorgverzekering, alimentatie of de jaarnota energie.
+bronnen:
+  - naam: Gemeente Den Haag — bijzondere bijstand
+    url: https://www.denhaag.nl/nl/geld-en-schulden/bijzondere-bijstand-aanvragen/
+laatstGecontroleerd: "2026-10-16"
+onzeker: []
+trefwoorden:
+  - den haag
+  - bijstand
+check:
+  soort: bijzondere-bijstand
+  minLeeftijd: 21

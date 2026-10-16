@@ -1,0 +1,84 @@
+---
+import Base from '../layouts/Base.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { formatDatum, loadDeadlines, loadGemeenten, loadRegelingen } from '../lib/content';
+
+const regelingen = loadRegelingen();
+const gemeenten = loadGemeenten();
+const deadlines = loadDeadlines();
+const vandaag = new Date().toISOString().slice(0, 10);
+const komend = deadlines.filter((item) => (item.eind ?? item.start) >= vandaag).slice(0, 4);
+const description = 'Kijk welke toeslag, belastingteruggaaf of gemeentelijke regeling u misschien laat liggen. Gratis, anoniem en in gewone taal.';
+---
+
+<Base title="Laat Niks Liggen — geld dat u kunt aanvragen" description={description} home>
+  <section class="hero">
+    <div>
+      <p class="kicker">Geld dat blijft liggen</p>
+      <h1>Er ligt misschien geld op u te wachten.</h1>
+      <p class="lede">
+        Toeslagen, een belastingteruggaaf, een oude OV-chipkaart of hulp van uw gemeente.
+        Deze site zet de regelingen op een rij. U blijft anoniem.
+      </p>
+    </div>
+    <div class="panel">
+      <p class="kicker">Begin hier</p>
+      <h2>10 vragen</h2>
+      <p>Geen account. Niets wordt opgeslagen of verstuurd. Aan het eind ziet u wat waarschijnlijk bij u past.</p>
+      <p><a class="button" href="/check">Doe de check</a></p>
+    </div>
+  </section>
+
+  <aside class="banner">
+    <strong>Nog dit jaar:</strong> zorgtoeslag, huurtoeslag en kindgebonden budget over 2025 kunt u aanvragen tot en met 31 december 2026.
+    <a href="/regelingen/zorgtoeslag">Lees hoe dat zit</a>.
+  </aside>
+
+  <div class="actions">
+    <a class="card card-link" href="/regelingen">
+      <span class="kicker">{regelingen.length} regelingen</span>
+      <h2>Alles op een rij</h2>
+      <p>Zoek en filter op toeslag, belasting, vergeten geld of gemeente.</p>
+    </a>
+    <a class="card card-link" href="/gemeenten">
+      <span class="kicker">{gemeenten.length} gemeenten</span>
+      <h2>Uw gemeente</h2>
+      <p>Bijzondere bijstand, kwijtschelding, een pas en de inkomenstoeslag.</p>
+    </a>
+    <a class="card card-link" href="/kalender">
+      <span class="kicker">Deadlines</span>
+      <h2>Zet het in uw agenda</h2>
+      <p>Download de datums als agenda-bestand. Geen account nodig.</p>
+    </a>
+  </div>
+
+  <section>
+    <h2>Wat eraan komt</h2>
+    <div class="cards">
+      {komend.map((item) => (
+        <article class="card">
+          <p class="kicker">{formatDatum(item.start)}{item.eind ? ` tot ${formatDatum(item.eind)}` : ''}</p>
+          <h3>{item.titel}</h3>
+          <p>{item.toelichting}</p>
+          {!item.zeker && <span class="badge warn">te controleren</span>}
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="split" style="margin-top:2rem">
+    <div>
+      <h2>Zo werkt het</h2>
+      <ol class="steps">
+        <li>U beantwoordt 10 vragen. Dat blijft in uw browser.</li>
+        <li>U ziet regelingen die kunnen passen, met een link naar de officiële pagina.</li>
+        <li>U vraagt zelf aan bij de Belastingdienst, de SVB of uw gemeente. Wij zitten daar niet tussen.</li>
+      </ol>
+      <p class="disclaimer">
+        Dit is geen advies en geen aanvraag. Bedragen veranderen. Controleer de bron.
+        Regelingen op deze site zijn nooit betaald geplaatst.
+      </p>
+    </div>
+    <Newsletter />
+  </section>
+</Base>

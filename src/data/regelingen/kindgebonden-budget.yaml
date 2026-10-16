@@ -1,0 +1,60 @@
+slug: kindgebonden-budget
+naam: Kindgebonden budget
+categorie: toeslag
+gemeente: ""
+samenvatting: >-
+  Het kindgebonden budget is een bijdrage voor de kosten van kinderen onder de 18. Alleenstaande
+  ouders krijgen meer. Voor kinderen vanaf 12 jaar en vanaf 16 jaar komt er een verhoging bij.
+voorWie: >-
+  Ouders met een kind jonger dan 18 jaar, een inkomen dat niet te hoog is en vermogen onder de
+  grens. U hoeft hiervoor geen kinderopvang te hebben.
+bedragKort: Geen vast bedrag. Alleenstaande ouders en oudere kinderen krijgen meer
+bedrag: >-
+  Dienst Toeslagen publiceert geen enkel maximum dat voor iedereen geldt. Het bedrag hangt af
+  van uw inkomen, of u een toeslagpartner hebt, het aantal kinderen en hun leeftijd. In 2026
+  gaat het budget iets omhoog voor alleenstaande ouders met een inkomen tot € 29.736 en voor
+  stellen met een inkomen tot € 39.141. Daarboven wordt het in 2026 wat lager. Maak een
+  proefberekening voor uw eigen bedrag. Het vermogen op 1 januari 2026 mag niet hoger zijn dan €
+  146.011, of € 184.633 samen met een toeslagpartner.
+bedragZeker: false
+deadline: >-
+  Kindgebonden budget over 2026 kunt u aanvragen tot en met 31 december 2027. Over 2025 kan dat
+  nog tot en met 31 december 2026.
+deadlineZeker: true
+stappen:
+  - Maak een proefberekening bij Dienst Toeslagen.
+  - Vraag de toeslag aan met DigiD via Mijn Toeslagen.
+  - Kijk daarna elk jaar of uw gegevens nog kloppen. Een te hoge toeslag moet u terugbetalen.
+voorwaarden:
+  - U hebt een kind jonger dan 18 jaar.
+  - Uw vermogen op 1 januari blijft onder de grens.
+  - Alleenstaande ouders krijgen meer dan stellen.
+  - >-
+    De verhoging voor 12 jaar en 16 jaar gaat in ná de maand waarin het kind die leeftijd
+    bereikt.
+bronnen:
+  - naam: Dienst Toeslagen — hoeveel kindgebonden budget
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/nl/kindgebonden-budget/content/hoeveel-kindgebonden-budget
+  - naam: Dienst Toeslagen — maximaal vermogen
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/nl/kindgebonden-budget/content/maximaal-vermogen-kindgebonden-budget
+  - naam: Dienst Toeslagen — wat verandert er in 2026
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen-2026/topics/veranderingen-toeslagen-2026
+  - naam: Dienst Toeslagen — tot wanneer aanvragen
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/tot-wanneer-kan-ik-toeslag-aanvragen
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    Een maximaal jaarbedrag in euro’s hebben we niet op de pagina van Dienst Toeslagen gevonden.
+    Gebruik de proefberekening. Een vast maximum overnemen zou giswerk zijn.
+trefwoorden:
+  - kinderen
+  - alleenstaande ouder
+  - school
+  - budget
+check:
+  soort: kindgebonden
+  minLeeftijd: 18

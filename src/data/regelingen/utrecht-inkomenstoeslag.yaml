@@ -1,0 +1,39 @@
+slug: utrecht-inkomenstoeslag
+naam: Individuele inkomenstoeslag in Utrecht
+categorie: gemeente
+gemeente: utrecht
+samenvatting: >-
+  Hebt u 12 maanden een laag inkomen en woont u in Utrecht? Dan kunt u één keer per 12 maanden
+  individuele inkomenstoeslag aanvragen. U bent geen student en u hebt nog geen AOW.
+voorWie: Inwoners van 21 jaar tot de AOW-leeftijd die de afgelopen 12 maanden geen student waren.
+bedragKort: € 50, € 125 of € 800, afhankelijk van kinderen
+bedrag: >-
+  De gemeente noemt: € 125 voor een alleenstaande of paar zonder kinderen, € 50 met kinderen
+  jonger dan 12, en € 800 als er minimaal één kind van 12 tot 18 jaar is. Vermogen maximaal €
+  7.770 alleenstaand, of € 15.540 als alleenstaande ouder of paar.
+bedragZeker: true
+deadline: Eén keer per 12 maanden. Een kalenderdatum staat niet op de pagina.
+deadlineZeker: true
+stappen:
+  - Open het product Individuele inkomenstoeslag in het digitale loket van Utrecht.
+  - Log in met DigiD.
+  - Hulp kan via het buurtteam of telefoon 14 030.
+voorwaarden:
+  - U staat ingeschreven in Utrecht en u bent 21 jaar of ouder, jonger dan de AOW-leeftijd.
+  - U was de afgelopen 12 maanden geen student.
+  - De pagina noemt bij het maximale inkomen het jaar 2024. Controleer of die grens nog geldt.
+bronnen:
+  - naam: Gemeente Utrecht — individuele inkomenstoeslag
+    url: https://loket.digitaal.utrecht.nl/nl/producten/individuele-inkomenstoeslag-aanvragen
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    De inkomensgrens op de pagina verwijst naar 2024. Of die grens in 2026 nog klopt, is te
+    controleren.
+trefwoorden:
+  - utrecht
+  - iit
+check:
+  soort: inkomenstoeslag
+  minLeeftijd: 21
+  geenAow: true

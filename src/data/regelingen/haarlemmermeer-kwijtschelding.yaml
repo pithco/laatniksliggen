@@ -1,0 +1,41 @@
+slug: haarlemmermeer-kwijtschelding
+naam: Kwijtschelding belastingen in Haarlemmermeer
+categorie: gemeente
+gemeente: haarlemmermeer
+samenvatting: >-
+  Inwoners met een laag inkomen kunnen kwijtschelding krijgen van de afvalstoffenheffing en het
+  liggeld voor woonschepen. De gemeente gebruikt een 100%-norm. Dat is het wettelijke maximum.
+voorWie: Inwoners met een laag inkomen. De gemeente toetst betalingscapaciteit en vermogen.
+bedragKort: De afvalstoffenheffing of het liggeld, geheel of deels
+bedrag: >-
+  Er is geen vast bedrag per persoon. U hoeft de heffing niet, of maar voor een deel, te
+  betalen. Minimaal 80% van de betalingscapaciteit moet volgens de wettelijke systematiek naar
+  belastingschulden. Haarlemmermeer kent een 100%-norm.
+bedragZeker: true
+deadline: Hoe en tot wanneer u aanvraagt, staat niet in de begrotingstekst. Dat is te controleren.
+deadlineZeker: false
+stappen:
+  - Kijk op haarlemmermeer.nl hoe u kwijtschelding aanvraagt.
+  - Houd uw inkomens- en vermogensgegevens bij de hand.
+  - Extra rolcontainers voor afval vallen buiten de kwijtschelding, volgens de jaarstukken.
+voorwaarden:
+  - Kwijtschelding kan voor de afvalstoffenheffing en het liggeld voor woonschepen.
+  - Niet voor extra rolcontainers.
+  - De gemeente hanteert de 100%-norm.
+bronnen:
+  - naam: Gemeente Haarlemmermeer — belastingvoorstellen 2026
+    url: >-
+      https://programmabegroting.haarlemmermeer.nl/2026/paragrafen/lokale-heffingen/belastingvoorstellen-2026
+  - naam: Gemeente Haarlemmermeer — jaarstukken kwijtschelding
+    url: https://jaarstukken.haarlemmermeer.nl/2025/paragrafen/lokale-heffingen/kwijtschelding
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    De pagina waar inwoners kwijtschelding aanvragen is te controleren. De beleidstekst
+    bevestigt wel dát het kan.
+trefwoorden:
+  - haarlemmermeer
+  - afvalstoffenheffing
+check:
+  soort: kwijtschelding
+  minLeeftijd: 18

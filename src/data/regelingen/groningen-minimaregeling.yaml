@@ -1,0 +1,42 @@
+slug: groningen-minimaregeling
+naam: Stadjerspas in Groningen
+categorie: gemeente
+gemeente: groningen
+samenvatting: >-
+  De Stadjerspas is een gratis pas voor inwoners van Groningen met een laag inkomen. U doet
+  ermee mee aan sport, cultuur, recreatie en educatie, gratis of met korting.
+voorWie: >-
+  Inwoners met een minimuminkomen. In de verordening is dat een netto inkomen inclusief
+  vakantietoeslag tot 120% van de bijstandsnorm. Kinderen kunnen een juniorpas krijgen.
+bedragKort: Gratis pas. Het tegoed wisselt per actie
+bedrag: >-
+  De pas kost niets. Tegoeden worden op de pas gezet. Een vast jaarbedrag voor iedere pashouder
+  hebben we niet op de aanvraagpagina gevonden.
+bedragZeker: false
+deadline: >-
+  De gemeente behandelt een aanvraag binnen 4 weken. Er is geen vaste sluitingsdatum op de
+  aanvraagpagina.
+deadlineZeker: true
+stappen:
+  - Vraag de pas online aan met DigiD, of gebruik het papieren formulier.
+  - Houd inkomsten van de afgelopen twee maanden bij de hand. Geen belastingaangifte meesturen.
+  - Een partner kan in dezelfde aanvraag mee, als die ook DigiD heeft.
+voorwaarden:
+  - U woont in de gemeente Groningen en u hebt een laag inkomen.
+  - De verordening noemt 120% van de bijstandsnorm.
+  - Hulp bij DigiD kan via het WIJ-team.
+bronnen:
+  - naam: Stadjerspas — aanvragen
+    url: https://stadjerspas.gemeente.groningen.nl/aanvragen/
+  - naam: Gemeenteraad Groningen — verordening Stadjerspas
+    url: >-
+      https://gemeenteraad.groningen.nl/Documenten/Bijlage-Verordening-Stadjerspas-gemeente-Groningen.pdf
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - Een vast tegoed in euro’s per jaar is te controleren. De aanvraagpagina noemt dat niet.
+trefwoorden:
+  - groningen
+  - stadjerspas
+check:
+  soort: minima
+  minLeeftijd: 18

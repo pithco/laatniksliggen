@@ -1,0 +1,41 @@
+slug: almere-inkomenstoeslag
+naam: Individuele inkomenstoeslag in Almere
+categorie: gemeente
+gemeente: almere
+samenvatting: >-
+  Almere geeft individuele inkomenstoeslag als u 5 jaar niet boven de bijstandsnorm uitkwam en u
+  zich hebt ingespannen om werk te houden. De toeslag is per huishouden.
+voorWie: >-
+  Inwoners die ouder zijn dan 23, nog geen pensioen krijgen, geen student zijn en 5 jaar een
+  inkomen op bijstandsniveau hadden.
+bedragKort: € 506, € 643 of € 717 per huishouden
+bedrag: >-
+  De gemeente noemt € 506 voor een alleenstaande, € 643 voor een alleenstaande ouder en € 717
+  voor gehuwden of samenwonenden. Op de pagina staat geen jaartal bij de tabel.
+bedragZeker: false
+deadline: >-
+  U kunt de toeslag opnieuw aanvragen als de vorige aanvraag langer dan een jaar geleden is.
+  Hebt u nog geen DigiD, meld u dan eerst. De meldingsdatum telt voor de ingangsdatum.
+deadlineZeker: true
+stappen:
+  - Lees de voorwaarden op almere.nl.
+  - Vraag online aan met DigiD.
+  - "Zonder DigiD: dien eerst een melding in, zodat de datum vastligt."
+voorwaarden:
+  - U woont in Almere en u bent ouder dan 23 jaar.
+  - Vijf jaar lang kwam u niet boven de bijstandsnorm, ook niet tussendoor.
+  - Een maatregel omdat u niet genoeg deed om werk te krijgen, kan de toeslag in de weg zitten.
+bronnen:
+  - naam: Gemeente Almere — individuele inkomenstoeslag
+    url: >-
+      https://www.almere.nl/werk-en-inkomen/rondkomen-in-almere/bijzondere-bijstand/individuele-inkomenstoeslag
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - De bedragen staan zonder jaartal op de pagina. Of ze voor 2026 gelden, is te controleren.
+trefwoorden:
+  - almere
+  - iit
+check:
+  soort: inkomenstoeslag
+  minLeeftijd: 23
+  geenAow: true

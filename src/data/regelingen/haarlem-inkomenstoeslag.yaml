@@ -1,0 +1,41 @@
+slug: haarlem-inkomenstoeslag
+naam: Individuele inkomenstoeslag in Haarlem
+categorie: gemeente
+gemeente: haarlem
+samenvatting: >-
+  Als u 3 jaar of langer weinig verdient, kunt u in Haarlem één keer per jaar individuele
+  inkomenstoeslag aanvragen. Kreeg u hem vorig jaar, dan stuurt de gemeente een brief.
+voorWie: >-
+  Inwoners tussen 21 jaar en de AOW-leeftijd. Een maatregel op een uitkering in de afgelopen 3
+  jaar kan de toeslag in de weg zitten.
+bedragKort: € 488, € 626 of € 694
+bedrag: >-
+  De gemeente noemt € 488 voor een alleenstaande, € 626 voor een alleenstaande ouder en € 694
+  als u samenwoont of getrouwd bent. Vermogen niet meer dan € 8.000 alleen, of € 16.000 samen of
+  met een kind. Een auto tot € 3.500 telt niet mee.
+bedragZeker: false
+deadline: >-
+  Eén keer per jaar. De brief komt als u de toeslag vorig jaar kreeg. Een andere kalenderdatum
+  staat niet in de tekst die wij zagen.
+deadlineZeker: true
+stappen:
+  - Vraag aan met DigiD. Bewindvoerders gebruiken eHerkenning.
+  - Wacht op de brief als u de toeslag al kreeg.
+  - Hulp kan via Buurts.
+voorwaarden:
+  - U bent tussen de 21 jaar en de AOW-leeftijd.
+  - U verdient 3 jaar of langer weinig.
+  - De inkomensbedragen op de pagina hebben in onze bron geen jaartal.
+bronnen:
+  - naam: Gemeente Haarlem — individuele inkomenstoeslag
+    url: https://haarlem.nl/individuele-inkomenstoeslag
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - Bij de bedragen en de inkomensgrenzen staat geen jaartal. Dat is te controleren.
+trefwoorden:
+  - haarlem
+  - iit
+check:
+  soort: inkomenstoeslag
+  minLeeftijd: 21
+  geenAow: true

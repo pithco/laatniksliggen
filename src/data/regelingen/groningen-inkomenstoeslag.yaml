@@ -1,0 +1,39 @@
+slug: groningen-inkomenstoeslag
+naam: Individuele inkomenstoeslag in Groningen
+categorie: gemeente
+gemeente: groningen
+samenvatting: >-
+  Hebt u 2 jaar achter elkaar een uitkering of een laag inkomen? Dan kunt u in Groningen één
+  keer per 12 maanden individuele inkomenstoeslag aanvragen.
+voorWie: >-
+  Inwoners met 2 jaar een laag inkomen, onder de netto bijstandsnorm van 1 januari 2026, en
+  vermogen onder de grens.
+bedragKort: € 545, € 697 of € 777 per jaar vanaf 1 januari 2026
+bedrag: >-
+  Vanaf 1 januari 2026: € 545 als u alleenstaand bent, € 697 als alleenstaande ouder met
+  kinderen onder de 18, en € 777 als u samenwoont. De netto bijstandsnorm die de gemeente noemt
+  is € 1.401,50 voor een alleenstaande en € 2.002,13 voor een paar. Vermogen maximaal € 8.000 of
+  € 16.000.
+bedragZeker: true
+deadline: Eén keer per 12 maanden. Verder noemt de pagina geen sluitingsdatum.
+deadlineZeker: true
+stappen:
+  - Vergelijk uw inkomen met de norm op de pagina.
+  - Vraag de toeslag aan bij de gemeente Groningen.
+  - Wacht minimaal 12 maanden met een volgende aanvraag.
+voorwaarden:
+  - U hebt 2 jaar een laag inkomen of een uitkering van de gemeente.
+  - De bedragen gelden vanaf 1 januari 2026.
+  - De normen op de pagina zijn netto, inclusief vakantietoeslag.
+bronnen:
+  - naam: Gemeente Groningen — individuele inkomenstoeslag
+    url: https://gemeente.groningen.nl/individuele-inkomenstoeslag-aanvragen
+laatstGecontroleerd: "2026-10-16"
+onzeker: []
+trefwoorden:
+  - groningen
+  - iit
+check:
+  soort: inkomenstoeslag
+  minLeeftijd: 21
+  geenAow: true

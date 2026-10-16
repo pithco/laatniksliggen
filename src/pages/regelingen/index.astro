@@ -1,0 +1,97 @@
+---
+import Base from '../../layouts/Base.astro';
+import RegelingCard from '../../components/RegelingCard.astro';
+import { loadGemeenten, loadRegelingen } from '../../lib/content';
+
+const regelingen = loadRegelingen();
+const gemeenten = loadGemeenten();
+---
+
+<Base
+  title="Alle regelingen"
+  description="Zoek toeslagen, belastingteruggaaf, vergeten geld en regelingen van de 15 grootste gemeenten."
+>
+  <p class="kicker">Overzicht</p>
+  <h1>Alle regelingen</h1>
+  <p class="lede">
+    {regelingen.length} regelingen. Filter op soort of gemeente. Zonder JavaScript ziet u de hele lijst.
+  </p>
+
+  <form class="filters" id="filters" role="search">
+    <div>
+      <label for="q">Zoeken</label>
+      <input id="q" name="q" type="search" placeholder="Bijvoorbeeld huur, pensioen of Amsterdam" />
+    </div>
+    <div>
+      <label for="categorie">Soort</label>
+      <select id="categorie" name="categorie">
+        <option value="">Alles</option>
+        <option value="toeslag">Toeslagen</option>
+        <option value="belasting">Belasting</option>
+        <option value="vergeten">Vergeten geld</option>
+        <option value="gemeente">Gemeenten</option>
+      </select>
+    </div>
+    <div>
+      <label for="gemeente">Gemeente</label>
+      <select id="gemeente" name="gemeente">
+        <option value="">Alle gemeenten</option>
+        {gemeenten.map((gemeente) => <option value={gemeente.slug}>{gemeente.naam}</option>)}
+      </select>
+    </div>
+  </form>
+
+  <p id="telling" class="meta" aria-live="polite">{regelingen.length} regelingen</p>
+  <div class="cards" id="lijst">
+    {regelingen.map((regeling) => <RegelingCard regeling={regeling} gemeenten={gemeenten} />)}
+  </div>
+  <p id="leeg" class="empty hidden">Geen regeling gevonden. Probeer een ander woord, of kies “Alles”.</p>
+</Base>
+
+<script>
+  const form = document.querySelector('#filters');
+  const lijst = document.querySelector('#lijst');
+  const telling = document.querySelector('#telling');
+  const leeg = document.querySelector('#leeg');
+  const kaarten = [...document.querySelectorAll('[data-regeling]')];
+
+  function pasToe() {
+    if (!(form instanceof HTMLFormElement)) return;
+    const data = new FormData(form);
+    const q = String(data.get('q') ?? '').trim().toLocaleLowerCase('nl');
+    const categorie = String(data.get('categorie') ?? '');
+    const gemeente = String(data.get('gemeente') ?? '');
+    let zichtbaar = 0;
+    for (const kaart of kaarten) {
+      if (!(kaart instanceof HTMLElement)) continue;
+      const tekst = kaart.dataset.zoek ?? '';
+      const past =
+        (!q || tekst.includes(q)) &&
+        (!categorie || kaart.dataset.categorie === categorie) &&
+        (!gemeente || kaart.dataset.gemeente === gemeente);
+      kaart.classList.toggle('hidden', !past);
+      if (past) zichtbaar += 1;
+    }
+    if (telling) telling.textContent = `${zichtbaar} ${zichtbaar === 1 ? 'regeling' : 'regelingen'}`;
+    leeg?.classList.toggle('hidden', zichtbaar !== 0);
+    lijst?.classList.toggle('hidden', zichtbaar === 0);
+    const params = new URLSearchParams();
+    if (q) params.set('q', q);
+    if (categorie) params.set('categorie', categorie);
+    if (gemeente) params.set('gemeente', gemeente);
+    const query = params.toString();
+    history.replaceState(null, '', query ? `?${query}` : location.pathname);
+  }
+
+  const params = new URLSearchParams(location.search);
+  for (const [key, value] of params) {
+    const field = form?.querySelector(`[name="${key}"]`);
+    if (field instanceof HTMLInputElement || field instanceof HTMLSelectElement) field.value = value;
+  }
+  form?.addEventListener('input', pasToe);
+  form?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    pasToe();
+  });
+  pasToe();
+</script>

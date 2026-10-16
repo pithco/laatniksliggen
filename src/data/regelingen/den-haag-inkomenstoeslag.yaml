@@ -1,0 +1,49 @@
+slug: den-haag-inkomenstoeslag
+naam: Individuele inkomenstoeslag in Den Haag
+categorie: gemeente
+gemeente: den-haag
+samenvatting: >-
+  Hebt u al lang een laag inkomen? Dan kunt u in Den Haag eens per 12 maanden individuele
+  inkomenstoeslag krijgen, bijvoorbeeld voor een koelkast of wasmachine. Hebt u bijstand en
+  kreeg u de toeslag al, dan stuurt de gemeente vaak zelf een formulier.
+voorWie: >-
+  Inwoners van 21 jaar of ouder, nog zonder AOW, die 36 maanden gemiddeld niet boven 110% van
+  het bijstandsniveau zaten en vermogen onder de grens hebben.
+bedragKort: te controleren
+bedrag: >-
+  Op de pagina die wij hebben gelezen staat wel waarvoor u het geld kunt gebruiken, maar geen
+  eurobedrag. Het bedrag is te controleren.
+bedragZeker: false
+deadline: >-
+  U krijgt het geld één keer per 12 maanden. Hebt u bijstand en recht, dan komt er een formulier
+  in de maand waarin u weer recht hebt. Na 1 week nog niets ontvangen? Vraag dan zelf aan.
+deadlineZeker: true
+stappen:
+  - >-
+    Vraag online aan met het formulier van Den Haag, of stuur het papieren formulier naar Dienst
+    SZW, antwoordnummer 1630, 2502 VB Den Haag.
+  - Stuur een bankoverzicht mee van de vorige maand.
+  - >-
+    Hebt u bijstand en kreeg u vorig jaar toeslag, controleer dan het formulier dat de gemeente
+    stuurt.
+voorwaarden:
+  - U woont in Den Haag, u bent 21 jaar of ouder en u hebt nog geen AOW.
+  - >-
+    U kreeg in de afgelopen 36 maanden geen studiefinanciering. Kortere studie kan een
+    uitzondering zijn.
+  - Uw gemiddelde inkomen over 36 maanden was maximaal 110% van het bijstandsniveau.
+bronnen:
+  - naam: Gemeente Den Haag — individuele inkomenstoeslag
+    url: https://www.denhaag.nl/nl/geld-en-schulden/individuele-inkomenstoeslag-aanvragen/
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    Het eurobedrag van de Haagse individuele inkomenstoeslag is te controleren. Het stond niet
+    in de tekst die wij hebben bekeken.
+trefwoorden:
+  - den haag
+  - iit
+check:
+  soort: inkomenstoeslag
+  minLeeftijd: 21
+  geenAow: true

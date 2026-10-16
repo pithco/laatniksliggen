@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadDeadlines, loadRegelingen } from '../lib/content';
+
+const items = loadRegelingen().filter((regeling) => regeling.onzeker.length > 0 || !regeling.bedragZeker || !regeling.deadlineZeker);
+const deadlines = loadDeadlines().filter((item) => !item.zeker);
+---
+
+<Base
+  title="Te controleren"
+  description="Feiten die we niet hard genoeg hebben vastgesteld. Die staan expres open, zonder verzonnen bedrag."
+>
+  <h1>Te controleren</h1>
+  <p class="lede">
+    Hier staat wat we níét zeker weten. Liever een gat dan een verzonnen bedrag.
+    De rest van de pagina blijft bruikbaar: de bron staat erbij.
+  </p>
+  {items.map((regeling) => (
+    <article class="panel">
+      <h2><a href={`/regelingen/${regeling.slug}`}>{regeling.naam}</a></h2>
+      {!regeling.bedragZeker && <p><span class="badge warn">bedrag te controleren</span></p>}
+      {!regeling.deadlineZeker && <p><span class="badge warn">deadline te controleren</span></p>}
+      <ul class="clean">
+        {regeling.onzeker.map((punt) => <li>{punt}</li>)}
+      </ul>
+    </article>
+  ))}
+  {deadlines.length > 0 && (
+    <>
+      <h2>Kalender</h2>
+      <ul class="clean">
+        {deadlines.map((item) => <li>{item.titel}. {item.toelichting}</li>)}
+      </ul>
+    </>
+  )}
+</Base>

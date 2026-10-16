@@ -1,0 +1,45 @@
+slug: breda-inkomenstoeslag
+naam: Individuele inkomenstoeslag in Breda
+categorie: gemeente
+gemeente: breda
+samenvatting: >-
+  Hebt u minimaal 5 jaar een bijstandsuitkering of een laag inkomen? Dan kunt u in Breda een
+  jaarlijkse individuele inkomenstoeslag krijgen. U mag zelf weten waaraan u het geld uitgeeft.
+voorWie: Inwoners van Breda met 5 jaar een laag inkomen en weinig vermogen.
+bedragKort: € 150 of € 250 per jaar, volgens de gemeentepagina
+bedrag: >-
+  De gemeente noemt maximaal € 150 voor een alleenstaande en € 250 voor een samenwonende,
+  gehuwde of alleenstaande ouder. Het bedrag wordt in één keer betaald. Een peildatum staat niet
+  bij de bedragen.
+bedragZeker: false
+deadline: >-
+  De pagina noemt geen sluitingsdatum. U vraagt de toeslag aan als u 5 jaar aan de voorwaarden
+  voldoet.
+deadlineZeker: true
+stappen:
+  - Lees de pagina Inkomenstoeslag op breda.nl.
+  - Vraag de toeslag aan bij de gemeente.
+  - U hoeft geen bonnen te bewaren voor de besteding.
+voorwaarden:
+  - U woont in Breda.
+  - U hebt minimaal 5 jaar een laag inkomen en weinig vermogen.
+  - >-
+    Vermogen volgens de pagina: maximaal € 8.000 alleenstaand, of € 16.000 voor een
+    alleenstaande ouder of paar.
+bronnen:
+  - naam: Gemeente Breda — inkomenstoeslag
+    url: https://www.breda.nl/inkomenstoeslag
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    De pagina noemt bedragen en inkomensgrenzen zonder peildatum. Of die voor 2026 gelden, is te
+    controleren.
+  - De minimumleeftijd stond niet op de pagina die wij hebben gelezen. Dat is te controleren.
+trefwoorden:
+  - breda
+  - iit
+check:
+  soort: inkomenstoeslag
+  minLeeftijd: 21
+  geenAow: true
+  leeftijdZeker: false

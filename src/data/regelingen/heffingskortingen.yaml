@@ -1,0 +1,64 @@
+slug: heffingskortingen
+naam: Heffingskortingen
+categorie: belasting
+gemeente: ""
+samenvatting: >-
+  Een heffingskorting is korting op uw inkomstenbelasting en premies. De algemene
+  heffingskorting krijgt bijna iedereen. Werkt u, dan is er ook arbeidskorting. Andere kortingen
+  hangen af van uw situatie. Soms wordt de korting niet helemaal verrekend en kunt u geld
+  terugkrijgen via uw aangifte.
+voorWie: >-
+  Mensen die in Nederland wonen en loonbelasting of inkomstenbelasting betalen. Welke korting u
+  krijgt, hangt af van inkomen, werk, kinderen en of u de AOW-leeftijd hebt.
+bedragKort: Algemene heffingskorting tot € 3.115 en arbeidskorting tot € 5.685 (2026)
+bedrag: >-
+  In 2026 is de algemene heffingskorting maximaal € 3.115 als u nog niet de AOW-leeftijd hebt.
+  Hebt u het hele jaar de AOW-leeftijd, dan is het maximum € 1.556. De korting bouwt af vanaf
+  een verzamelinkomen van € 29.736 en is € 0 vanaf € 78.426. De arbeidskorting is maximaal €
+  5.685 (of € 2.840 als u het hele jaar de AOW-leeftijd hebt) en wordt € 0 vanaf een
+  arbeidsinkomen van € 132.921. De ouderenkorting is € 2.067 tot een verzamelinkomen van €
+  46.002. De alleenstaandeouderenkorting is € 540. De jonggehandicaptenkorting is € 923. De
+  inkomensafhankelijke combinatiekorting is maximaal € 3.032.
+bedragZeker: true
+deadline: >-
+  De korting loopt meestal via uw loon of uitkering. Klopt dat niet, dan regelt u het in de
+  aangifte. Aangifte over een jaar moet vaak vóór 1 mei van het jaar erna binnen zijn. De datum
+  op uw aangiftebrief telt. Zonder brief kunt u tot 5 jaar terug belasting terugvragen.
+deadlineZeker: true
+stappen:
+  - Kijk op uw jaaropgave of de heffingskorting is toegepast.
+  - Vul de aangifte in op Mijn Belastingdienst. Zolang u niets verstuurt, is het een proef.
+  - Verstuur de aangifte als u geld terugkrijgt of als u verplicht bent aangifte te doen.
+voorwaarden:
+  - De algemene heffingskorting geldt als u in Nederland woont en belasting of premie betaalt.
+  - Arbeidskorting krijgt u over loon, winst of ander werk.
+  - Ouderenkorting krijgt u als u aan het eind van het jaar de AOW-leeftijd hebt.
+  - >-
+    De inkomensafhankelijke combinatiekorting kan gelden bij een kind onder de 12 en
+    arbeidsinkomen boven € 6.239.
+bronnen:
+  - naam: Rijksoverheid — wat is een heffingskorting
+    url: >-
+      https://www.rijksoverheid.nl/vraag-en-antwoord/inkomstenbelasting/wat-is-een-heffingskorting-en-welke-heffingskortingen-zijn-er
+  - naam: Belastingdienst — tabel algemene heffingskorting 2026
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/inkomstenbelasting/heffingskortingen_boxen_tarieven/heffingskortingen/algemene_heffingskorting/tabel-algemene-heffingskorting-2026
+  - naam: Belastingdienst — tabel arbeidskorting 2026
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/inkomstenbelasting/heffingskortingen_boxen_tarieven/heffingskortingen/arbeidskorting/tabel-arbeidskorting-2026
+  - naam: Belastingdienst — heffingskortingen voor AOW
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/inkomstenbelasting/heffingskortingen_boxen_tarieven/heffingskortingen/heffingskortingen_voor_aow_gerechtigden
+  - naam: Belastingdienst — handboek heffingskortingen 2026
+    url: https://www.belastingdienst.nl/wps/wcm/connect/fisin/fisin2026/heffingskortingen
+laatstGecontroleerd: "2026-10-16"
+onzeker: []
+trefwoorden:
+  - arbeidskorting
+  - algemene heffingskorting
+  - ouderenkorting
+  - aangifte
+  - iack
+check:
+  soort: heffingskorting
+  minLeeftijd: 18

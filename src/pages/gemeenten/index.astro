@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import { loadGemeenten, loadRegelingen } from '../../lib/content';
+
+const gemeenten = loadGemeenten();
+const regelingen = loadRegelingen();
+---
+
+<Base
+  title="Gemeenten"
+  description="Regelingen van de 15 grootste gemeenten: bijzondere bijstand, kwijtschelding, een pas en de individuele inkomenstoeslag."
+>
+  <p class="kicker">15 grootste gemeenten</p>
+  <h1>Hulp van uw gemeente</h1>
+  <p class="lede">
+    De volgorde volgt de voorlopige bevolkingscijfers van 1 januari 2026 van het CBS.
+    Woont u in een kleinere gemeente? Die regelingen staan hier nog niet. Kijk op de site van uw eigen gemeente.
+  </p>
+  <div class="city-grid">
+    {gemeenten.map((gemeente) => {
+      const aantal = regelingen.filter((item) => item.gemeente === gemeente.slug).length;
+      return (
+        <a class="card card-link" href={`/gemeenten/${gemeente.slug}`}>
+          <span class="kicker">{gemeente.provincie}</span>
+          <h2>{gemeente.naam}</h2>
+          <p>{aantal} regelingen op deze site</p>
+        </a>
+      );
+    })}
+  </div>
+  <p class="meta">
+    Bron van de rangorde: <a href="https://www.cbs.nl/nl-nl/maatwerk/2026/11/voorlopige-bevolkingsaantallen-per-gemeente-1-1-2026">CBS, voorlopige bevolkingsaantallen per gemeente, 1 januari 2026</a>.
+    We zetten hier geen inwoneraantallen bij, alleen de volgorde van de 15 grootste.
+  </p>
+</Base>
