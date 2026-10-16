@@ -1,0 +1,42 @@
+slug: nijmegen-minimaregeling
+naam: Meedoenregeling in Nijmegen
+categorie: gemeente
+gemeente: nijmegen
+samenvatting: >-
+  Met de Meedoenregeling kunnen inwoners met een laag inkomen voor maximaal € 150 een cursus of
+  activiteit doen, zoals zwemmen, zang, yoga of theater. U mag het tegoed verdelen over meer
+  activiteiten.
+voorWie: >-
+  Inwoners van Nijmegen met een laag inkomen. De precieze inkomensgrens is te controleren op de
+  aanvraagpagina.
+bedragKort: Maximaal € 150
+bedrag: >-
+  U krijgt maximaal € 150 voor een cursus of activiteit. Het is geen vrij geld op uw rekening,
+  maar tegoed voor de activiteit.
+bedragZeker: true
+deadline: >-
+  De regeling is aan te vragen tot en met 31 december 2026. Zo staat het op de pagina met
+  vergoedingen van de gemeente.
+deadlineZeker: true
+stappen:
+  - Lees de Meedoenregeling op nijmegen.nl.
+  - Vraag aan via de website Vergoedingen.
+  - U mag het tegoed van € 150 over meer dan één activiteit verdelen.
+voorwaarden:
+  - U hebt een laag inkomen.
+  - Het maximum is € 150.
+  - Aanvragen kan tot en met 31 december 2026.
+bronnen:
+  - naam: Gemeente Nijmegen — Meedoenregeling
+    url: https://www.nijmegen.nl/uitkering-vergoedingen/meedoenregeling/
+  - naam: Gemeente Nijmegen — vergoedingen
+    url: https://vergoedingen.nijmegen.nl/fondsen
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - De inkomensgrens in euro’s is te controleren. De pagina zegt “laag inkomen”.
+trefwoorden:
+  - nijmegen
+  - meedoen
+check:
+  soort: minima
+  minLeeftijd: 18

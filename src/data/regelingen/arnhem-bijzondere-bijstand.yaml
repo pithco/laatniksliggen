@@ -1,0 +1,34 @@
+slug: arnhem-bijzondere-bijstand
+naam: Bijzondere bijstand in Arnhem
+categorie: gemeente
+gemeente: arnhem
+samenvatting: >-
+  Arnhem heeft een aanvraagpagina voor bijzondere bijstand. Gebruik die pagina voor de kosten
+  die de gemeente vergoedt. We hebben de lijst met bedragen niet overgenomen.
+voorWie: Inwoners van Arnhem. Leeftijd en inkomen zijn te controleren op de aanvraagpagina.
+bedragKort: te controleren
+bedrag: Een standaardbedrag is te controleren op de pagina van Arnhem.
+bedragZeker: false
+deadline: Een sluitingsdatum is te controleren.
+deadlineZeker: false
+stappen:
+  - Open de productpagina bijzondere bijstand van Arnhem.
+  - Vraag online of per post aan.
+  - Bewaar offertes en rekeningen.
+voorwaarden:
+  - U woont in Arnhem.
+  - De overige voorwaarden zijn te controleren.
+bronnen:
+  - naam: Gemeente Arnhem — bijzondere bijstand
+    url: https://www.arnhem.nl/product/bijzondere-bijstand-aanvragen/
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    Bedrag en voorwaarden van bijzondere bijstand in Arnhem zijn te controleren op de
+    productpagina.
+trefwoorden:
+  - arnhem
+  - bijstand
+check:
+  soort: bijzondere-bijstand
+  minLeeftijd: 18

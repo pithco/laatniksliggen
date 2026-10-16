@@ -1,0 +1,44 @@
+slug: amsterdam-inkomenstoeslag
+naam: Individuele inkomenstoeslag in Amsterdam
+categorie: gemeente
+gemeente: amsterdam
+samenvatting: >-
+  Hebt u 3 jaar of langer een laag inkomen en verwacht u dat dit zo blijft? Dan kunt u in
+  Amsterdam de individuele inkomenstoeslag aanvragen.
+voorWie: >-
+  Inwoners van Amsterdam of Weesp, 21 jaar of ouder, zonder AOW, met in 2023, 2024 en 2025 een
+  laag inkomen en weinig vermogen.
+bedragKort: € 85 per jaar alleen, € 170 samen (pagina gemeente)
+bedrag: >-
+  De gemeente schrijft: € 85 per jaar als u alleenstaand of alleenstaande ouder bent, en € 170
+  als u samenwoont en u beiden recht hebt. U krijgt binnen 8 weken een brief.
+bedragZeker: true
+deadline: >-
+  U vraagt de toeslag aan als u over de jaren 2023, 2024 en 2025 aan de voorwaarden voldeed. Er
+  is geen andere sluitingsdatum op de pagina.
+deadlineZeker: true
+stappen:
+  - Doe de check op de site van Amsterdam.
+  - Log in met DigiD en kies de regeling.
+  - Zonder DigiD kunt u een formulier downloaden of bellen naar 020 252 6000.
+voorwaarden:
+  - U staat ingeschreven in Amsterdam of Weesp.
+  - U bent 21 jaar of ouder en u hebt geen AOW.
+  - U had in 2023, 2024 en 2025 een laag inkomen en weinig vermogen.
+bronnen:
+  - naam: Gemeente Amsterdam — extra geld bij lang een laag inkomen
+    url: >-
+      https://www.amsterdam.nl/werk-en-inkomen/regelingen-bij-laag-inkomen-pak-je-kans/regelingen-alfabet/extra-geld-als-u-al-lang-een-laag/
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    Op de pagina staat geen apart jaartal bij € 85 en € 170. Controleer of dit het bedrag voor
+    uw aanvraagjaar is.
+trefwoorden:
+  - amsterdam
+  - iit
+  - langdurig laag inkomen
+check:
+  soort: inkomenstoeslag
+  minLeeftijd: 21
+  geenAow: true

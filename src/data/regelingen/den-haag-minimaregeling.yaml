@@ -1,0 +1,42 @@
+slug: den-haag-minimaregeling
+naam: Ooievaarspas in Den Haag
+categorie: gemeente
+gemeente: den-haag
+samenvatting: >-
+  De Ooievaarspas is een gratis pas voor inwoners met een laag inkomen. U kunt er sporten, naar
+  een concert of een cursus doen. De gemeente betaalt veel activiteiten, of u krijgt korting.
+voorWie: >-
+  Inwoners van Den Haag met een inkomen tot 150% van de bijstandsnorm en vermogen onder de
+  grens. De pas geldt ook in Leidschendam-Voorburg en Rijswijk, met daar een grens van 130%.
+bedragKort: De pas is gratis. Geen vast geldbedrag
+bedrag: >-
+  U betaalt niets voor de pas. De waarde zit in activiteiten die de gemeente betaalt of korting
+  geeft. Een vast jaarbedrag in euro’s staat niet op de pagina.
+bedragZeker: true
+deadline: >-
+  Krijgt u automatisch een brief, gebruik dan die brief. Bent u de brief kwijt, bel dan de
+  klantenservice (070) 353 75 00.
+deadlineZeker: true
+stappen:
+  - Kijk of u de brief al in huis hebt.
+  - Vraag de pas anders aan via de pagina van Den Haag.
+  - Bekijk daarna het overzicht van Ooievaarsregelingen.
+voorwaarden:
+  - U woont in Den Haag en uw inkomen is tot 150% van de bijstandsnorm.
+  - Uw vermogen blijft onder de vermogensgrens.
+  - >-
+    Studeert u aan hbo of universiteit, dan hebt u geen recht als u een lening of aanvullende
+    beurs van DUO hebt. Zo staat het op de pas-site.
+bronnen:
+  - naam: Ooievaarspas — regelingen
+    url: https://ooievaarspas.nl/ooievaarsregelingen/
+  - naam: Gemeente Den Haag — overzicht Ooievaarsregelingen
+    url: https://www.denhaag.nl/nl/geld-en-schulden/overzicht-ooievaarsregelingen/
+laatstGecontroleerd: "2026-10-16"
+onzeker: []
+trefwoorden:
+  - den haag
+  - ooievaarspas
+check:
+  soort: minima
+  minLeeftijd: 18

@@ -1,0 +1,27 @@
+---
+import type { Gemeente, Regeling } from '../lib/content';
+import { categorieLabel, gemeenteNaam, zoektekst } from '../lib/content';
+
+interface Props {
+  regeling: Regeling;
+  gemeenten: Gemeente[];
+}
+
+const { regeling, gemeenten } = Astro.props;
+const plaats = regeling.gemeente ? gemeenteNaam(regeling.gemeente, gemeenten) : categorieLabel[regeling.categorie];
+---
+
+<article
+  class="card"
+  data-regeling
+  data-categorie={regeling.categorie}
+  data-gemeente={regeling.gemeente}
+  data-zoek={zoektekst(regeling, gemeenten)}
+>
+  <a class="card-link" href={`/regelingen/${regeling.slug}`}>
+    <span class="kicker">{plaats}</span>
+    <h3>{regeling.naam}</h3>
+    <p>{regeling.bedragKort}</p>
+    {regeling.onzeker.length > 0 && <span class="badge warn">te controleren</span>}
+  </a>
+</article>

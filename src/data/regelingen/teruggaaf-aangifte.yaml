@@ -1,0 +1,53 @@
+slug: teruggaaf-aangifte
+naam: Teruggaaf via de belastingaangifte
+categorie: belasting
+gemeente: ""
+samenvatting: >-
+  Hebt u geen aangiftebrief gehad? Dan kunt u toch geld terugkrijgen. Bijvoorbeeld als u niet
+  het hele jaar werkte, studeerde, kinderen hebt of maar een deel van het jaar in Nederland
+  woonde. U ziet het bedrag als u de aangifte invult.
+voorWie: >-
+  Mensen van wie loonheffing is ingehouden en die misschien te veel hebben betaald. Ook als u
+  niet verplicht bent om aangifte te doen.
+bedragKort: Verschilt per jaar. U ziet het bedrag in de aangifte
+bedrag: >-
+  Er is geen vast bedrag. De Belastingdienst laat het zien zodra u de aangifte invult. Invullen
+  is nog geen aangifte: pas als u verstuurt, doet u aangifte. Denkt u dat u over het lopende
+  jaar geld terugkrijgt, dan kunt u een voorlopige aanslag aanvragen.
+bedragZeker: true
+deadline: >-
+  Zonder aangiftebrief kunt u tot 5 jaar na afloop van een jaar aangifte doen. In 2026 kunt u
+  dus nog over 2021 tot en met 2025 belasting terugvragen. Aangifte over 2021 moet uiterlijk op
+  31 december 2026 binnen zijn. Moet u wel aangifte doen, dan geldt de datum op uw
+  aangiftebrief. Dat is vaak 1 mei.
+deadlineZeker: true
+stappen:
+  - Log in op Mijn Belastingdienst met DigiD.
+  - Vul de aangifte als proef in en controleer de gegevens die al ingevuld zijn.
+  - Verstuur alleen als u geld terugkrijgt, of als u verplicht bent aangifte te doen.
+voorwaarden:
+  - Er is loonheffing ingehouden op loon of een uitkering.
+  - U hebt geen aangiftebrief nodig om geld terug te vragen.
+  - >-
+    Ziet u bij het invullen dat u € 58 of meer moet betalen, dan bent u in veel gevallen wél
+    verplicht de aangifte te versturen.
+bronnen:
+  - naam: Belastingdienst — check of u belasting terugkrijgt
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/inkomstenbelasting/belasting_betalen_terugvragen/check_of_u_belasting_terugkrijgt/check_of_u_belasting_terugkrijgt
+  - naam: Belastingdienst — hoeveel jaar terug
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/inkomstenbelasting/hoe_werkt_inkomstenbelasting/aangifte_doen/hoeveel-jaar-terug-belastingaangifte-doen
+  - naam: Belastingdienst — wanneer moet de aangifte binnen zijn
+    url: >-
+      https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/wanneer-moet-ik-aangifte-doen
+laatstGecontroleerd: "2026-10-16"
+onzeker: []
+trefwoorden:
+  - aangifte
+  - teruggaaf
+  - voorlopige aanslag
+  - mijn belastingdienst
+check:
+  soort: aangifte
+  minLeeftijd: 18

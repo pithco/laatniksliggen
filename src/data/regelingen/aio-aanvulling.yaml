@@ -1,0 +1,62 @@
+slug: aio-aanvulling
+naam: AOW en AIO-aanvulling
+categorie: toeslag
+gemeente: ""
+samenvatting: >-
+  AOW is het basispensioen van de SVB. Is uw AOW niet compleet, of hebt u naast een volledige
+  AOW bijna geen ander inkomen? Dan is er soms een aanvulling: de AIO. Die vraagt u zelf aan.
+  Doe eerst de AIO-check.
+voorWie: >-
+  Mensen die in Nederland wonen, de AOW-leeftijd hebben en weinig ander inkomen en vermogen
+  hebben. Ook met een volledige AOW kan het soms, als uw partner de AOW-leeftijd nog niet heeft
+  en u samen weinig inkomen en vermogen hebt.
+bedragKort: Aanvulling tot maximaal € 1.486,46 netto per maand als u alleen woont (2026)
+bedrag: >-
+  De AIO vult aan tot een maximum. Vanaf 1 januari 2026 is dat netto per maand, exclusief
+  vakantiegeld: € 1.486,46 als u alleen woont, en € 2.036,95 samen als u met uw partner woont.
+  Het vakantiegeld komt daar bovenop en wordt in mei betaald: € 78,23 als u alleen woont. Van de
+  AIO gaan nog loonheffing en een bijdrage voor de zorgverzekering af. Hebt u zelf AOW of ander
+  inkomen, dan krijgt u alleen het verschil.
+bedragZeker: true
+deadline: >-
+  Er is geen vaste sluitingsdatum. Vanaf 2 maanden voor uw AOW-leeftijd kunt u de AIO-check doen
+  en het formulier downloaden. In 2026 is de AOW-leeftijd 67 jaar. Uw eigen leeftijd hangt af
+  van uw geboortedatum. Die vult u in bij de SVB.
+deadlineZeker: true
+stappen:
+  - Kijk op svb.nl wat uw AOW-leeftijd is.
+  - Doe de AIO-check vanaf 2 maanden voor die leeftijd.
+  - Download het formulier als de check zegt dat aanvragen zin heeft, en stuur het naar de SVB.
+voorwaarden:
+  - U hebt de AOW-leeftijd en u woont in Nederland.
+  - U hebt geen AOW of geen volledige AOW, weinig ander inkomen en niet te veel vermogen.
+  - >-
+    Of: u hebt wel een volledige AOW, maar uw partner nog niet, en u hebt samen weinig inkomen
+    en vermogen.
+bronnen:
+  - naam: SVB — voorwaarden AIO
+    url: https://www.svb.nl/nl/aio/kijk-of-u-een-aio-aanvulling-krijgt
+  - naam: SVB — bedragen AIO vanaf 1 januari 2026
+    url: https://www.svb.nl/nl/aio/bedragen-aio-aanvulling/aio-bedragen
+  - naam: SVB — AIO-check
+    url: https://www.svb.nl/nl/aio/doe-de-aio-check
+  - naam: SVB — lagere AOW en AIO
+    url: https://www.svb.nl/nl/aow/hoeveel-aow-en-andere-pensioenen/lagere-aow-en-aio-aanvulling
+  - naam: Rijksoverheid — AOW-leeftijd
+    url: >-
+      https://www.rijksoverheid.nl/themas/belastingen-uitkeringen-en-toeslagen/algemene-ouderdomswet-aow/aow-leeftijd
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    De vermogensgrens voor de AIO staat niet in de bedragenpagina die wij hebben gelezen. Die
+    grens is te controleren bij de SVB.
+trefwoorden:
+  - aow
+  - aio
+  - ouderdom
+  - svb
+  - aanvulling
+check:
+  soort: aio
+  minLeeftijd: 67
+  geenAow: false

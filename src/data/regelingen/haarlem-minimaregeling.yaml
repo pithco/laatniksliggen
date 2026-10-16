@@ -1,0 +1,43 @@
+slug: haarlem-minimaregeling
+naam: HaarlemPas
+categorie: gemeente
+gemeente: haarlem
+samenvatting: >-
+  Met een laag inkomen kunt u de HaarlemPas aanvragen. Daarmee vraagt u meerdere regelingen aan,
+  zoals vergoeding van het eigen risico en schoolkosten. Kinderen kunnen gratis sporten, dansen
+  of naar muziekles. Er is ook korting op theater en film.
+voorWie: >-
+  Inwoners met een laag inkomen. Krijgt u bijstand, schuldsanering, schuldhulpverlening of
+  kwijtschelding, dan krijgt u de pas vaak automatisch.
+bedragKort: Geen vast jaarbedrag. De pas opent andere regelingen
+bedrag: >-
+  De pagina noemt geen prijs voor de pas en geen enkel tegoed dat iedereen krijgt. De waarde zit
+  in de regelingen die u ermee aanvraagt.
+bedragZeker: true
+deadline: >-
+  Hebt u ná 1 oktober kwijtschelding gekregen en nog geen pas, dan vraagt u de pas zelf aan. Zo
+  staat het op de pagina.
+deadlineZeker: true
+stappen:
+  - Vraag de HaarlemPas aan met DigiD, of samen met Buurts.
+  - Krijgt u al bijstand of kwijtschelding, kijk dan of de pas automatisch komt.
+  - "Vragen: bel op werkdagen van 8.30 tot 12.00 uur en vraag naar team Minima."
+voorwaarden:
+  - U hebt een laag inkomen.
+  - >-
+    De vermogensbedragen zijn deels genoemd op de pagina. Neem de tabel op haarlem.nl als bron,
+    niet een samenvatting.
+bronnen:
+  - naam: Gemeente Haarlem — HaarlemPas
+    url: https://haarlem.nl/haarlempas
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    De volledige vermogens- en inkomensgrenzen van de HaarlemPas zijn te controleren op de
+    pagina. We hebben niet de hele tabel overgenomen.
+trefwoorden:
+  - haarlem
+  - haarlempas
+check:
+  soort: minima
+  minLeeftijd: 18

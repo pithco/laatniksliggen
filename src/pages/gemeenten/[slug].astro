@@ -1,0 +1,45 @@
+---
+import Base from '../../layouts/Base.astro';
+import { loadGemeenten, loadRegelingen } from '../../lib/content';
+
+export function getStaticPaths() {
+  const gemeenten = loadGemeenten();
+  const regelingen = loadRegelingen();
+  return gemeenten.map((gemeente) => ({
+    params: { slug: gemeente.slug },
+    props: {
+      gemeente,
+      regelingen: regelingen.filter((item) => item.gemeente === gemeente.slug),
+    },
+  }));
+}
+
+const { gemeente, regelingen } = Astro.props;
+---
+
+<Base
+  title={`Regelingen in ${gemeente.naam}`}
+  description={`Bijzondere bijstand, kwijtschelding, minimaregeling en individuele inkomenstoeslag in ${gemeente.naam}.`}
+>
+  <nav class="crumbs" aria-label="Kruimelpad">
+    <a href="/gemeenten">Gemeenten</a>
+    <span aria-hidden="true">/</span>
+    <span>{gemeente.naam}</span>
+  </nav>
+  <p class="kicker">{gemeente.provincie}</p>
+  <h1>{gemeente.naam}</h1>
+  <p class="lede">
+    Dit zijn de vier soorten hulp die we voor {gemeente.naam} hebben opgezocht.
+    De gemeente beslist. Niet deze site.
+  </p>
+  <p><a href={gemeente.site}>Website van {gemeente.naam}</a></p>
+  <div class="cards">
+    {regelingen.map((regeling) => (
+      <a class="card card-link" href={`/regelingen/${regeling.slug}`}>
+        <h2>{regeling.naam}</h2>
+        <p>{regeling.bedragKort}</p>
+        {regeling.onzeker.length > 0 && <span class="badge warn">te controleren</span>}
+      </a>
+    ))}
+  </div>
+</Base>

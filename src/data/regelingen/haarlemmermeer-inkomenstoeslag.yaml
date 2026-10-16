@@ -1,0 +1,34 @@
+slug: haarlemmermeer-inkomenstoeslag
+naam: Individuele inkomenstoeslag in Haarlemmermeer
+categorie: gemeente
+gemeente: haarlemmermeer
+samenvatting: >-
+  De programmabegroting 2026 noemt de individuele inkomenstoeslag als een van de regelingen voor
+  inwoners met een laag inkomen. Een productpagina met het bedrag hebben we niet bevestigd.
+voorWie: Inwoners met lang een laag inkomen. Leeftijd en termijn zijn te controleren.
+bedragKort: te controleren
+bedrag: Een eurobedrag staat niet in de begrotingstekst die wij hebben gelezen. Dat is te controleren.
+bedragZeker: false
+deadline: Een aanvraagmoment is te controleren.
+deadlineZeker: false
+stappen:
+  - Zoek de inkomenstoeslag op haarlemmermeer.nl.
+  - Lees de termijn, vaak een aantal jaar laag inkomen.
+  - Vraag aan met DigiD als de gemeente dat vraagt.
+voorwaarden:
+  - U woont in Haarlemmermeer.
+  - De verdere voorwaarden zijn te controleren.
+bronnen:
+  - naam: Gemeente Haarlemmermeer — programmabegroting 2026
+    url: >-
+      https://programmabegroting.haarlemmermeer.nl/2026/programma-s/zorg-en-werk/beleidsdoel-d-het-zorg-dragen-voor-financi%C3%ABle-bestaanszekerheid-van-inwoners
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - Bedrag, minimumleeftijd en de duur van het lage inkomen zijn te controleren.
+trefwoorden:
+  - haarlemmermeer
+  - iit
+check:
+  soort: inkomenstoeslag
+  minLeeftijd: 21
+  geenAow: true

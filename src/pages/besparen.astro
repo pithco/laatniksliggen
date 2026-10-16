@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadBesparen } from '../lib/content';
+
+const slots = loadBesparen();
+---
+
+<Base
+  title="Besparen op energie"
+  description="Reclameblok voor energie vergelijken. Los van de regelingen. Geen verzekeringen. Nog geen betaalde links."
+>
+  <p class="kicker">Reclame</p>
+  <h1>Besparen op energie</h1>
+  <p class="lede">
+    Dit blok staat los van de regelingen. Hier komen later links om een energiecontract te vergelijken.
+    Geen zorgverzekering, geen andere verzekering, en geen betaalde plek voor een toeslag of uitkering.
+  </p>
+  <div class="callout">
+    <p>
+      Een regeling van de overheid of uw gemeente is op deze site nooit te koop.
+      Als een link hier ons later geld oplevert, blijft die in dit reclameblok staan, met het woord reclame erbij.
+    </p>
+  </div>
+  <div class="cards">
+    {slots.map((slot) => (
+      <article class="card ad">
+        <p class="kicker">Advertentie · placeholder</p>
+        <h2>{slot.naam}</h2>
+        <p>{slot.tekst}</p>
+        <p><span class="button" aria-disabled="true">Link volgt</span></p>
+      </article>
+    ))}
+  </div>
+  <p class="disclaimer">
+    Overstappen van energieleverancier is iets anders dan het Noodfonds Energie of bijzondere bijstand.
+    Voor die regelingen gaat u naar de <a href="/regelingen/noodfonds-energie">officiële uitleg</a>, niet naar een vergelijkingssite.
+  </p>
+</Base>

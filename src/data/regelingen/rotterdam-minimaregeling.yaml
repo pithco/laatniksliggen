@@ -1,0 +1,48 @@
+slug: rotterdam-minimaregeling
+naam: Rotterdampas
+categorie: gemeente
+gemeente: rotterdam
+samenvatting: >-
+  Met de Rotterdampas gaat u gratis of met korting naar zwembaden, musea, bioscopen en uitjes
+  zoals Diergaarde Blijdorp. Iedereen mag de pas kopen. Met een lager inkomen betaalt u
+  misschien minder dan de gewone prijs.
+voorWie: >-
+  Iedereen kan de pas kopen, ook buiten Rotterdam. Het lagere tarief is voor Rotterdammers en
+  inwoners van deelnemende gemeenten die aan de inkomensvoorwaarden voldoen.
+bedragKort: "Gewone pas € 65. Lager tarief: te controleren"
+bedrag: >-
+  De gemeente schrijft dat de pas € 65 kost. Een lager bedrag is soms mogelijk. Welk bedrag dat
+  is, staat op de tarievenpagina en hebben we niet als vast getal overgenomen.
+bedragZeker: false
+deadline: >-
+  De pas is geldig van 1 maart 2026 tot en met 28 februari 2027. Verkopen kon vanaf 1 februari
+  2026. Hebt u de pas al, dan kunt u verlengen via de brief die de gemeente begin februari
+  stuurde.
+deadlineZeker: true
+stappen:
+  - Doe de check op de site van de Rotterdampas als u een lager tarief wilt.
+  - Vraag de pas online aan of koop hem bij een verkooppunt.
+  - Neem bij een lager tarief een legitimatie en een recent bewijs van inkomen mee.
+voorwaarden:
+  - De gewone prijs is € 65.
+  - >-
+    Voor het lage of middentarief controleert de gemeente uw inkomen, online met DigiD of bij
+    een verkooppunt.
+  - Een jaaropgave is volgens de tarievenpagina geen geldig inkomensbewijs.
+bronnen:
+  - naam: Gemeente Rotterdam — Rotterdampas
+    url: https://www.rotterdam.nl/rotterdampas-aanvragen
+  - naam: Rotterdampas — tarieven en voorwaarden
+    url: https://www.rotterdampas.nl/info-contact/tarieven-voorwaarden
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    Het lagere tarief in euro’s is te controleren op de tarievenpagina. We noemen hier alleen de
+    gewone prijs van € 65.
+trefwoorden:
+  - rotterdam
+  - rotterdampas
+  - korting
+check:
+  soort: minima
+  minLeeftijd: 18

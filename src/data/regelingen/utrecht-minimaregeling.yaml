@@ -1,0 +1,43 @@
+slug: utrecht-minimaregeling
+naam: U-pas in Utrecht
+categorie: gemeente
+gemeente: utrecht
+samenvatting: >-
+  De U-pas is een gratis pas voor sport, cultuur en uitjes. U kunt de pas aanvragen of verlengen
+  voor het pasjaar 2026-2027. Kinderen in Utrecht kunnen soms extra tegoed krijgen voor
+  sportspullen.
+voorWie: >-
+  Inwoners die de U-pas kunnen aanvragen. De inkomensgrens stond niet op de homepage die wij
+  hebben gelezen en is te controleren.
+bedragKort: "Gratis pas. Extra’s: € 75 sportspullen, € 275 op een koelkast"
+bedrag: >-
+  De pas is gratis. Op de site staan extra’s: € 75 tegoed voor sportspullen voor kinderen van 4
+  tot 18 jaar in Utrecht, via het Paul Verweel Sportfonds. Tot en met 30 juni 2027 is er € 275
+  korting op een energiezuinige koelkast, zolang de voorraad strekt.
+bedragZeker: false
+deadline: >-
+  De koelkastactie loopt tot en met 30 juni 2027, zolang de voorraad strekt. Het pasjaar
+  2026-2027 kunt u nu aanvragen of verlengen.
+deadlineZeker: true
+stappen:
+  - Vraag de U-pas aan of verleng hem op u-pas.nl.
+  - Kijk welk tegoed op de pas staat.
+  - Hebt u meerdere kinderen, dan mag u hun tegoeden soms optellen als gezinstegoed.
+voorwaarden:
+  - De pas is persoonlijk.
+  - Extra kindtegoed vraagt u apart aan, bijvoorbeeld voor sport of een schoolkamp.
+  - De inkomensgrens is te controleren op u-pas.nl.
+bronnen:
+  - naam: U-pas
+    url: https://www.u-pas.nl/
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    De inkomensgrens voor de U-pas is te controleren. Die stond niet op de homepage die wij
+    hebben gelezen.
+trefwoorden:
+  - utrecht
+  - u-pas
+check:
+  soort: minima
+  minLeeftijd: 18

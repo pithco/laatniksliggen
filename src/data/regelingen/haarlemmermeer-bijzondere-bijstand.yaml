@@ -1,0 +1,36 @@
+slug: haarlemmermeer-bijzondere-bijstand
+naam: Bijzondere bijstand in Haarlemmermeer
+categorie: gemeente
+gemeente: haarlemmermeer
+samenvatting: >-
+  Haarlemmermeer biedt bijzondere bijstand als aanvulling voor inwoners met een laag inkomen.
+  Dat staat in de programmabegroting 2026. Een aparte aanvraagpagina met bedragen hebben we niet
+  bevestigd.
+voorWie: Inwoners met een laag inkomen. De precieze doelgroep is te controleren.
+bedragKort: te controleren
+bedrag: De begroting noemt bijzondere bijstand, maar geen bedrag per inwoner. Dat is te controleren.
+bedragZeker: false
+deadline: Een aanvraagperiode is te controleren.
+deadlineZeker: false
+stappen:
+  - Zoek op haarlemmermeer.nl naar bijzondere bijstand.
+  - Bel de gemeente als u de pagina niet vindt.
+  - Vraag aan voordat u de kosten maakt, als dat kan.
+voorwaarden:
+  - U woont in Haarlemmermeer.
+  - De voorwaarden voor inwoners zijn te controleren.
+bronnen:
+  - naam: Gemeente Haarlemmermeer — programmabegroting 2026
+    url: >-
+      https://programmabegroting.haarlemmermeer.nl/2026/programma-s/zorg-en-werk/beleidsdoel-d-het-zorg-dragen-voor-financi%C3%ABle-bestaanszekerheid-van-inwoners
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    De aanvraagpagina en het bedrag zijn te controleren. We vonden de regeling in de begroting,
+    niet op een productpagina.
+trefwoorden:
+  - haarlemmermeer
+  - bijstand
+check:
+  soort: bijzondere-bijstand
+  minLeeftijd: 18

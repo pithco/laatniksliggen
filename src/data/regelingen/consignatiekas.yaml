@@ -1,0 +1,51 @@
+slug: consignatiekas
+naam: Consignatiekas
+categorie: vergeten
+gemeente: ""
+samenvatting: >-
+  In de consignatiekas bewaart het ministerie van Financiën geld waarvan niet duidelijk is wie
+  het mag ontvangen, of waarvan de rechthebbende het nog niet heeft aangenomen. U kunt op naam
+  zoeken en daarna een claim indienen.
+voorWie: >-
+  Mensen die denken dat er geld op hun naam of op naam van een erfgenaam in bewaring staat.
+  Bijvoorbeeld uit een erfenis, een faillissement, schuldsanering of onteigening.
+bedragKort: Geen exact bedrag online. U ziet alleen een indicatie
+bedrag: >-
+  Het zoekformulier toont geen exact bedrag. U ziet een indicatie: minder dan € 50, € 50 tot en
+  met € 200, of meer dan € 200. Voor het beheer rekent het ministerie geen kosten. Over
+  consignaties vanaf € 45,38 krijgt u bij uitbetaling enkelvoudige rente.
+bedragZeker: true
+deadline: >-
+  Consignaties vanaf 1980 blijven 20 jaar bewaard. Daarna vervalt het geld aan de Staat. Voor
+  consignaties van vóór 1980 en voor bedragen tot € 45,38 is de termijn 60 jaar. Er is geen
+  aparte aanvraagmaand.
+deadlineZeker: true
+stappen:
+  - Zoek op het formulier van de Rijksoverheid of uw naam voorkomt.
+  - Verzamel bewijs dat u recht hebt op het bedrag, plus een legitimatie.
+  - Stuur het verzoek naar de Consignatiekas van het ministerie van Financiën.
+voorwaarden:
+  - U kunt aantonen dat u de rechthebbende bent, of dat u namens die persoon mag handelen.
+  - In de kas zit alleen geld, geen spullen.
+  - >-
+    Het geld kan onder meer komen uit nalatenschappen, faillissementen, schuldsanering,
+    onteigening of niet-opgeëiste waardepapieren.
+bronnen:
+  - naam: Rijksoverheid — wat is de consignatiekas
+    url: >-
+      https://www.rijksoverheid.nl/vraag-en-antwoord/consignatiekas/wat-is-de-consignatiekas-en-heb-ik-recht-op-geld-uit-de-consignatiekas
+  - naam: Rijksoverheid — zoeken
+    url: >-
+      https://www.rijksoverheid.nl/themas/overheid-en-democratie/consignatiekas/zoeken-naar-een-uitkering-uit-de-consignatiekas
+  - naam: Rijksoverheid — claim indienen
+    url: https://www.rijksoverheid.nl/themas/overheid-en-democratie/consignatiekas/claim-indienen
+laatstGecontroleerd: "2026-10-16"
+onzeker: []
+trefwoorden:
+  - ministerie van financiën
+  - erfenis
+  - bewaring
+  - claim
+check:
+  soort: consignatie
+  minLeeftijd: 18

@@ -1,0 +1,37 @@
+slug: nijmegen-bijzondere-bijstand
+naam: Bijzondere bijstand in Nijmegen
+categorie: gemeente
+gemeente: nijmegen
+samenvatting: >-
+  Nijmegen heeft een pagina voor bijzondere bijstand. U vraagt die aan als u noodzakelijke
+  kosten niet zelf kunt betalen. De details op die pagina hebben we niet regel voor regel
+  overgenomen.
+voorWie: >-
+  Inwoners van Nijmegen. De precieze leeftijd en inkomensgrens zijn te controleren op de
+  gemeentepagina.
+bedragKort: te controleren
+bedrag: Een vast bedrag hebben we niet gecontroleerd op de Nijmeegse pagina. Dat is te controleren.
+bedragZeker: false
+deadline: >-
+  Een sluitingsdatum is te controleren. Vraag bijzondere bijstand het liefst aan voordat u
+  betaalt.
+deadlineZeker: false
+stappen:
+  - Open de pagina bijzondere bijstand van Nijmegen.
+  - Kijk welke kosten de gemeente noemt.
+  - Dien de aanvraag in met DigiD of vraag hulp via 14 024.
+voorwaarden:
+  - U woont in Nijmegen.
+  - De overige voorwaarden zijn te controleren op de pagina van de gemeente.
+bronnen:
+  - naam: Gemeente Nijmegen — bijzondere bijstand
+    url: https://www.nijmegen.nl/uitkering-vergoedingen/bijzondere-bijstand/
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - Bedrag, leeftijd en inkomensgrens van de Nijmeegse bijzondere bijstand zijn te controleren.
+trefwoorden:
+  - nijmegen
+  - bijstand
+check:
+  soort: bijzondere-bijstand
+  minLeeftijd: 18

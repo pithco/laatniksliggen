@@ -1,0 +1,39 @@
+slug: haarlemmermeer-minimaregeling
+naam: Haarlemmermeer Doet Mee!
+categorie: gemeente
+gemeente: haarlemmermeer
+samenvatting: >-
+  Haarlemmermeer heeft minimaregelingen zodat inwoners kunnen meedoen. In de jaarstukken 2025
+  heten die onder meer Haarlemmermeer Doet Mee! voor volwassenen en het Kindpakket. Bedragen
+  voor 2026 hebben we niet op een productpagina gevonden.
+voorWie: Inwoners met een minimuminkomen. De precieze grens is te controleren.
+bedragKort: te controleren
+bedrag: >-
+  De jaarstukken noemen de regelingen, maar geen actueel tegoed per persoon. Dat is te
+  controleren.
+bedragZeker: false
+deadline: Een aanvraagperiode is te controleren.
+deadlineZeker: false
+stappen:
+  - Zoek op haarlemmermeer.nl naar Doet Mee of het Kindpakket.
+  - Vraag de regeling aan als u die pagina vindt.
+  - Neem contact op met de gemeente als de pagina ontbreekt.
+voorwaarden:
+  - U woont in Haarlemmermeer.
+  - U hebt een laag inkomen. De grens is te controleren.
+bronnen:
+  - naam: Gemeente Haarlemmermeer — jaarstukken 2025
+    url: >-
+      https://jaarstukken.haarlemmermeer.nl/2025/programmaverantwoording/zorg-en-werk/beleidsdoel-d-het-zorg-dragen-voor-financi%C3%ABle-bestaanszekerheid-van-inwoners
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    Het bedrag en de aanvraagpagina van Haarlemmermeer Doet Mee! en het Kindpakket zijn te
+    controleren.
+trefwoorden:
+  - haarlemmermeer
+  - doet mee
+  - kindpakket
+check:
+  soort: minima
+  minLeeftijd: 18

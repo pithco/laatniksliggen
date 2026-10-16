@@ -1,0 +1,49 @@
+slug: vergeten-pensioen
+naam: Vergeten pensioen
+categorie: vergeten
+gemeente: ""
+samenvatting: >-
+  Hebt u ergens gewerkt en bent u vergeten dat u daar pensioen opbouwde? Of is een pensioenfonds
+  uw adres kwijt? Op Mijnpensioenoverzicht.nl ziet u welk pensioen er op uw naam staat. U logt
+  in met DigiD.
+voorWie: >-
+  Mensen die in Nederland wonen of een DigiD hebben en willen zien welk pensioen er voor hen
+  klaarstaat. Ook als u al met pensioen bent, is het de moeite waard om te kijken of er een
+  klein potje mist.
+bedragKort: Hangt af van wat u hebt opgebouwd. Geen vast bedrag
+bedrag: >-
+  Er is geen standaardbedrag. U ziet op het overzicht wat er is opgebouwd en vanaf wanneer het
+  ingaat. Een pensioenfonds kan geld niet uitkeren als het uw adres niet heeft. De
+  contactgegevens voor zo’n vergeten pensioen staan bij het overzicht.
+bedragZeker: true
+deadline: >-
+  Inloggen kan het hele jaar. Per pensioenfonds kunnen eigen termijnen gelden om een pensioen
+  alsnog uit te laten keren. Die termijn is te controleren bij het fonds dat u op het overzicht
+  ziet.
+deadlineZeker: false
+stappen:
+  - Vraag een DigiD aan als u die nog niet hebt.
+  - Log in op mijnpensioenoverzicht.nl.
+  - Mist u een pensioen, neem dan contact op met het fonds dat daarbij hoort.
+voorwaarden:
+  - U hebt DigiD nodig om uw eigen gegevens te zien.
+  - >-
+    Het overzicht gaat over pensioen dat in Nederland is opgebouwd bij fondsen en verzekeraars
+    die meedoen.
+  - AOW ziet u apart bij de SVB. Die staat niet als vervanging van dit overzicht.
+bronnen:
+  - naam: Mijnpensioenoverzicht.nl
+    url: https://www.mijnpensioenoverzicht.nl/
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    Een algemene uiterste datum om vergeten pensioen alsnog op te eisen hebben we niet op
+    mijnpensioenoverzicht.nl gevonden. Die termijn is te controleren bij het pensioenfonds.
+trefwoorden:
+  - pensioen
+  - digid
+  - mijnpensioenoverzicht
+  - fonds
+check:
+  soort: pensioen
+  minLeeftijd: 18

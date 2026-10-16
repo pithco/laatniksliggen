@@ -1,0 +1,42 @@
+slug: arnhem-minimaregeling
+naam: Gelrepas in Arnhem
+categorie: gemeente
+gemeente: arnhem
+samenvatting: >-
+  De Gelrepas is een pas met tegoed voor musea, sport, attracties, film en cursussen. De pas is
+  één kalenderjaar geldig. Studenten kunnen hem niet aanvragen.
+voorWie: Inwoners van Arnhem met een laag inkomen, geen studenten.
+bedragKort: "Tegoed in 2026: € 100, € 200 of € 335, afhankelijk van leeftijd"
+bedrag: >-
+  In 2026: € 100 voor 0 tot en met 3 jaar, € 335 voor 4 tot en met 17 jaar, en € 200 voor 18
+  jaar en ouder. Daarnaast is er korting op activiteiten. Een nieuwe pas kost niets volgens de
+  aanvraagpagina. Een vervangende pas kost € 5, afgeschreven van het tegoed.
+bedragZeker: true
+deadline: >-
+  Vraagt u de pas na 1 november aan, dan geldt de aanvraag voor het nieuwe jaar. U hoort binnen
+  8 weken of u de pas krijgt.
+deadlineZeker: true
+stappen:
+  - Vraag de Gelrepas aan bij de gemeente Arnhem.
+  - "Per post kan ook: Team Minima, antwoordnummer 3740, 6800 XA Arnhem."
+  - Kijk voor aanbiedingen op gelrepas.nl.
+voorwaarden:
+  - U woont in Arnhem, u hebt een laag inkomen en u bent geen student.
+  - De precieze inkomensgrens in euro’s is te controleren.
+  - Een verloren pas vervangt u via pashouders@gelrepas.nl, niet via de gemeente.
+bronnen:
+  - naam: Gemeente Arnhem — Gelrepas
+    url: https://www.arnhem.nl/gelrepas
+  - naam: Gelrepas
+    url: https://www.gelrepas.nl/
+laatstGecontroleerd: "2026-10-16"
+onzeker:
+  - >-
+    Wat Arnhem precies een laag inkomen noemt voor de Gelrepas, is te controleren. De pagina
+    noemt geen eurogrens.
+trefwoorden:
+  - arnhem
+  - gelrepas
+check:
+  soort: minima
+  minLeeftijd: 0

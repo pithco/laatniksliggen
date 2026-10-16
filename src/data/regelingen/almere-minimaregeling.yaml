@@ -1,0 +1,34 @@
+slug: almere-minimaregeling
+naam: Stadspas Almere
+categorie: gemeente
+gemeente: almere
+samenvatting: >-
+  De Stadspas Almere is voor inwoners met een inkomen tot 120% van de bijstandsnorm. U krijgt
+  voordeel bij lokale aanbieders. Kinderen onder de 18 kunnen op het account van de ouder
+  meekomen.
+voorWie: Inwoners van Almere van 18 jaar of ouder met een inkomen tot 120% van de bijstandsnorm.
+bedragKort: Geen vast geldbedrag. De pas geeft voordeel
+bedrag: De site beschrijft voordeel bij aanbieders, niet één eurobedrag dat u krijgt gestort.
+bedragZeker: true
+deadline: >-
+  U activeert de pas met een code uit de brief van de gemeente. Een sluitingsdatum staat niet op
+  de uitlegpagina.
+deadlineZeker: true
+stappen:
+  - Wacht op de brief van de gemeente of kijk hoe u zich registreert.
+  - Maak een account op stadspasalmere.nl en vul de code uit de brief in.
+  - Kinderen onder de 18 vindt u terug in het account van de ouder.
+voorwaarden:
+  - U woont in Almere en u bent 18 jaar of ouder.
+  - Uw inkomen is maximaal 120% van de bijstandsnorm.
+bronnen:
+  - naam: Stadspas Almere
+    url: https://www.stadspasalmere.nl/over-de-stadspas
+laatstGecontroleerd: "2026-10-16"
+onzeker: []
+trefwoorden:
+  - almere
+  - stadspas
+check:
+  soort: minima
+  minLeeftijd: 18

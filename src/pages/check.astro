@@ -1,0 +1,48 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadGemeenten, loadRegelingen } from '../lib/content';
+
+const gemeenten = loadGemeenten().map((gemeente) => ({ slug: gemeente.slug, naam: gemeente.naam }));
+const regelingen = loadRegelingen().map((regeling) => ({
+  slug: regeling.slug,
+  naam: regeling.naam,
+  gemeente: regeling.gemeente,
+  bedragKort: regeling.bedragKort,
+  onzeker: regeling.onzeker.length > 0,
+  check: regeling.check,
+}));
+const payload = JSON.stringify({ gemeenten, regelingen }).replaceAll('<', '\\u003c');
+---
+
+<Base
+  title="Check van 10 vragen"
+  description="Anonieme check in uw browser. Niets wordt opgeslagen of verstuurd. U ziet welke regelingen kunnen passen."
+>
+  <p class="kicker">Anoniem</p>
+  <h1>Welke regeling kan bij u passen?</h1>
+  <p class="lede">
+    Tien vragen. De antwoorden blijven in deze browser en verdwijnen als u de pagina ververst.
+    We sturen niets naar een server.
+  </p>
+  <noscript>
+    <p class="callout">De check heeft JavaScript nodig, omdat hij in uw browser rekent. Zonder JavaScript kunt u het <a href="/regelingen">overzicht</a> gebruiken.</p>
+  </noscript>
+  <div id="check-app">
+    <div id="vragenblok">
+      <p id="voortgang" class="meta"></p>
+      <div class="progress" aria-hidden="true"><span id="balk"></span></div>
+      <div id="vraag"></div>
+      <div class="row">
+        <button class="button secondary" id="terug" type="button">Vorige vraag</button>
+        <button class="button" id="verder" type="button">Volgende vraag</button>
+      </div>
+    </div>
+    <div id="resultaat" tabindex="-1" hidden></div>
+  </div>
+  <script id="check-payload" type="application/json" set:html={payload}></script>
+</Base>
+
+<script>
+  import { startCheck } from '../scripts/check-ui.js';
+  startCheck();
+</script>
