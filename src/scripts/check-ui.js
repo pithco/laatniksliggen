@@ -47,7 +47,7 @@ export function startCheck() {
     if (vraag.id === 'gemeente') {
       const label = document.createElement('label');
       label.htmlFor = 'gemeente-keuze';
-      label.textContent = 'Kies uw gemeente';
+      label.textContent = 'Kies je gemeente';
       const select = document.createElement('select');
       select.id = 'gemeente-keuze';
       select.name = 'gemeente';
@@ -105,9 +105,9 @@ export function startCheck() {
     resultaat.hidden = false;
     resultaat.innerHTML = '';
     const kop = document.createElement('h2');
-    kop.textContent = 'Dit kan bij u passen';
+    kop.textContent = 'Dit kan bij je passen';
     const intro = document.createElement('p');
-    intro.textContent = 'Dit is geen besluit en geen advies. Het is een zeef op uw antwoorden. Kijk altijd op de officiële pagina. Niets is opgeslagen.';
+    intro.textContent = 'Dit is geen besluit en geen advies. Het is een zeef op je antwoorden. Kijk altijd op de officiële pagina. Er is niks opgeslagen.';
     resultaat.append(kop, intro);
 
     const uitkomst = beoordeelAlles(antwoorden, payload.regelingen);
@@ -116,7 +116,7 @@ export function startCheck() {
 
     if (uitkomst.length === 0) {
       const leeg = document.createElement('p');
-      leeg.textContent = 'Op basis van deze antwoorden zien we geen regeling. Kijk toch even in het overzicht, vooral als uw situatie net anders is.';
+      leeg.textContent = 'Op basis van deze antwoorden zien we geen regeling. Kijk toch even in het overzicht, vooral als je situatie net anders is.';
       resultaat.append(leeg);
     }
 
@@ -146,9 +146,9 @@ export function startCheck() {
     }
 
     const opnieuw = document.createElement('button');
-    opnieuw.className = 'button secondary';
+    opnieuw.className = 'text-link';
     opnieuw.type = 'button';
-    opnieuw.textContent = 'Opnieuw beginnen';
+    opnieuw.textContent = 'Opnieuw beginnen ›';
     opnieuw.addEventListener('click', () => {
       for (const key of Object.keys(antwoorden)) delete antwoorden[key];
       stap = 0;

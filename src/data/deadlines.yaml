@@ -8,7 +8,7 @@
     - huurtoeslag
     - kindgebonden-budget
   toelichting: >-
-    Zorgtoeslag, huurtoeslag en kindgebonden budget over 2025 vraagt u aan tot en met 31
+    Zorgtoeslag, huurtoeslag en kindgebonden budget over 2025 vraag je aan tot en met 31
     december 2026. Kinderopvangtoeslag heeft een kortere termijn. Bron: Dienst Toeslagen.
 - id: aangifte-2021
   titel: "Laatste dag: belasting terugvragen over 2021"
@@ -19,18 +19,18 @@
     - teruggaaf-aangifte
     - onterecht-betaalde-belasting
   toelichting: >-
-    Aangifte over 2021 moet uiterlijk op 31 december 2026 binnen zijn als u nog geld wilt
+    Aangifte over 2021 moet uiterlijk op 31 december 2026 binnen zijn als je nog geld wil
     terugvragen. Bron: Belastingdienst.
 - id: noodfonds-vragen
-  titel: "Noodfonds Energie: u kunt vragen stellen"
+  titel: "Noodfonds Energie: je kunt vragen stellen"
   start: "2026-12-01"
   eind: null
   zeker: true
   regelingen:
     - noodfonds-energie
   toelichting: >-
-    Vanaf 1 december 2026 kunt u het Noodfonds Energie bellen om u voor te bereiden. De aanvraag
-    zelf start op 4 januari 2027. Bron: Rijksoverheid.
+    Vanaf 1 december 2026 kun je het Noodfonds Energie bellen om je voor te bereiden. De
+    aanvraag zelf start op 4 januari 2027. Bron: Rijksoverheid.
 - id: noodfonds-aanvraag
   titel: "Noodfonds Energie: aanvraag open"
   start: "2027-01-04"
@@ -48,9 +48,9 @@
     - teruggaaf-aangifte
     - heffingskortingen
   toelichting: >-
-    De Belastingdienst schrijft dat uw aangifte binnen moet zijn vóór de datum op uw
-    aangiftebrief. Vaak is dat 1 mei. Kijk op uw eigen brief. Deze datum is daarmee te
-    controleren voor uw situatie.
+    De Belastingdienst schrijft dat je aangifte binnen moet zijn vóór de datum op je
+    aangiftebrief. Vaak is dat 1 mei. Kijk op je eigen brief. Deze datum is daarmee te
+    controleren voor je situatie.
 - id: rotterdampas-2026
   titel: Rotterdampas 2026-2027 loopt af
   start: "2027-02-28"
@@ -69,8 +69,8 @@
   regelingen:
     - nijmegen-minimaregeling
   toelichting: >-
-    De gemeente Nijmegen schrijft dat u de Meedoenregeling kunt aanvragen tot en met 31 december
-    2026.
+    De gemeente Nijmegen schrijft dat je de Meedoenregeling kunt aanvragen tot en met 31
+    december 2026.
 - id: upas-koelkast
   titel: "U-pas: korting op een zuinige koelkast loopt tot 30 juni 2027"
   start: "2027-06-30"
@@ -79,7 +79,7 @@
   regelingen:
     - utrecht-minimaregeling
   toelichting: >-
-    Op u-pas.nl staat dat u tot en met 30 juni 2027 € 275 korting kunt krijgen op een
+    Op u-pas.nl staat dat je tot en met 30 juni 2027 € 275 korting kunt krijgen op een
     energiezuinige koelkast, zolang de voorraad strekt.
 - id: toeslag-2026
   titel: "Laatste dag: toeslag over 2026 aanvragen"
@@ -91,7 +91,7 @@
     - huurtoeslag
     - kindgebonden-budget
   toelichting: >-
-    Zorgtoeslag, huurtoeslag en kindgebonden budget over 2026 vraagt u aan tot en met 31
+    Zorgtoeslag, huurtoeslag en kindgebonden budget over 2026 vraag je aan tot en met 31
     december 2027. Bron: Dienst Toeslagen.
 - id: aangifte-2022
   titel: "Laatste dag: belasting terugvragen over 2022"

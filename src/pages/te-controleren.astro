@@ -15,19 +15,21 @@ const deadlines = loadDeadlines().filter((item) => !item.zeker);
     Hier staat wat we níét zeker weten. Liever een gat dan een verzonnen bedrag.
     De rest van de pagina blijft bruikbaar: de bron staat erbij.
   </p>
-  {items.map((regeling) => (
-    <article class="panel">
-      <h2><a href={`/regelingen/${regeling.slug}`}>{regeling.naam}</a></h2>
-      {!regeling.bedragZeker && <p><span class="badge warn">bedrag te controleren</span></p>}
-      {!regeling.deadlineZeker && <p><span class="badge warn">deadline te controleren</span></p>}
-      <ul class="clean">
-        {regeling.onzeker.map((punt) => <li>{punt}</li>)}
-      </ul>
-    </article>
-  ))}
+  <div class="cards">
+    {items.map((regeling) => (
+      <article class="panel">
+        <h2><a href={`/regelingen/${regeling.slug}`}>{regeling.naam}</a></h2>
+        {!regeling.bedragZeker && <p><span class="badge warn">bedrag te controleren</span></p>}
+        {!regeling.deadlineZeker && <p><span class="badge warn">deadline te controleren</span></p>}
+        <ul class="clean">
+          {regeling.onzeker.map((punt) => <li>{punt}</li>)}
+        </ul>
+      </article>
+    ))}
+  </div>
   {deadlines.length > 0 && (
     <>
-      <h2>Kalender</h2>
+      <h2 class="section">Kalender</h2>
       <ul class="clean">
         {deadlines.map((item) => <li>{item.titel}. {item.toelichting}</li>)}
       </ul>

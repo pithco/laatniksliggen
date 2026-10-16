@@ -1,11 +1,11 @@
 - id: vergelijker
   naam: Energie vergelijken
   tekst: >-
-    Placeholder voor een vergelijker waarmee u later een energiecontract kunt vergelijken. Er is
-    nog geen link.
+    Placeholder voor een vergelijker waarmee je later een energiecontract kunt vergelijken. Er
+    is nog geen link.
 - id: overstap
   naam: Overstappen van energieleverancier
   tekst: Placeholder voor een affiliate-link over overstappen. Alleen energie. Geen verzekering.
 - id: bespaarcheck
-  naam: Bespaarcheck voor uw energierekening
-  tekst: Placeholder. Als hier later een betaalde link komt, blijft die in dit reklameblok staan.
+  naam: Bespaarcheck voor je energierekening
+  tekst: Placeholder. Als hier later een betaalde link komt, blijft die in dit reclameblok staan.

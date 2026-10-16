@@ -3,11 +3,11 @@ naam: U-pas in Utrecht
 categorie: gemeente
 gemeente: utrecht
 samenvatting: >-
-  De U-pas is een gratis pas voor sport, cultuur en uitjes. U kunt de pas aanvragen of verlengen
-  voor het pasjaar 2026-2027. Kinderen in Utrecht kunnen soms extra tegoed krijgen voor
-  sportspullen.
+  De U-pas is een gratis pas voor sport, cultuur en uitjes. Je kunt de pas aanvragen of
+  verlengen voor het pasjaar 2026-2027. Kinderen in Utrecht kunnen soms extra tegoed krijgen
+  voor sportspullen.
 voorWie: >-
-  Inwoners die de U-pas kunnen aanvragen. De inkomensgrens stond niet op de homepage die wij
+  Inwoners die de U-pas kunnen aanvragen. De inkomensgrens stond niet op de homepage die we
   hebben gelezen en is te controleren.
 bedragKort: "Gratis pas. Extra’s: € 75 sportspullen, € 275 op een koelkast"
 bedrag: >-
@@ -17,15 +17,17 @@ bedrag: >-
 bedragZeker: false
 deadline: >-
   De koelkastactie loopt tot en met 30 juni 2027, zolang de voorraad strekt. Het pasjaar
-  2026-2027 kunt u nu aanvragen of verlengen.
+  2026-2027 kun je nu aanvragen of verlengen.
 deadlineZeker: true
 stappen:
-  - Vraag de U-pas aan of verleng hem op u-pas.nl.
-  - Kijk welk tegoed op de pas staat.
-  - Hebt u meerdere kinderen, dan mag u hun tegoeden soms optellen als gezinstegoed.
+  - Ga naar u-pas.nl. Vraag de U-pas aan of verleng hem. Log in als de site daarom vraagt.
+  - Kijk in je account welk tegoed op de pas staat.
+  - >-
+    Heb je meerdere kinderen, dan mag je hun tegoeden soms optellen als gezinstegoed. Dat staat
+    op u-pas.nl.
 voorwaarden:
   - De pas is persoonlijk.
-  - Extra kindtegoed vraagt u apart aan, bijvoorbeeld voor sport of een schoolkamp.
+  - Extra kindtegoed vraag je apart aan, bijvoorbeeld voor sport of een schoolkamp.
   - De inkomensgrens is te controleren op u-pas.nl.
 bronnen:
   - naam: U-pas
@@ -33,7 +35,7 @@ bronnen:
 laatstGecontroleerd: "2026-10-16"
 onzeker:
   - >-
-    De inkomensgrens voor de U-pas is te controleren. Die stond niet op de homepage die wij
+    De inkomensgrens voor de U-pas is te controleren. Die stond niet op de homepage die we
     hebben gelezen.
 trefwoorden:
   - utrecht

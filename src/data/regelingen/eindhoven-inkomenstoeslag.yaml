@@ -3,8 +3,8 @@ naam: Individuele inkomenstoeslag in Eindhoven
 categorie: gemeente
 gemeente: eindhoven
 samenvatting: >-
-  Bent u 22 jaar of ouder, nog niet met pensioen, en hebt u 4 jaar of langer een laag inkomen?
-  Dan kunt u in Eindhoven één keer per jaar individuele inkomenstoeslag krijgen.
+  Ben je 22 jaar of ouder, nog niet met pensioen, en heb je 4 jaar of langer een laag inkomen?
+  Dan kun je in Eindhoven één keer per jaar individuele inkomenstoeslag krijgen.
 voorWie: >-
   Inwoners van 22 jaar of ouder met 4 jaar een inkomen dat niet meer dan 3% boven de
   bijstandsnorm ligt.
@@ -14,18 +14,20 @@ bedrag: >-
   voor gehuwden of samenwonenden. Op de pagina staat geen jaartal bij deze drie bedragen.
 bedragZeker: false
 deadline: >-
-  Hebt u de toeslag al, dan krijgt u een brief in de eerste helft van de maand vóór uw
+  Heb je de toeslag al, dan krijg je een brief in de eerste helft van de maand vóór je
   peildatum. De aanvraag moet vóór de peildatum binnen zijn. Te laat betekent een nieuwe
   peildatum, minimaal 12 maanden later.
 deadlineZeker: true
 stappen:
-  - Wacht op de brief als u de toeslag al kreeg.
-  - Kreeg u geen brief, bel 14040 of gebruik het digitale formulier.
-  - Dien de aanvraag in vóór uw peildatum.
+  - Kreeg je de toeslag al, wacht dan op de brief van de gemeente.
+  - >-
+    Kreeg je geen brief, bel dan 14040 of open het digitale formulier op eindhoven.nl. Log in
+    met DigiD als daarom gevraagd wordt.
+  - Dien de aanvraag in vóór je peildatum. Die datum staat in de brief of op de pagina.
 voorwaarden:
-  - U bent 22 jaar of ouder en nog niet met pensioen.
-  - U hebt 4 jaar of langer een laag inkomen.
-  - De peildatum schuift op als u te laat indient.
+  - Je bent 22 jaar of ouder en nog niet met pensioen.
+  - Je hebt 4 jaar of langer een laag inkomen.
+  - De peildatum schuift op als je te laat indient.
 bronnen:
   - naam: Gemeente Eindhoven — individuele inkomenstoeslag
     url: >-

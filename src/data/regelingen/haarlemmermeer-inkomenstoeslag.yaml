@@ -7,16 +7,18 @@ samenvatting: >-
   inwoners met een laag inkomen. Een productpagina met het bedrag hebben we niet bevestigd.
 voorWie: Inwoners met lang een laag inkomen. Leeftijd en termijn zijn te controleren.
 bedragKort: te controleren
-bedrag: Een eurobedrag staat niet in de begrotingstekst die wij hebben gelezen. Dat is te controleren.
+bedrag: Een eurobedrag staat niet in de begrotingstekst die we hebben gelezen. Dat is te controleren.
 bedragZeker: false
 deadline: Een aanvraagmoment is te controleren.
 deadlineZeker: false
 stappen:
-  - Zoek de inkomenstoeslag op haarlemmermeer.nl.
-  - Lees de termijn, vaak een aantal jaar laag inkomen.
-  - Vraag aan met DigiD als de gemeente dat vraagt.
+  - Ga naar haarlemmermeer.nl en zoek op inkomenstoeslag.
+  - >-
+    Lees hoe lang je inkomen laag moet zijn geweest. Vaak is dat een aantal jaar. De precieze
+    termijn is te controleren.
+  - Staat er een aanvraagknop, klik daarop en log in met DigiD als de gemeente dat vraagt.
 voorwaarden:
-  - U woont in Haarlemmermeer.
+  - Je woont in Haarlemmermeer.
   - De verdere voorwaarden zijn te controleren.
 bronnen:
   - naam: Gemeente Haarlemmermeer — programmabegroting 2026

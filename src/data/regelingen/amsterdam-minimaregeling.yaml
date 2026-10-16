@@ -4,28 +4,28 @@ categorie: gemeente
 gemeente: amsterdam
 samenvatting: >-
   De Stadspas is gratis voor inwoners van Amsterdam of Weesp met een laag inkomen en weinig
-  vermogen. U krijgt er korting mee op musea, zwemmen, theater en andere acties. Ook een
+  vermogen. Je krijgt er korting mee op musea, zwemmen, theater en andere acties. Ook een
   identiteitskaart kan gratis, en de dierenarts kan met korting.
 voorWie: >-
   Inwoners met een minimuminkomen. In de beleidsregel is dat onder meer een gezinsinkomen tot
-  120% van het bruto wettelijk minimumloon, of 120% van de AOW-norm als u de pensioengerechtigde
-  leeftijd hebt. Minderjarige kinderen kunnen meedoen.
+  120% van het bruto wettelijk minimumloon, of 120% van de AOW-norm als je de
+  pensioengerechtigde leeftijd hebt. Minderjarige kinderen kunnen meedoen.
 bedragKort: Geen geldbedrag. De pas is gratis en geeft korting
 bedrag: >-
-  De pas zelf kost niets. Wat u bespaart, hangt af van de acties. Er is geen vast jaarbedrag op
+  De pas zelf kost niets. Wat je bespaart, hangt af van de acties. Er is geen vast jaarbedrag op
   de pagina van de Stadspas.
 bedragZeker: true
 deadline: >-
-  U kunt de pas aanvragen zolang u aan de voorwaarden voldoet. Mensen met een bijstandsuitkering
-  of een eerdere pas kunnen de pas soms automatisch krijgen.
+  Je kunt de pas aanvragen zolang je aan de voorwaarden voldoet. Mensen met een
+  bijstandsuitkering of een eerdere pas kunnen de pas soms automatisch krijgen.
 deadlineZeker: true
 stappen:
-  - Vraag de Stadspas aan op amsterdam.nl/stadspas.
-  - Log in met DigiD als daarom wordt gevraagd.
-  - Kijk daarna welke acties er nu zijn. Die wisselen.
+  - Ga naar amsterdam.nl/stadspas. Klik op aanvragen.
+  - Log in met DigiD als de site daarom vraagt. Vul de aanvraag in en verstuur hem.
+  - Kijk daarna op dezelfde site welke acties er nu zijn. Die wisselen.
 voorwaarden:
-  - U woont in Amsterdam of Weesp.
-  - U hebt een laag inkomen en weinig vermogen.
+  - Je woont in Amsterdam of Weesp.
+  - Je hebt een laag inkomen en weinig vermogen.
   - De precieze norm staat in de beleidsregel Stadspas.
 bronnen:
   - naam: Gemeente Amsterdam — Stadspas

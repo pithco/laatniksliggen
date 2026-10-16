@@ -3,7 +3,7 @@ naam: Bijzondere bijstand in Nijmegen
 categorie: gemeente
 gemeente: nijmegen
 samenvatting: >-
-  Nijmegen heeft een pagina voor bijzondere bijstand. U vraagt die aan als u noodzakelijke
+  Nijmegen heeft een pagina voor bijzondere bijstand. Je vraagt die aan als je noodzakelijke
   kosten niet zelf kunt betalen. De details op die pagina hebben we niet regel voor regel
   overgenomen.
 voorWie: >-
@@ -13,15 +13,15 @@ bedragKort: te controleren
 bedrag: Een vast bedrag hebben we niet gecontroleerd op de Nijmeegse pagina. Dat is te controleren.
 bedragZeker: false
 deadline: >-
-  Een sluitingsdatum is te controleren. Vraag bijzondere bijstand het liefst aan voordat u
+  Een sluitingsdatum is te controleren. Vraag bijzondere bijstand het liefst aan voordat je
   betaalt.
 deadlineZeker: false
 stappen:
-  - Open de pagina bijzondere bijstand van Nijmegen.
-  - Kijk welke kosten de gemeente noemt.
-  - Dien de aanvraag in met DigiD of vraag hulp via 14 024.
+  - Ga naar nijmegen.nl en open de pagina bijzondere bijstand.
+  - Kijk welke kosten de gemeente noemt. Alleen die kun je aanvragen.
+  - Dien de aanvraag in met DigiD via de knop op de pagina. Kom je er niet uit, bel dan 14 024.
 voorwaarden:
-  - U woont in Nijmegen.
+  - Je woont in Nijmegen.
   - De overige voorwaarden zijn te controleren op de pagina van de gemeente.
 bronnen:
   - naam: Gemeente Nijmegen — bijzondere bijstand

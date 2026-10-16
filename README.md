@@ -20,6 +20,8 @@ node scripts/generate-content.mjs
 npm run check:data
 ```
 
+`npm run check:data` keurt de lezerstekst af als die de formele aanspreekvorm gebruikt. Schrijf je en jij.
+
 ## Netlify
 
 - Build command: `npm run build`
@@ -28,7 +30,7 @@ npm run check:data
 
 ## Nog leeg, expres
 
-Kopieer `.env.example` naar `.env` als u later iets aanzet. Laat de waarden leeg tot die tijd.
+Kopieer `.env.example` naar `.env` als je later iets aanzet. Laat de waarden leeg tot die tijd.
 
 - `PUBLIC_MAILERLITE_FORM_ID` — nieuwsbrief. Geen geheime sleutel.
 - `PUBLIC_PLAUSIBLE_DOMAIN` — cookieloze analytics. Staat uit zolang dit leeg is. Pas dan ook de content-security-policy in `netlify.toml` aan.

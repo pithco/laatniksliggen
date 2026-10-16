@@ -3,7 +3,7 @@ naam: Bijzondere bijstand in Apeldoorn
 categorie: gemeente
 gemeente: apeldoorn
 samenvatting: >-
-  Apeldoorn heeft een pagina over bijzondere bijstand. Gebruik die voor kosten die u niet zelf
+  Apeldoorn heeft een pagina over bijzondere bijstand. Gebruik die voor kosten die je niet zelf
   kunt betalen. We hebben geen vast bedrag van die pagina overgenomen.
 voorWie: Inwoners van Apeldoorn. De precieze voorwaarden zijn te controleren.
 bedragKort: te controleren
@@ -12,11 +12,13 @@ bedragZeker: false
 deadline: Een sluitingsdatum is te controleren.
 deadlineZeker: false
 stappen:
-  - Open de pagina bijzondere bijstand.
+  - Ga naar apeldoorn.nl en open de pagina bijzondere bijstand.
   - Kijk welke kosten Apeldoorn noemt.
-  - Dien de aanvraag in voordat u betaalt, als dat kan.
+  - >-
+    Dien de aanvraag in vóór je betaalt, als dat kan. Gebruik de knop op de pagina en log in met
+    DigiD als daarom gevraagd wordt.
 voorwaarden:
-  - U woont in Apeldoorn.
+  - Je woont in Apeldoorn.
   - Verdere voorwaarden zijn te controleren.
 bronnen:
   - naam: Gemeente Apeldoorn — bijzondere bijstand

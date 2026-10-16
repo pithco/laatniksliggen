@@ -8,51 +8,59 @@ const gemeenten = loadGemeenten();
 const deadlines = loadDeadlines();
 const vandaag = new Date().toISOString().slice(0, 10);
 const komend = deadlines.filter((item) => (item.eind ?? item.start) >= vandaag).slice(0, 4);
-const description = 'Kijk welke toeslag, belastingteruggaaf of gemeentelijke regeling u misschien laat liggen. Gratis, anoniem en in gewone taal.';
+const description = 'Kijk welke toeslag, belastingteruggaaf of gemeentelijke regeling je misschien laat liggen. Gratis, anoniem, in gewone taal.';
 ---
 
-<Base title="Laat Niks Liggen — geld dat u kunt aanvragen" description={description} home>
+<Base title="Laat Niks Liggen — geld dat je kunt aanvragen" description={description} home>
   <section class="hero">
     <div>
       <p class="kicker">Geld dat blijft liggen</p>
-      <h1>Er ligt misschien geld op u te wachten.</h1>
+      <h1>Er ligt misschien geld op je te wachten.</h1>
       <p class="lede">
-        Toeslagen, een belastingteruggaaf, een oude OV-chipkaart of hulp van uw gemeente.
-        Deze site zet de regelingen op een rij. U blijft anoniem.
+        Een toeslag. Belasting terug. Geld op een oude OV-kaart. Of hulp van je gemeente.
+        We zetten het op een rij. Jij blijft anoniem.
       </p>
-    </div>
-    <div class="panel">
-      <p class="kicker">Begin hier</p>
-      <h2>10 vragen</h2>
-      <p>Geen account. Niets wordt opgeslagen of verstuurd. Aan het eind ziet u wat waarschijnlijk bij u past.</p>
       <p><a class="button" href="/check">Doe de check</a></p>
+    </div>
+    <div class="stage" aria-hidden="true">
+      <article class="card tilt tilt-a">
+        <p class="kicker">Voorbeeld</p>
+        <h2>Zorgtoeslag</h2>
+        <p>Waarschijnlijk. Maximaal € 129 per maand als je alleen bent.</p>
+      </article>
+      <article class="card tilt tilt-b">
+        <p class="kicker">Vraag 4 van 10</p>
+        <h2>Huur je zelf een huis?</h2>
+        <p>Ja, ik huur</p>
+      </article>
     </div>
   </section>
 
-  <aside class="banner">
-    <strong>Nog dit jaar:</strong> zorgtoeslag, huurtoeslag en kindgebonden budget over 2025 kunt u aanvragen tot en met 31 december 2026.
-    <a href="/regelingen/zorgtoeslag">Lees hoe dat zit</a>.
+  <aside class="note">
+    <strong>Nog dit jaar.</strong>
+    Zorgtoeslag, huurtoeslag en kindgebonden budget over 2025 kun je aanvragen tot en met 31 december 2026.
+    <a href="/regelingen/zorgtoeslag">Lees hoe dat zit ›</a>
   </aside>
 
-  <div class="actions">
+  <div class="actions section">
     <a class="card card-link" href="/regelingen">
       <span class="kicker">{regelingen.length} regelingen</span>
       <h2>Alles op een rij</h2>
-      <p>Zoek en filter op toeslag, belasting, vergeten geld of gemeente.</p>
+      <p>Zoek op toeslag, belasting, vergeten geld of je gemeente.</p>
     </a>
     <a class="card card-link" href="/gemeenten">
       <span class="kicker">{gemeenten.length} gemeenten</span>
-      <h2>Uw gemeente</h2>
+      <h2>Je gemeente</h2>
       <p>Bijzondere bijstand, kwijtschelding, een pas en de inkomenstoeslag.</p>
     </a>
     <a class="card card-link" href="/kalender">
       <span class="kicker">Deadlines</span>
-      <h2>Zet het in uw agenda</h2>
-      <p>Download de datums als agenda-bestand. Geen account nodig.</p>
+      <h2>Zet het in je agenda</h2>
+      <p>Download de datums. Geen account nodig.</p>
     </a>
   </div>
 
-  <section>
+  <section class="section">
     <h2>Wat eraan komt</h2>
     <div class="cards">
       {komend.map((item) => (
@@ -66,17 +74,17 @@ const description = 'Kijk welke toeslag, belastingteruggaaf of gemeentelijke reg
     </div>
   </section>
 
-  <section class="split" style="margin-top:2rem">
+  <section class="section split">
     <div>
       <h2>Zo werkt het</h2>
       <ol class="steps">
-        <li>U beantwoordt 10 vragen. Dat blijft in uw browser.</li>
-        <li>U ziet regelingen die kunnen passen, met een link naar de officiële pagina.</li>
-        <li>U vraagt zelf aan bij de Belastingdienst, de SVB of uw gemeente. Wij zitten daar niet tussen.</li>
+        <li>Je beantwoordt 10 vragen. Dat blijft in je browser. We sturen niks weg.</li>
+        <li>Je ziet welke regelingen kunnen passen, met een link naar de officiële pagina.</li>
+        <li>Jij vraagt het zelf aan bij de Belastingdienst, de SVB of je gemeente. We zitten daar niet tussen.</li>
       </ol>
       <p class="disclaimer">
-        Dit is geen advies en geen aanvraag. Bedragen veranderen. Controleer de bron.
-        Regelingen op deze site zijn nooit betaald geplaatst.
+        Dit is geen advies en geen aanvraag. Bedragen veranderen. Kijk op de officiële pagina voor je iets doet.
+        Een regeling op deze site is nooit betaald geplaatst.
       </p>
     </div>
     <Newsletter />

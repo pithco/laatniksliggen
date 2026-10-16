@@ -15,12 +15,16 @@ bedragZeker: false
 deadline: Een aanvraagperiode is te controleren.
 deadlineZeker: false
 stappen:
-  - Zoek op haarlemmermeer.nl naar Doet Mee of het Kindpakket.
-  - Vraag de regeling aan als u die pagina vindt.
-  - Neem contact op met de gemeente als de pagina ontbreekt.
+  - Ga naar haarlemmermeer.nl en zoek op Doet Mee of Kindpakket.
+  - >-
+    Vind je de pagina, vraag de regeling dan daar aan. Log in met DigiD als daarom gevraagd
+    wordt.
+  - >-
+    Vind je de pagina niet, bel of mail de gemeente via het nummer of het formulier op
+    haarlemmermeer.nl.
 voorwaarden:
-  - U woont in Haarlemmermeer.
-  - U hebt een laag inkomen. De grens is te controleren.
+  - Je woont in Haarlemmermeer.
+  - Je hebt een laag inkomen. De grens is te controleren.
 bronnen:
   - naam: Gemeente Haarlemmermeer — jaarstukken 2025
     url: >-

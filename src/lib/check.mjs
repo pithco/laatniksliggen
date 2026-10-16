@@ -6,19 +6,19 @@
 export const vragen = [
   {
     id: 'leeftijd',
-    tekst: 'Hoe oud bent u?',
-    hulp: 'Veel regelingen beginnen bij 18, 21 of de AOW-leeftijd. In 2026 is de AOW-leeftijd 67 jaar.',
+    tekst: 'Hoe oud ben je?',
+    hulp: 'Veel regelingen starten bij 18, bij 21, of als je AOW krijgt. In 2026 is de AOW-leeftijd 67.',
     opties: [
       { waarde: 'onder-18', label: 'Jonger dan 18' },
       { waarde: '18-20', label: '18, 19 of 20' },
       { waarde: '21-66', label: '21 tot de AOW-leeftijd' },
-      { waarde: 'aow', label: 'Ik heb de AOW-leeftijd, of ik bereik die binnen 2 maanden' },
+      { waarde: 'aow', label: 'Ik heb de AOW-leeftijd, of ik ben er binnen 2 maanden' },
     ],
   },
   {
     id: 'zorgverzekering',
-    tekst: 'Hebt u een Nederlandse zorgverzekering?',
-    hulp: 'Die hebt u meestal nodig voor zorgtoeslag. Een aanvullende verzekering telt niet mee.',
+    tekst: 'Heb je een Nederlandse zorgverzekering?',
+    hulp: 'Die heb je meestal nodig voor zorgtoeslag. Een extra verzekering telt niet mee.',
     opties: [
       { waarde: 'ja', label: 'Ja' },
       { waarde: 'nee', label: 'Nee' },
@@ -27,29 +27,29 @@ export const vragen = [
   },
   {
     id: 'inkomen',
-    tekst: 'Hoe is uw inkomen, ongeveer?',
-    hulp: 'Een grove inschatting is genoeg. We vragen geen bedrag en bewaren niets.',
+    tekst: 'Hoe zit het ongeveer met je inkomen?',
+    hulp: 'Een grove gok is genoeg. We vragen geen bedrag en we bewaren niks.',
     opties: [
-      { waarde: 'laag', label: 'Laag. Rond een uitkering of het minimum, of ik red het moeilijk' },
-      { waarde: 'midden', label: 'Midden. Ik heb werk of een pensioen, maar het is niet ruim' },
+      { waarde: 'laag', label: 'Laag. Rond een uitkering of het minimum, of ik kom moeilijk rond' },
+      { waarde: 'midden', label: 'Midden. Ik werk of ik heb pensioen, maar het is niet ruim' },
       { waarde: 'hoog', label: 'Hoog. Duidelijk ruim boven een modaal inkomen' },
       { waarde: 'weet-niet', label: 'Wisselend, of ik weet het niet' },
     ],
   },
   {
     id: 'huur',
-    tekst: 'Huurt u zelf een woning?',
-    hulp: 'Huurtoeslag is bedoeld voor een huurwoning. Een koopwoning telt niet mee.',
+    tekst: 'Huur je zelf een huis?',
+    hulp: 'Huurtoeslag is voor een huurwoning. Een koophuis telt niet.',
     opties: [
       { waarde: 'ja', label: 'Ja, ik huur' },
-      { waarde: 'koop', label: 'Nee, ik heb een koopwoning' },
+      { waarde: 'koop', label: 'Nee, ik heb een koophuis' },
       { waarde: 'anders', label: 'Nee, ik woon bij iemand anders of op een andere manier' },
     ],
   },
   {
     id: 'kinderen',
-    tekst: 'Hebt u kinderen die jonger zijn dan 18 jaar?',
-    hulp: 'Kinderen die bij u horen, ook stief- of pleegkinderen.',
+    tekst: 'Heb je kinderen onder de 18?',
+    hulp: 'Kinderen die bij jou horen, ook stief- of pleegkinderen.',
     opties: [
       { waarde: 'ja', label: 'Ja' },
       { waarde: 'nee', label: 'Nee' },
@@ -57,8 +57,8 @@ export const vragen = [
   },
   {
     id: 'opvang',
-    tekst: 'Gaat een kind naar de kinderopvang?',
-    hulp: 'Dagopvang, buitenschoolse opvang of een gastouder. Kinderopvangtoeslag hangt ook af van werk.',
+    tekst: 'Gaat een kind naar de opvang?',
+    hulp: 'Dagopvang, buitenschoolse opvang of een gastouder. Voor kinderopvangtoeslag telt ook of je werkt.',
     opties: [
       { waarde: 'werk-en-opvang', label: 'Ja, en ik of mijn partner werkt' },
       { waarde: 'opvang-zonder-werk', label: 'Ja, maar niemand in huis werkt' },
@@ -68,24 +68,24 @@ export const vragen = [
   },
   {
     id: 'belasting',
-    tekst: 'Kan er belasting van u zijn blijven liggen?',
-    hulp: 'Bijvoorbeeld omdat u niet het hele jaar werkte, studeerde, of AOW én een klein pensioen krijgt.',
+    tekst: 'Kan er belasting van jou zijn blijven liggen?',
+    hulp: 'Bijvoorbeeld omdat je niet het hele jaar werkte, studeerde, of AOW én een klein pensioen krijgt.',
     opties: [
       { waarde: 'terugvragen', label: 'Ja, ik wil kijken of ik belasting terugkrijg' },
       { waarde: 'meerdere-inkomens', label: 'Ik krijg AOW of een uitkering én nog ander inkomen' },
-      { waarde: 'nee', label: 'Nee, of ik heb dit al gecontroleerd' },
+      { waarde: 'nee', label: 'Nee, of ik heb dit al gecheckt' },
     ],
   },
   {
     id: 'gemeente',
-    tekst: 'In welke gemeente woont u?',
-    hulp: 'We hebben de 15 grootste gemeenten opgenomen. Woont u ergens anders, dan laten we de landelijke regelingen zien.',
+    tekst: 'In welke gemeente woon je?',
+    hulp: 'We hebben de 15 grootste gemeenten. Woon je ergens anders, dan laten we de landelijke regelingen zien.',
     opties: [],
   },
   {
     id: 'situatie',
-    tekst: 'Hebt u al lang weinig geld, of ineens een rekening die u niet kunt betalen?',
-    hulp: 'Dit helpt bij gemeentelijke regelingen. Het is geen aanvraag.',
+    tekst: 'Heb je al lang weinig geld, of ineens een rekening die je niet kunt betalen?',
+    hulp: 'Dit helpt bij regelingen van je gemeente. Het is geen aanvraag.',
     opties: [
       { waarde: 'lang-laag', label: 'Al een paar jaar een laag inkomen' },
       { waarde: 'extra-kosten', label: 'Ineens extra kosten, zoals ziekte, verhuizing of school' },
@@ -95,7 +95,7 @@ export const vragen = [
   },
   {
     id: 'vergeten',
-    tekst: 'Wilt u zoeken naar geld dat ergens is blijven liggen?',
+    tekst: 'Wil je zoeken naar geld dat ergens is blijven liggen?',
     hulp: 'Denk aan een oude OV-chipkaart, pensioen, een erfenis of geld bij het ministerie van Financiën.',
     opties: [
       { waarde: 'ja', label: 'Ja, ik wil breed kijken' },
@@ -150,55 +150,55 @@ export function beoordeel(antwoorden, regeling) {
   };
 
   let niveau = 'nee';
-  let reden = 'Op basis van uw antwoorden lijkt deze regeling niet te passen.';
+  let reden = 'Op basis van je antwoorden lijkt deze regeling niet te passen.';
 
   if (soort === 'zorgtoeslag') {
     const verzekering = antwoorden.zorgverzekering === 'ja' ? 'ja' : antwoorden.zorgverzekering === 'nee' ? 'nee' : 'twijfel';
     niveau = combine([leeftijd, verzekering, inkomen]);
     reden = redenVoor(niveau, {
-      ja: 'U bent 18 jaar of ouder, u hebt een zorgverzekering en uw inkomen lijkt niet te hoog.',
-      misschien: 'Zorgtoeslag kan passen, maar uw inkomen of verzekering is niet zeker. Maak een proefberekening.',
-      nee: 'Zorgtoeslag vraagt een Nederlandse zorgverzekering, leeftijd vanaf 18 en een inkomen onder de grens.',
+      ja: 'Je bent 18 of ouder, je hebt een zorgverzekering en je inkomen lijkt niet te hoog.',
+      misschien: 'Zorgtoeslag kan passen, maar je inkomen of je verzekering is niet zeker. Maak even een proefberekening.',
+      nee: 'Voor zorgtoeslag heb je een Nederlandse zorgverzekering nodig. Je bent 18 of ouder, en je inkomen zit onder de grens.',
     });
   } else if (soort === 'huurtoeslag') {
     const huur = antwoorden.huur === 'ja' ? 'ja' : antwoorden.huur === 'anders' ? 'twijfel' : 'nee';
     niveau = combine([leeftijd, huur, inkomen]);
     reden = redenVoor(niveau, {
-      ja: 'U huurt en uw inkomen lijkt niet te hoog. Er is in 2026 geen maximale huurprijs meer om mee te mogen doen.',
-      misschien: 'Huurtoeslag hangt af van de woning, het inkomen en het vermogen. Controleer dit met een proefberekening.',
-      nee: 'Huurtoeslag is voor mensen vanaf 18 jaar die een woning huren en geen hoog inkomen hebben.',
+      ja: 'Je huurt en je inkomen lijkt niet te hoog. In 2026 is er geen maximale huurprijs meer om mee te mogen doen.',
+      misschien: 'Huurtoeslag hangt af van je huis, je inkomen en je vermogen. Kijk dat na met een proefberekening.',
+      nee: 'Huurtoeslag is voor mensen vanaf 18 die een huis huren en geen hoog inkomen hebben.',
     });
   } else if (soort === 'kinderopvang') {
     const kind = antwoorden.kinderen === 'ja' ? 'ja' : 'nee';
     const opvang = antwoorden.opvang === 'werk-en-opvang' ? 'ja' : antwoorden.opvang === 'opvang-zonder-werk' ? 'twijfel' : 'nee';
     niveau = combine([kind, opvang]);
     reden = redenVoor(niveau, {
-      ja: 'Er is kinderopvang en er wordt gewerkt. Vraag de toeslag op tijd aan: meestal binnen 3 maanden.',
-      misschien: 'Zonder werk is kinderopvangtoeslag vaak niet mogelijk. Er zijn uitzonderingen. Controleer die bij Dienst Toeslagen.',
-      nee: 'Kinderopvangtoeslag is voor ouders met kinderopvang. Meestal moet u of uw partner ook werken.',
+      ja: 'Er is opvang en er wordt gewerkt. Vraag de toeslag op tijd aan: meestal binnen 3 maanden.',
+      misschien: 'Zonder werk lukt kinderopvangtoeslag vaak niet. Er zijn uitzonderingen. Die staan bij Dienst Toeslagen.',
+      nee: 'Kinderopvangtoeslag is voor ouders met opvang. Meestal moet jij of je partner ook werken.',
     });
   } else if (soort === 'kindgebonden') {
     const kind = antwoorden.kinderen === 'ja' ? 'ja' : 'nee';
     const geld = antwoorden.inkomen === 'hoog' ? 'twijfel' : 'ja';
     niveau = combine([kind, geld]);
     reden = redenVoor(niveau, {
-      ja: 'U hebt een kind onder de 18 en uw inkomen lijkt niet hoog. Alleenstaande ouders krijgen meer.',
-      misschien: 'Bij een hoger inkomen wordt het kindgebonden budget lager of valt het weg. Doe een proefberekening.',
+      ja: 'Je hebt een kind onder de 18 en je inkomen lijkt niet hoog. Alleenstaande ouders krijgen meer.',
+      misschien: 'Bij een hoger inkomen wordt het kindgebonden budget lager, of het valt weg. Doe een proefberekening.',
       nee: 'Kindgebonden budget is een bijdrage voor ouders van kinderen onder de 18.',
     });
   } else if (soort === 'heffingskorting') {
     niveau = leeftijd === 'nee' ? 'nee' : antwoorden.belasting === 'nee' && antwoorden.inkomen === 'hoog' ? 'misschien' : 'waarschijnlijk';
     reden = redenVoor(niveau, {
-      ja: 'Heffingskortingen verlagen uw belasting. Die worden vaak al via loon of uitkering verrekend. Controleer ze in uw aangifte.',
-      misschien: 'Misschien hebt u toch een korting die nog niet verrekend is. Dat ziet u in een aangifte.',
+      ja: 'Heffingskortingen verlagen je belasting. Die zitten vaak al in je loon of uitkering. Kijk ze na in je aangifte.',
+      misschien: 'Misschien heb je toch een korting die nog niet verrekend is. Dat zie je als je de aangifte invult.',
       nee: 'Heffingskortingen gelden voor mensen die belasting of premie betalen, meestal vanaf 18 jaar.',
     });
   } else if (soort === 'aangifte') {
     const wil = antwoorden.belasting === 'nee' ? 'twijfel' : 'ja';
     niveau = combine([leeftijd === 'nee' ? 'nee' : 'ja', wil]);
     reden = redenVoor(niveau, {
-      ja: 'U kunt aangifte doen om te zien of u geld terugkrijgt. Invullen is nog geen aangifte, zolang u niets verstuurt.',
-      misschien: 'Ook zonder vermoeden kan een aangifte teruggeven. In 2026 kunt u nog terug naar 2021.',
+      ja: 'Je kunt aangifte doen om te zien of je geld terugkrijgt. Invullen is nog geen aangifte, zolang je niks verstuurt.',
+      misschien: 'Ook als je het niet verwacht, kan een aangifte geld teruggeven. In 2026 kun je nog terug naar 2021.',
       nee: 'Deze route is bedoeld voor volwassenen die inkomstenbelasting kunnen terugvragen.',
     });
   } else if (soort === 'te-veel-belasting') {
@@ -207,15 +207,15 @@ export function beoordeel(antwoorden, regeling) {
     reden = redenVoor(niveau, {
       ja: 'Bij meerdere uitkeringen of een wisselend jaar houdt de betaler soms te veel loonheffing in. Aangifte laat dat zien.',
       misschien: '',
-      nee: 'U gaf aan dat u dit al hebt gecontroleerd, of dat het niet speelt.',
+      nee: 'Je gaf aan dat je dit al hebt gecheckt, of dat het niet speelt.',
     });
   } else if (soort === 'aio') {
     const leeftijdAow = antwoorden.leeftijd === 'aow' ? 'ja' : 'nee';
     const geld = antwoorden.inkomen === 'hoog' ? 'nee' : antwoorden.inkomen === 'laag' ? 'ja' : 'twijfel';
     niveau = combine([leeftijdAow, geld]);
     reden = redenVoor(niveau, {
-      ja: 'Met de AOW-leeftijd en een laag inkomen is een AIO-aanvulling het nakijken waard. Doe de check bij de SVB.',
-      misschien: 'Een AIO-aanvulling kan ook bij een onvolledige AOW. Het hangt af van inkomen en vermogen.',
+      ja: 'Je hebt de AOW-leeftijd en een laag inkomen. De AIO-aanvulling is het nakijken waard. Doe de check bij de SVB.',
+      misschien: 'Een AIO-aanvulling kan ook als je AOW niet compleet is. Het hangt af van je inkomen en je vermogen.',
       nee: 'De AIO-aanvulling is voor mensen rond de AOW-leeftijd met weinig inkomen en vermogen.',
     });
   } else if (soort === 'noodfonds') {
@@ -223,56 +223,56 @@ export function beoordeel(antwoorden, regeling) {
     niveau = combine([volwassen, inkomen === 'nee' ? 'nee' : inkomen === 'ja' ? 'ja' : 'twijfel']);
     reden = redenVoor(niveau, {
       ja: 'Het Noodfonds Energie is er voor een laag inkomen en een hoge energierekening. Aanvragen kan van 4 januari tot en met 7 mei 2027.',
-      misschien: 'Of u geld krijgt, hangt af van uw energierekening. De precieze inkomensgrens staat als te controleren bij deze regeling.',
+      misschien: 'Of je geld krijgt, hangt af van je energierekening. De precieze inkomensgrens staat als te controleren bij deze regeling.',
       nee: 'Het Noodfonds is niet bedoeld bij een hoog inkomen, en niet voor kinderen die zelf een aanvraag doen.',
     });
   } else if (soort === 'slapend') {
     niveau = antwoorden.vergeten === 'ja' ? 'waarschijnlijk' : 'nee';
     reden = redenVoor(niveau, {
-      ja: 'Het loket is voor erfgenamen of executeurs die niet weten bij welke bank nog geld staat. Weet u de bank wel, bel dan die bank.',
+      ja: 'Dit loket is voor erfgenamen of executeurs die niet weten bij welke bank nog geld staat. Weet je de bank wel, bel die bank dan zelf.',
       misschien: '',
-      nee: 'Dit loket is niet nodig als u alleen uw eigen OV-chipkaart of pensioen wilt checken.',
+      nee: 'Dit loket heb je niet nodig als je alleen je OV-chipkaart of je pensioen wil checken.',
     });
   } else if (soort === 'consignatie') {
     niveau = antwoorden.vergeten === 'ja' ? 'misschien' : 'nee';
     reden = redenVoor(niveau, {
       ja: '',
-      misschien: 'In de consignatiekas zit geld waarvan de rechthebbende niet bekend is. Zoeken kan op naam. U moet uw recht kunnen aantonen.',
-      nee: 'U gaf aan dat u niet breed naar achtergebleven geld wilt zoeken.',
+      misschien: 'In de consignatiekas zit geld waarvan niet duidelijk is van wie het is. Je kunt op naam zoeken. Je moet wel kunnen laten zien dat het van jou is.',
+      nee: 'Je gaf aan dat je niet breed naar achtergebleven geld wil zoeken.',
     });
   } else if (soort === 'ov') {
     niveau = antwoorden.vergeten === 'ja' || antwoorden.vergeten === 'ov' ? 'waarschijnlijk' : 'nee';
     reden = redenVoor(niveau, {
-      ja: 'Restsaldo vraagt u terug via ov-chipkaart.nl. Een verlopen kaart kan nog tot 5 jaar na de einddatum.',
+      ja: 'Restsaldo vraag je terug via ov-chipkaart.nl. Een verlopen kaart kan nog tot 5 jaar na de einddatum.',
       misschien: '',
-      nee: 'U koos ervoor om het OV-saldo niet te checken.',
+      nee: 'Je koos ervoor om het OV-saldo niet te checken.',
     });
   } else if (soort === 'pensioen') {
     const wil = antwoorden.vergeten === 'ja' || antwoorden.vergeten === 'pensioen';
     niveau = !wil ? 'nee' : antwoorden.leeftijd === 'onder-18' ? 'misschien' : 'waarschijnlijk';
     reden = redenVoor(niveau, {
-      ja: 'Op mijnpensioenoverzicht.nl ziet u met DigiD welk pensioen er op uw naam staat.',
+      ja: 'Op mijnpensioenoverzicht.nl zie je met DigiD welk pensioen er op je naam staat.',
       misschien: 'Minderjarigen hebben meestal nog weinig pensioen. Ouders kunnen wel hun eigen overzicht bekijken.',
-      nee: 'U koos ervoor om pensioen niet te checken.',
+      nee: 'Je koos ervoor om pensioen niet te checken.',
     });
   } else if (soort === 'bijzondere-bijstand') {
     const kosten = antwoorden.situatie === 'extra-kosten' || antwoorden.situatie === 'allebei' || antwoorden.inkomen === 'laag' ? 'ja' : antwoorden.situatie === 'lang-laag' ? 'twijfel' : 'nee';
     niveau = combine([pastGemeente(), leeftijd, kosten]);
     reden = redenVoor(niveau, {
-      ja: 'U woont in deze gemeente en noemt extra kosten of een laag inkomen. De gemeente beslist per aanvraag.',
-      misschien: 'Bijzondere bijstand hangt af van de kosten. Vraag dit het liefst aan voordat u betaalt.',
+      ja: 'Je woont in deze gemeente en noemt extra kosten of een laag inkomen. De gemeente beslist per aanvraag.',
+      misschien: 'Bijzondere bijstand hangt af van de kosten. Vraag dit het liefst aan vóór je betaalt.',
       nee: pastGemeente() === 'nee'
         ? 'Deze regeling geldt alleen voor inwoners van deze gemeente.'
-        : 'Bijzondere bijstand is voor noodzakelijke kosten die u niet zelf kunt betalen.',
+        : 'Bijzondere bijstand is voor kosten die je nodig hebt en zelf niet kunt betalen.',
     });
   } else if (soort === 'kwijtschelding') {
     const geld = antwoorden.inkomen === 'hoog' ? 'nee' : antwoorden.inkomen === 'laag' || antwoorden.inkomen === 'weet-niet' ? 'ja' : 'twijfel';
     niveau = combine([pastGemeente(), leeftijd === 'nee' ? 'nee' : 'ja', geld]);
     reden = redenVoor(niveau, {
-      ja: 'Met een laag inkomen hoeft u gemeentelijke belastingen soms niet, of maar voor een deel, te betalen.',
-      misschien: 'Of u kwijtschelding krijgt, hangt af van inkomen, vermogen en het soort belasting.',
+      ja: 'Met een laag inkomen hoef je gemeentelijke belastingen soms niet te betalen, of maar voor een deel.',
+      misschien: 'Of je kwijtschelding krijgt, hangt af van je inkomen, je vermogen en het soort belasting.',
       nee: pastGemeente() === 'nee'
-        ? 'Deze kwijtschelding vraagt u aan in de gemeente waar de aanslag vandaan komt.'
+        ? 'Deze kwijtschelding vraag je aan in de gemeente waar de aanslag vandaan komt.'
         : 'Bij een hoog inkomen is kwijtschelding meestal niet mogelijk.',
     });
   } else if (soort === 'minima') {
@@ -294,13 +294,13 @@ export function beoordeel(antwoorden, regeling) {
     const geld = antwoorden.inkomen === 'hoog' ? 'nee' : antwoorden.inkomen === 'laag' ? 'ja' : 'twijfel';
     niveau = combine([pastGemeente(), leeftijd, lang, geld]);
     if (leeftijd === 'twijfel' && niveau === 'misschien') {
-      reden = 'U woont hier en hebt lang een laag inkomen. Deze gemeente vraagt een minimumleeftijd boven 21. Controleer of u oud genoeg bent.';
+      reden = 'Je woont hier en je hebt lang een laag inkomen. Deze gemeente vraagt een minimumleeftijd boven 21. Kijk even of je oud genoeg bent.';
     } else {
       reden = redenVoor(niveau, {
-        ja: 'U lijkt te voldoen aan de hoofdlijn: wonen in deze gemeente, volwassen en al lang een laag inkomen.',
-        misschien: 'De termijn en het vermogen verschillen per gemeente. Lees de voorwaarden na.',
+        ja: 'Dit lijkt te passen: je woont in deze gemeente, je bent volwassen en je hebt al lang een laag inkomen.',
+        misschien: 'Hoe lang je inkomen laag moet zijn, en hoeveel vermogen mag, verschilt per gemeente. Lees de voorwaarden na.',
         nee: pastGemeente() === 'nee'
-          ? 'De individuele inkomenstoeslag vraagt u aan in uw eigen gemeente.'
+          ? 'De individuele inkomenstoeslag vraag je aan in je eigen gemeente.'
           : 'Deze toeslag is voor mensen die al lang een laag inkomen hebben en nog geen AOW krijgen.',
       });
     }

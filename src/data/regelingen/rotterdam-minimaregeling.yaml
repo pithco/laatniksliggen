@@ -3,8 +3,8 @@ naam: Rotterdampas
 categorie: gemeente
 gemeente: rotterdam
 samenvatting: >-
-  Met de Rotterdampas gaat u gratis of met korting naar zwembaden, musea, bioscopen en uitjes
-  zoals Diergaarde Blijdorp. Iedereen mag de pas kopen. Met een lager inkomen betaalt u
+  Met de Rotterdampas ga je gratis of met korting naar zwembaden, musea, bioscopen en uitjes
+  zoals Diergaarde Blijdorp. Iedereen mag de pas kopen. Met een lager inkomen betaal je
   misschien minder dan de gewone prijs.
 voorWie: >-
   Iedereen kan de pas kopen, ook buiten Rotterdam. Het lagere tarief is voor Rotterdammers en
@@ -16,17 +16,21 @@ bedrag: >-
 bedragZeker: false
 deadline: >-
   De pas is geldig van 1 maart 2026 tot en met 28 februari 2027. Verkopen kon vanaf 1 februari
-  2026. Hebt u de pas al, dan kunt u verlengen via de brief die de gemeente begin februari
+  2026. Heb je de pas al, dan kun je verlengen via de brief die de gemeente begin februari
   stuurde.
 deadlineZeker: true
 stappen:
-  - Doe de check op de site van de Rotterdampas als u een lager tarief wilt.
-  - Vraag de pas online aan of koop hem bij een verkooppunt.
-  - Neem bij een lager tarief een legitimatie en een recent bewijs van inkomen mee.
+  - Wil je het lagere tarief, doe dan eerst de check op rotterdampas.nl.
+  - >-
+    Vraag de pas online aan op rotterdampas.nl, of koop hem bij een verkooppunt dat de site
+    noemt.
+  - >-
+    Ga je voor het lagere tarief, neem dan een legitimatie mee en een recent bewijs van je
+    inkomen.
 voorwaarden:
   - De gewone prijs is € 65.
   - >-
-    Voor het lage of middentarief controleert de gemeente uw inkomen, online met DigiD of bij
+    Voor het lage of middentarief controleert de gemeente je inkomen, online met DigiD of bij
     een verkooppunt.
   - Een jaaropgave is volgens de tarievenpagina geen geldig inkomensbewijs.
 bronnen:

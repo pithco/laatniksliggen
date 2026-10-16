@@ -4,15 +4,15 @@ categorie: vergeten
 gemeente: ""
 samenvatting: >-
   Soms staat er nog geld op een bankrekening van iemand die is overleden, terwijl de erfgenamen
-  de bank niet kennen. Banken hebben daar samen een loket voor: slapendetegoeden.nl. Weet u de
-  bank wél, dan belt u die bank zelf.
+  de bank niet kennen. Banken hebben daar samen een loket voor: slapendetegoeden.nl. Weet je de
+  bank wél, dan belt je die bank zelf.
 voorWie: >-
   Erfgenamen en executeurs die een nalatenschap afhandelen en geen spoor van een rekening
   vinden, maar wel vermoeden dat die er is.
 bedragKort: Geen vast bedrag. De bank zegt pas later om hoeveel het gaat
 bedrag: >-
-  Het loket zegt niet hoeveel geld er staat. Vindt een bank een tegoed, dan krijgt u een e-mail
-  met de naam van de bank. U neemt zelf contact op. De bank vertelt dan het bedrag en welke
+  Het loket zegt niet hoeveel geld er staat. Vindt een bank een tegoed, dan krijg je een e-mail
+  met de naam van de bank. Je neemt zelf contact op. De bank vertelt dan het bedrag en welke
   papieren nog nodig zijn.
 bedragZeker: true
 deadline: >-
@@ -20,19 +20,19 @@ deadline: >-
   papieren wordt het verzoek niet in behandeling genomen.
 deadlineZeker: true
 stappen:
-  - Lees de voorwaarden op slapendetegoeden.nl en verzamel de gevraagde documenten.
+  - Ga naar slapendetegoeden.nl. Lees wat je moet meesturen en leg die papieren klaar.
   - >-
-    Weet u bij welke bank het geld staat, neem dan rechtstreeks contact op met die bank. Gebruik
-    het loket niet.
+    Weet je bij welke bank het geld staat, bel of schrijf die bank dan zelf. Gebruik dit loket
+    dan niet.
   - >-
-    Weet u de bank niet, dien dan één verzoek in. Het loket stuurt het naar de aangesloten
-    banken.
+    Weet je de bank niet, dien dan één verzoek in op slapendetegoeden.nl. Het loket stuurt het
+    naar de aangesloten banken.
 voorwaarden:
-  - U bent erfgenaam of executeur.
+  - Je bent erfgenaam of executeur.
   - >-
-    U hebt een legitimatie en bewijs, zoals een verklaring van erfrecht of een akte van
+    Je hebt een legitimatie en bewijs, zoals een verklaring van erfrecht of een akte van
     overlijden.
-  - Het loket is niet bedoeld voor een rekening die u zelf nog kent.
+  - Het loket is niet bedoeld voor een rekening die je zelf nog kent.
 bronnen:
   - naam: Loket Slapende Tegoeden
     url: https://www.slapendetegoeden.nl/

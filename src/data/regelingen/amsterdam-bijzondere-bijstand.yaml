@@ -3,30 +3,32 @@ naam: Bijzondere bijstand in Amsterdam
 categorie: gemeente
 gemeente: amsterdam
 samenvatting: >-
-  Hebt u ineens kosten die u niet kunt betalen, en is er geen andere regeling? Dan kan Amsterdam
-  bijzondere bijstand geven. De gemeente kijkt naar uw situatie. Hebt u een bijstandsuitkering,
-  dan kijken ze alleen naar uw vermogen. Anders ook naar uw inkomen.
+  Heb je ineens kosten die je niet kunt betalen, en is er geen andere regeling? Dan kan
+  Amsterdam bijzondere bijstand geven. De gemeente kijkt naar je situatie. Heb je een
+  bijstandsuitkering, dan kijken ze alleen naar je vermogen. Anders ook naar je inkomen.
 voorWie: >-
   Inwoners van Amsterdam van 18 jaar of ouder, met een Nederlands paspoort of een
   verblijfsvergunning, die bijzondere kosten niet zelf kunnen betalen.
 bedragKort: Geen vast bedrag. De gemeente beslist per aanvraag
 bedrag: >-
-  Er is geen standaardbedrag. U krijgt geld voor kosten die noodzakelijk zijn en niet ergens
+  Er is geen standaardbedrag. Je krijgt geld voor kosten die noodzakelijk zijn en niet ergens
   anders vergoed worden. Een besluit duurt maximaal 8 weken nadat de aanvraag compleet is.
 bedragZeker: true
 deadline: >-
-  Er is geen vaste sluitingsdatum. Vraag de bijstand aan voor de kosten die u nu hebt. Online
+  Er is geen vaste sluitingsdatum. Vraag de bijstand aan voor de kosten die je nu hebt. Online
   kan dat voor een deel van de kosten, zoals rechtshulp, bewindvoering en sommige woonkosten.
 deadlineZeker: true
 stappen:
-  - Kijk of een andere regeling de kosten al vergoedt.
-  - Vraag online aan wat op de pagina staat, of bel 020 252 6000.
-  - Hulp bij het formulier kunt u krijgen bij een buurtteam.
-voorwaarden:
-  - U woont in Amsterdam en u bent 18 jaar of ouder.
-  - U kunt de kosten niet zelf betalen en er is geen andere regeling.
+  - Kijk eerst of een andere regeling de kosten al betaalt. De pagina van Amsterdam noemt dat.
   - >-
-    Geen bijzondere bijstand voor onder meer boetes, alimentatie, schade die u zelf
+    Ga naar de pagina van Amsterdam via de link hieronder. Vraag online aan wat daar staat, of
+    bel 020 252 6000. Log in met DigiD als de site daarom vraagt.
+  - Kom je er niet uit, vraag dan hulp bij een buurtteam in Amsterdam.
+voorwaarden:
+  - Je woont in Amsterdam en je bent 18 jaar of ouder.
+  - Je kunt de kosten niet zelf betalen en er is geen andere regeling.
+  - >-
+    Geen bijzondere bijstand voor onder meer boetes, alimentatie, schade die je zelf
     veroorzaakte, premies van verplichte verzekeringen, naturalisatiekosten of een
     parkeervergunning.
 bronnen:

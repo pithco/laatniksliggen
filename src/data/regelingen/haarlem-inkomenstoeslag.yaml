@@ -3,28 +3,30 @@ naam: Individuele inkomenstoeslag in Haarlem
 categorie: gemeente
 gemeente: haarlem
 samenvatting: >-
-  Als u 3 jaar of langer weinig verdient, kunt u in Haarlem één keer per jaar individuele
-  inkomenstoeslag aanvragen. Kreeg u hem vorig jaar, dan stuurt de gemeente een brief.
+  Als je 3 jaar of langer weinig verdient, kun je in Haarlem één keer per jaar individuele
+  inkomenstoeslag aanvragen. Kreeg je hem vorig jaar, dan stuurt de gemeente een brief.
 voorWie: >-
   Inwoners tussen 21 jaar en de AOW-leeftijd. Een maatregel op een uitkering in de afgelopen 3
   jaar kan de toeslag in de weg zitten.
 bedragKort: € 488, € 626 of € 694
 bedrag: >-
   De gemeente noemt € 488 voor een alleenstaande, € 626 voor een alleenstaande ouder en € 694
-  als u samenwoont of getrouwd bent. Vermogen niet meer dan € 8.000 alleen, of € 16.000 samen of
-  met een kind. Een auto tot € 3.500 telt niet mee.
+  als je samenwoont of getrouwd bent. Vermogen niet meer dan € 8.000 alleen, of € 16.000 samen
+  of met een kind. Een auto tot € 3.500 telt niet mee.
 bedragZeker: false
 deadline: >-
-  Eén keer per jaar. De brief komt als u de toeslag vorig jaar kreeg. Een andere kalenderdatum
-  staat niet in de tekst die wij zagen.
+  Eén keer per jaar. De brief komt als je de toeslag vorig jaar kreeg. Een andere kalenderdatum
+  staat niet in de tekst die we zagen.
 deadlineZeker: true
 stappen:
-  - Vraag aan met DigiD. Bewindvoerders gebruiken eHerkenning.
-  - Wacht op de brief als u de toeslag al kreeg.
-  - Hulp kan via Buurts.
+  - >-
+    Ga naar haarlem.nl, open de individuele inkomenstoeslag en vraag aan met DigiD.
+    Bewindvoerders gebruiken eHerkenning.
+  - Kreeg je de toeslag al, wacht dan op de brief van de gemeente.
+  - Kom je er niet uit, vraag dan hulp via Buurts. Haarlem noemt dat op de pagina.
 voorwaarden:
-  - U bent tussen de 21 jaar en de AOW-leeftijd.
-  - U verdient 3 jaar of langer weinig.
+  - Je bent tussen de 21 jaar en de AOW-leeftijd.
+  - Je verdient 3 jaar of langer weinig.
   - De inkomensbedragen op de pagina hebben in onze bron geen jaartal.
 bronnen:
   - naam: Gemeente Haarlem — individuele inkomenstoeslag

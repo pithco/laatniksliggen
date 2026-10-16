@@ -5,35 +5,35 @@ const plausible = import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN;
 
 <Base
   title="Privacy"
-  description="Wat Laat Niks Liggen wel en niet bewaart. De check stuurt niets. Analytics staan standaard uit."
+  description="Wat Laat Niks Liggen wel en niet bewaart. De check stuurt niks. Analytics staan standaard uit."
 >
   <h1>Privacy</h1>
-  <p class="lede">We willen dat u kunt kijken zonder een spoor achter te laten.</p>
+  <p class="lede">Je kunt hier kijken zonder een spoor achter te laten.</p>
   <h2>De check</h2>
   <p>
-    De 10 vragen rekenen in uw browser. De antwoorden gaan niet naar onze server, niet naar een formulier
-    en niet naar een advertentienetwerk. We gebruiken geen localStorage. Ververst u de pagina, dan zijn de antwoorden weg.
+    De 10 vragen rekenen in je browser. De antwoorden gaan niet naar onze server, niet naar een formulier
+    en niet naar een advertentienetwerk. We gebruiken geen localStorage. Ververs je de pagina, dan zijn de antwoorden weg.
   </p>
   <h2>Nieuwsbrief</h2>
   <p>
-    Het aanmeldblok is een placeholder voor MailerLite. Zolang er geen formulier-id is ingesteld, kunt u niets versturen.
+    Het aanmeldblok is een plek voor MailerLite, later. Zolang er geen formulier klaarstaat, kun je niks versturen.
     Er is geen e-maillijst.
   </p>
   <h2>Analytics</h2>
   {plausible ? (
     <p>
       Er staat een cookieloos Plausible-script aan voor {plausible}. Plausible zet geen trackingcookie en
-      bewaart geen persoonlijke profielen. Het script komt van plausible.io.
+      bewaart geen persoonlijk profiel. Het script komt van plausible.io.
     </p>
   ) : (
     <p>
       Er staat geen analytics-script op deze site. De plek voor Plausible is klaargezet, maar uit.
-      Zolang <code>PUBLIC_PLAUSIBLE_DOMAIN</code> leeg is, laden we dat script niet.
+      Zolang dat domein leeg is, laden we dat script niet.
     </p>
   )}
   <h2>Lettertypen en cookies</h2>
   <p>
-    De lettertypen staan op deze site zelf. We halen ze niet bij een andere partij op.
+    We gebruiken de lettertypen van je eigen apparaat. We halen geen lettertypen bij een andere partij op.
     We zetten zelf geen cookies.
   </p>
   <h2>Hosting</h2>
@@ -43,7 +43,7 @@ const plausible = import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN;
   </p>
   <h2>Links naar andere sites</h2>
   <p>
-    Bronlinks gaan naar de overheid, uw gemeente of een uitvoerder. Die sites hebben een eigen privacybeleid.
-    Inloggen met DigiD doet u daar, niet hier.
+    Bronlinks gaan naar de overheid, je gemeente of een uitvoerder. Die sites hebben een eigen privacybeleid.
+    Inloggen met DigiD doe je daar, niet hier.
   </p>
 </Base>

@@ -3,31 +3,33 @@ naam: Restsaldo OV-chipkaart
 categorie: vergeten
 gemeente: ""
 samenvatting: >-
-  Staat er nog geld op een oude OV-chipkaart? Dat kunt u terugvragen op uw rekening. Ook als de
-  kaart al verlopen is, zolang u binnen 5 jaar na de einddatum bent.
+  Staat er nog geld op een oude OV-chipkaart? Dat kun je terugvragen op je rekening. Ook als de
+  kaart al verlopen is, zolang je binnen 5 jaar na de einddatum bent.
 voorWie: >-
   Mensen met een persoonlijke of anonieme OV-chipkaart waarop nog saldo staat. Een zakelijke
-  kaart regelt u via uw werkgever.
+  kaart regelt je via je werkgever.
 bedragKort: Het saldo dat nog op de kaart staat
 bedrag: >-
-  U krijgt het restsaldo terug dat nog op de kaart staat. Er is geen vast bedrag. Op
-  ov-chipkaart.nl staat dat het bedrag binnen 15 dagen op uw rekening wordt gestort.
+  Je krijgt het restsaldo terug dat nog op de kaart staat. Er is geen vast bedrag. Op
+  ov-chipkaart.nl staat dat het bedrag binnen 15 dagen op je rekening wordt gestort.
 bedragZeker: true
 deadline: >-
-  Is de kaart verlopen, dan kunt u het saldo tot 5 jaar na de vervaldatum terugvragen. Is de
-  kaart nog geldig, dan kan terugvragen ook. Een nog geldige kaart moet u soms eerst beëindigen
+  Is de kaart verlopen, dan kun je het saldo tot 5 jaar na de vervaldatum terugvragen. Is de
+  kaart nog geldig, dan kan terugvragen ook. Een nog geldige kaart moet je soms eerst beëindigen
   bij een automaat.
 deadlineZeker: true
 stappen:
-  - Zoek het kaartnummer en de einddatum. Die staan op de kaart.
-  - Vul het formulier in op ov-chipkaart.nl/saldo-terugvragen.
+  - Pak de OV-chipkaart erbij. Noteer het kaartnummer en de einddatum. Die staan op de kaart.
   - >-
-    Houd uw IBAN bij de hand. Een zakelijke kaart vraagt u niet hier terug, maar via uw
+    Ga naar ov-chipkaart.nl/saldo-terugvragen. Vul het formulier in en klik door tot je het
+    verstuurt.
+  - >-
+    Houd je IBAN bij de hand. Een zakelijke kaart vraag je niet hier terug, maar via je
     werkgever.
 voorwaarden:
   - Het gaat om saldo op een OV-chipkaart, niet om een abonnement bij een vervoerder.
   - >-
-    Bij een kaart die nog geldig is, kunt u de kaart soms pas beëindigen nadat abonnementen zijn
+    Bij een kaart die nog geldig is, kun je de kaart soms pas beëindigen nadat abonnementen zijn
     stopgezet.
   - Na beëindigen werkt de kaart niet meer voor OV-fiets, stalling of P+R.
 bronnen:

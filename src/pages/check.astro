@@ -15,17 +15,17 @@ const payload = JSON.stringify({ gemeenten, regelingen }).replaceAll('<', '\\u00
 ---
 
 <Base
-  title="Check van 10 vragen"
-  description="Anonieme check in uw browser. Niets wordt opgeslagen of verstuurd. U ziet welke regelingen kunnen passen."
+  title="Check in 10 vragen"
+  description="Anonieme check in je browser. Er wordt niks opgeslagen of verstuurd. Je ziet welke regelingen kunnen passen."
 >
   <p class="kicker">Anoniem</p>
-  <h1>Welke regeling kan bij u passen?</h1>
+  <h1>Welke regeling kan bij je passen?</h1>
   <p class="lede">
-    Tien vragen. De antwoorden blijven in deze browser en verdwijnen als u de pagina ververst.
-    We sturen niets naar een server.
+    Tien vragen. De antwoorden blijven in deze browser en zijn weg als je de pagina ververst.
+    We sturen niks naar een server.
   </p>
   <noscript>
-    <p class="callout">De check heeft JavaScript nodig, omdat hij in uw browser rekent. Zonder JavaScript kunt u het <a href="/regelingen">overzicht</a> gebruiken.</p>
+    <p class="callout">De check heeft JavaScript nodig, omdat hij in je browser rekent. Zonder JavaScript kun je het <a href="/regelingen">overzicht</a> gebruiken.</p>
   </noscript>
   <div id="check-app">
     <div id="vragenblok">
@@ -33,7 +33,7 @@ const payload = JSON.stringify({ gemeenten, regelingen }).replaceAll('<', '\\u00
       <div class="progress" aria-hidden="true"><span id="balk"></span></div>
       <div id="vraag"></div>
       <div class="row">
-        <button class="button secondary" id="terug" type="button">Vorige vraag</button>
+        <button class="text-link" id="terug" type="button">‹ Vorige vraag</button>
         <button class="button" id="verder" type="button">Volgende vraag</button>
       </div>
     </div>

@@ -4,14 +4,14 @@ categorie: gemeente
 gemeente: nijmegen
 samenvatting: >-
   Met de Meedoenregeling kunnen inwoners met een laag inkomen voor maximaal € 150 een cursus of
-  activiteit doen, zoals zwemmen, zang, yoga of theater. U mag het tegoed verdelen over meer
+  activiteit doen, zoals zwemmen, zang, yoga of theater. Je mag het tegoed verdelen over meer
   activiteiten.
 voorWie: >-
   Inwoners van Nijmegen met een laag inkomen. De precieze inkomensgrens is te controleren op de
   aanvraagpagina.
 bedragKort: Maximaal € 150
 bedrag: >-
-  U krijgt maximaal € 150 voor een cursus of activiteit. Het is geen vrij geld op uw rekening,
+  Je krijgt maximaal € 150 voor een cursus of activiteit. Het is geen vrij geld op je rekening,
   maar tegoed voor de activiteit.
 bedragZeker: true
 deadline: >-
@@ -19,11 +19,11 @@ deadline: >-
   vergoedingen van de gemeente.
 deadlineZeker: true
 stappen:
-  - Lees de Meedoenregeling op nijmegen.nl.
-  - Vraag aan via de website Vergoedingen.
-  - U mag het tegoed van € 150 over meer dan één activiteit verdelen.
+  - Ga naar nijmegen.nl en lees de Meedoenregeling.
+  - Ga naar vergoedingen.nijmegen.nl, log in als daarom gevraagd wordt en dien de aanvraag in.
+  - Je mag het tegoed van € 150 over meer dan één activiteit verdelen.
 voorwaarden:
-  - U hebt een laag inkomen.
+  - Je hebt een laag inkomen.
   - Het maximum is € 150.
   - Aanvragen kan tot en met 31 december 2026.
 bronnen:

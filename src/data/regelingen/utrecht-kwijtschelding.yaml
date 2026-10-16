@@ -3,20 +3,22 @@ naam: Kwijtschelding belastingen in Utrecht
 categorie: gemeente
 gemeente: utrecht
 samenvatting: >-
-  In Utrecht kunt u kwijtschelding aanvragen als u een laag inkomen hebt. De belastingen worden
+  In Utrecht kun je kwijtschelding aanvragen als je een laag inkomen hebt. De belastingen worden
   uitgevoerd door BghU. De gemeente volgt de maximale regels van het Rijk.
 voorWie: Natuurlijke personen met een aanslag op hun naam en een laag inkomen. Niet voor bedrijven.
 bedragKort: De aanslag of een deel. Geen vast bedrag
 bedrag: >-
-  U hoeft de belasting niet, of maar voor een deel, te betalen. Het voordeel is de hoogte van uw
-  aanslag.
+  Je hoeft de belasting niet, of maar voor een deel, te betalen. Het voordeel is de hoogte van
+  je aanslag.
 bedragZeker: true
 deadline: Vraag kwijtschelding aan via BghU. Een vaste datum staat niet op de Utrechtse pagina.
 deadlineZeker: true
 stappen:
-  - Kijk op de pagina gemeentebelasting welke belastingen meedoen.
-  - Vraag kwijtschelding aan bij BghU. De gemeente verwijst daarheen.
-  - Neem hulp mee als u die nodig hebt. Op de pagina van BghU staat wat u moet meenemen.
+  - Ga naar utrecht.nl en open de pagina gemeentebelasting. Kijk welke belastingen meedoen.
+  - >-
+    Vraag de kwijtschelding aan bij BghU. Utrecht verwijst daarheen. Volg de link op de pagina
+    en log in als daarom gevraagd wordt.
+  - Neem hulp mee als je die nodig hebt. Op de pagina van BghU staat wat je mee moet nemen.
 voorwaarden:
   - >-
     Kwijtschelding kan voor onroerendezaakbelasting, afvalstoffenheffing, rioolheffing en
